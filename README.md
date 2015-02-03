@@ -5,7 +5,7 @@ java sonar rules
 ## 1.
 
 
-*  Insufficient comment density
+### Insufficient comment density
 
 system_tags : null, priority : 2; plugin_rule_key : InsufficientCommentDensity
 
@@ -18,7 +18,7 @@ system_tags : null, priority : 2; plugin_rule_key : InsufficientCommentDensity
 ## 2.
 
 
-*  Duplicated blocks
+### Duplicated blocks
 
 system_tags : null, priority : 2; plugin_rule_key : DuplicatedBlocks
 
@@ -31,7 +31,7 @@ system_tags : null, priority : 2; plugin_rule_key : DuplicatedBlocks
 ## 3.
 
 
-*  Skipped unit tests
+### Skipped unit tests
 
 system_tags : null, priority : 2; plugin_rule_key : SkippedUnitTests
 
@@ -44,7 +44,7 @@ system_tags : null, priority : 2; plugin_rule_key : SkippedUnitTests
 ## 4.
 
 
-*  Insufficient line coverage by unit tests
+### Insufficient line coverage by unit tests
 
 system_tags : null, priority : 2; plugin_rule_key : InsufficientLineCoverage
 
@@ -57,7 +57,7 @@ system_tags : null, priority : 2; plugin_rule_key : InsufficientLineCoverage
 ## 5.
 
 
-*  Failed unit tests
+### Failed unit tests
 
 system_tags : null, priority : 2; plugin_rule_key : FailedUnitTests
 
@@ -70,7 +70,7 @@ system_tags : null, priority : 2; plugin_rule_key : FailedUnitTests
 ## 6.
 
 
-*  Insufficient branch coverage by unit tests
+### Insufficient branch coverage by unit tests
 
 system_tags : null, priority : 2; plugin_rule_key : InsufficientBranchCoverage
 
@@ -83,7 +83,7 @@ system_tags : null, priority : 2; plugin_rule_key : InsufficientBranchCoverage
 ## 7.
 
 
-*  Field names should start with a lower case letter
+### Field names should start with a lower case letter
 
 system_tags : null, priority : 2; plugin_rule_key : NM_FIELD_NAMING_CONVENTION
 
@@ -99,7 +99,7 @@ system_tags : null, priority : 2; plugin_rule_key : NM_FIELD_NAMING_CONVENTION
 ## 8.
 
 
-*  Negating the result of compareTo()/compare()
+### Negating the result of compareTo()/compare()
 
 system_tags : null, priority : 1; plugin_rule_key : RV_NEGATING_RESULT_OF_COMPARETO
 
@@ -115,7 +115,7 @@ operands rather than by negating the results.</h5>
 ## 9.
 
 
-*  Bad practice - Equals checks for noncompatible operand
+### Bad practice - Equals checks for noncompatible operand
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_CHECK_FOR_OPERAND_NOT_COMPATIBLE_WITH_THIS
 
@@ -144,7 +144,7 @@ is symmetric and transitive. Without those properties, very unexpected behavoirs
 ## 10.
 
 
-*  Correctness - Value that might carry a type qualifier is always used in a way prohibits it from having that type qualifier
+### Correctness - Value that might carry a type qualifier is always used in a way prohibits it from having that type qualifier
 
 system_tags : null, priority : 3; plugin_rule_key : TQ_MAYBE_SOURCE_VALUE_REACHES_NEVER_SINK
 
@@ -161,7 +161,7 @@ system_tags : null, priority : 3; plugin_rule_key : TQ_MAYBE_SOURCE_VALUE_REACHE
 ## 11.
 
 
-*  Correctness - Format string placeholder incompatible with passed argument
+### Correctness - Format string placeholder incompatible with passed argument
 
 system_tags : null, priority : 3; plugin_rule_key : VA_FORMAT_STRING_BAD_ARGUMENT
 
@@ -184,7 +184,7 @@ this statement is executed.
 ## 12.
 
 
-*  Performance - Private method is never called
+### Performance - Private method is never called
 
 system_tags : null, priority : 3; plugin_rule_key : UPM_UNCALLED_PRIVATE_METHOD
 
@@ -205,7 +205,7 @@ This rule is deprecated, use {rule:squid:UnusedPrivateMethod} instead.
 ## 13.
 
 
-*  Dodgy - Thread passed where Runnable expected
+### Dodgy - Thread passed where Runnable expected
 
 system_tags : null, priority : 2; plugin_rule_key : DMI_THREAD_PASSED_WHERE_RUNNABLE_EXPECTED
 
@@ -221,7 +221,7 @@ or cause unexpected behavior.
 ## 14.
 
 
-*  Unchecked/unconfirmed cast of return value from method
+### Unchecked/unconfirmed cast of return value from method
 
 system_tags : null, priority : 3; plugin_rule_key : BC_UNCONFIRMED_CAST_OF_RETURN_VALUE
 
@@ -239,7 +239,7 @@ cast will not fail.
 ## 15.
 
 
-*  Multithreaded correctness - A volatile reference to an array doesn't treat the array elements as volatile
+### Multithreaded correctness - A volatile reference to an array doesn't treat the array elements as volatile
 
 system_tags : null, priority : 2; plugin_rule_key : VO_VOLATILE_REFERENCE_TO_ARRAY
 
@@ -257,7 +257,7 @@ in Java 5.0).</h5>
 ## 16.
 
 
-*  Performance - Method invokes inefficient Number constructor; use static valueOf instead
+### Performance - Method invokes inefficient Number constructor; use static valueOf instead
 
 system_tags : null, priority : 3; plugin_rule_key : DM_NUMBER_CTOR
 
@@ -284,7 +284,7 @@ system_tags : null, priority : 3; plugin_rule_key : DM_NUMBER_CTOR
 ## 17.
 
 
-*  Dodgy - Redundant nullcheck of value known to be null
+### Dodgy - Redundant nullcheck of value known to be null
 
 system_tags : null, priority : 3; plugin_rule_key : RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE
 
@@ -298,7 +298,7 @@ the constant null.</h5>
 ## 18.
 
 
-*  Correctness - TestCase defines tearDown that doesn't call super.tearDown()
+### Correctness - TestCase defines tearDown that doesn't call super.tearDown()
 
 system_tags : null, priority : 3; plugin_rule_key : IJU_TEARDOWN_NO_SUPER
 
@@ -312,7 +312,7 @@ super.tearDown(), but doesn't.</h5>
 ## 19.
 
 
-*  Performance - Method allocates a boxed primitive just to call toString
+### Performance - Method allocates a boxed primitive just to call toString
 
 system_tags : null, priority : 2; plugin_rule_key : DM_BOXED_PRIMITIVE_TOSTRING
 
@@ -336,7 +336,7 @@ system_tags : null, priority : 2; plugin_rule_key : DM_BOXED_PRIMITIVE_TOSTRING
 ## 20.
 
 
-*  Class defines equal(Object); should it be equals(Object)?
+### Class defines equal(Object); should it be equals(Object)?
 
 system_tags : null, priority : 3; plugin_rule_key : NM_BAD_EQUAL
 
@@ -353,7 +353,7 @@ system_tags : null, priority : 3; plugin_rule_key : NM_BAD_EQUAL
 ## 21.
 
 
-*  Correctness - TestCase implements a non-static suite method
+### Correctness - TestCase implements a non-static suite method
 
 system_tags : null, priority : 3; plugin_rule_key : IJU_SUITE_NOT_STATIC
 
@@ -367,7 +367,7 @@ system_tags : null, priority : 3; plugin_rule_key : IJU_SUITE_NOT_STATIC
 ## 22.
 
 
-*  Bad practice - Class defines hashCode() and uses Object.equals()
+### Bad practice - Class defines hashCode() and uses Object.equals()
 
 system_tags : null, priority : 3; plugin_rule_key : HE_HASHCODE_USE_OBJECT_EQUALS
 
@@ -397,7 +397,7 @@ This rule is deprecated, use {rule:squid:S1206} instead.
 ## 23.
 
 
-*  Correctness - Integer multiply of result of integer remainder
+### Correctness - Integer multiply of result of integer remainder
 
 system_tags : null, priority : 3; plugin_rule_key : IM_MULTIPLYING_RESULT_OF_IREM
 
@@ -414,7 +414,7 @@ i % 60 * 1000 is (i % 60) * 1000, not i % (60 * 1000).
 ## 24.
 
 
-*  Bad practice - Method ignores results of InputStream.skip()
+### Bad practice - Method ignores results of InputStream.skip()
 
 system_tags : null, priority : 2; plugin_rule_key : SR_NOT_CHECKED
 
@@ -435,7 +435,7 @@ system_tags : null, priority : 2; plugin_rule_key : SR_NOT_CHECKED
 ## 25.
 
 
-*  Dodgy - Method uses the same code for two switch clauses
+### Dodgy - Method uses the same code for two switch clauses
 
 system_tags : null, priority : 3; plugin_rule_key : DB_DUPLICATE_SWITCH_CLAUSES
 
@@ -452,7 +452,7 @@ system_tags : null, priority : 3; plugin_rule_key : DB_DUPLICATE_SWITCH_CLAUSES
 ## 26.
 
 
-*  Correctness - Non-virtual method call passes null for nonnull parameter
+### Correctness - Non-virtual method call passes null for nonnull parameter
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NULL_PARAM_DEREF_NONVIRTUAL
 
@@ -470,7 +470,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_NULL_PARAM_DEREF_NONVIRTU
 ## 27.
 
 
-*  Method tightens nullness annotation on parameter
+### Method tightens nullness annotation on parameter
 
 system_tags : null, priority : 2; plugin_rule_key : NP_METHOD_PARAMETER_TIGHTENS_ANNOTATION
 
@@ -487,7 +487,7 @@ Doing so violates the contract that the method should handle a null parameter.
 ## 28.
 
 
-*  Correctness - Method ignores return value
+### Correctness - Method ignores return value
 
 system_tags : null, priority : 1; plugin_rule_key : RV_RETURN_VALUE_IGNORED
 
@@ -519,7 +519,7 @@ dateString = dateString.trim();
 ## 29.
 
 
-*  Correctness - Exception created and dropped rather than thrown
+### Correctness - Exception created and dropped rather than thrown
 
 system_tags : null, priority : 3; plugin_rule_key : RV_EXCEPTION_NOT_THROWN
 
@@ -546,7 +546,7 @@ if (x &lt; 0)
 ## 30.
 
 
-*  Bad practice - Classloaders should only be created inside doPrivileged block
+### Bad practice - Classloaders should only be created inside doPrivileged block
 
 system_tags : null, priority : 2; plugin_rule_key : DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED
 
@@ -561,7 +561,7 @@ system_tags : null, priority : 2; plugin_rule_key : DP_CREATE_CLASSLOADER_INSIDE
 ## 31.
 
 
-*  Field isn't final but should be refactored to be so
+### Field isn't final but should be refactored to be so
 
 system_tags : null, priority : 2; plugin_rule_key : MS_SHOULD_BE_REFACTORED_TO_BE_FINAL
 
@@ -581,7 +581,7 @@ to the field, so doing so will require some refactoring.
 ## 32.
 
 
-*  Internationalization - Consider using Locale parameterized version of invoked method
+### Internationalization - Consider using Locale parameterized version of invoked method
 
 system_tags : null, priority : 0; plugin_rule_key : DM_CONVERT_CASE
 
@@ -597,7 +597,7 @@ system_tags : null, priority : 0; plugin_rule_key : DM_CONVERT_CASE
 ## 33.
 
 
-*  Dodgy - Vacuous comparison of integer value
+### Dodgy - Vacuous comparison of integer value
 
 system_tags : null, priority : 3; plugin_rule_key : INT_VACUOUS_COMPARISON
 
@@ -612,7 +612,7 @@ the same value (e.g., x &lt;= Integer.MAX_VALUE).
 ## 34.
 
 
-*  Malicious code vulnerability - Field should be both final and package protected
+### Malicious code vulnerability - Field should be both final and package protected
 
 system_tags : null, priority : 2; plugin_rule_key : MS_FINAL_PKGPROTECT
 
@@ -630,7 +630,7 @@ system_tags : null, priority : 2; plugin_rule_key : MS_FINAL_PKGPROTECT
 ## 35.
 
 
-*  Don't reuse entry objects in iterators
+### Don't reuse entry objects in iterators
 
 system_tags : null, priority : 2; plugin_rule_key : PZ_DONT_REUSE_ENTRY_OBJECTS_IN_ITERATORS
 
@@ -646,7 +646,7 @@ and <code>Map.Entry</code>. This clever idea was used in several Map implementat
 ## 36.
 
 
-*  Correctness - Value that might not carry a type qualifier is always used in a way requires that type qualifier
+### Correctness - Value that might not carry a type qualifier is always used in a way requires that type qualifier
 
 system_tags : null, priority : 3; plugin_rule_key : TQ_MAYBE_SOURCE_VALUE_REACHES_ALWAYS_SINK
 
@@ -663,7 +663,7 @@ system_tags : null, priority : 3; plugin_rule_key : TQ_MAYBE_SOURCE_VALUE_REACHE
 ## 37.
 
 
-*  Bad practice - Random object created and used only once
+### Bad practice - Random object created and used only once
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_RANDOM_USED_ONLY_ONCE
 
@@ -685,7 +685,7 @@ number; the values are too easily guessable. You should strongly consider using 
 ## 38.
 
 
-*  Performance - Primitive value is boxed then unboxed to perform primitive coercion
+### Performance - Primitive value is boxed then unboxed to perform primitive coercion
 
 system_tags : null, priority : 2; plugin_rule_key : BX_BOXING_IMMEDIATELY_UNBOXED_TO_PERFORM_COERCION
 
@@ -699,7 +699,7 @@ system_tags : null, priority : 2; plugin_rule_key : BX_BOXING_IMMEDIATELY_UNBOXE
 ## 39.
 
 
-*  Correctness - Check for sign of bitwise operation
+### Correctness - Check for sign of bitwise operation
 
 system_tags : null, priority : 3; plugin_rule_key : BIT_SIGNED_CHECK_HIGH_BIT
 
@@ -722,7 +722,7 @@ to use '!= 0' instead of '&gt; 0'.
 ## 40.
 
 
-*  Dodgy - Method checks to see if result of String.indexOf is positive
+### Dodgy - Method checks to see if result of String.indexOf is positive
 
 system_tags : null, priority : 1; plugin_rule_key : RV_CHECK_FOR_POSITIVE_INDEXOF
 
@@ -738,7 +738,7 @@ system_tags : null, priority : 1; plugin_rule_key : RV_CHECK_FOR_POSITIVE_INDEXO
 ## 41.
 
 
-*  Dodgy - Invocation of substring(0), which returns the original value
+### Dodgy - Invocation of substring(0), which returns the original value
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_USELESS_SUBSTRING
 
@@ -753,7 +753,7 @@ This code invokes substring(0) on a String, which returns the original value.
 ## 42.
 
 
-*  Multithreaded correctness - Monitor wait() called on Condition
+### Multithreaded correctness - Monitor wait() called on Condition
 
 system_tags : null, priority : 2; plugin_rule_key : DM_MONITOR_WAIT_ON_CONDITION
 
@@ -771,7 +771,7 @@ system_tags : null, priority : 2; plugin_rule_key : DM_MONITOR_WAIT_ON_CONDITION
 ## 43.
 
 
-*  Dodgy - Load of known null value
+### Dodgy - Load of known null value
 
 system_tags : null, priority : 3; plugin_rule_key : NP_LOAD_OF_KNOWN_NULL_VALUE
 
@@ -788,7 +788,7 @@ variable is null should have been a check to see if it was nonnull).
 ## 44.
 
 
-*  Correctness - equals method overrides equals in superclass and may not be symmetric
+### Correctness - equals method overrides equals in superclass and may not be symmetric
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_OVERRIDING_EQUALS_NOT_SYMMETRIC
 
@@ -807,7 +807,7 @@ methods is not symmetric.
 ## 45.
 
 
-*  Correctness - Call to equals() comparing different interface types
+### Correctness - Call to equals() comparing different interface types
 
 system_tags : null, priority : 3; plugin_rule_key : EC_UNRELATED_INTERFACES
 
@@ -832,7 +832,7 @@ the result of this comparison will always be false at runtime.
 ## 46.
 
 
-*  Performance - Method invokes inefficient floating-point Number constructor; use static valueOf instead
+### Performance - Method invokes inefficient floating-point Number constructor; use static valueOf instead
 
 system_tags : null, priority : 2; plugin_rule_key : DM_FP_NUMBER_CTOR
 
@@ -853,7 +853,7 @@ system_tags : null, priority : 2; plugin_rule_key : DM_FP_NUMBER_CTOR
 ## 47.
 
 
-*  Bad practice - Comparator doesn't implement Serializable
+### Bad practice - Comparator doesn't implement Serializable
 
 system_tags : null, priority : 2; plugin_rule_key : SE_COMPARATOR_SHOULD_BE_SERIALIZABLE
 
@@ -873,7 +873,7 @@ is generally easy and good defensive programming.
 ## 48.
 
 
-*  Bad practice - Method might ignore exception
+### Bad practice - Method might ignore exception
 
 system_tags : null, priority : 2; plugin_rule_key : DE_MIGHT_IGNORE
 
@@ -888,7 +888,7 @@ system_tags : null, priority : 2; plugin_rule_key : DE_MIGHT_IGNORE
 ## 49.
 
 
-*  Correctness - Bad constant value for month
+### Correctness - Bad constant value for month
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_BAD_MONTH
 
@@ -904,7 +904,7 @@ value outside the expected range of 0..11 to a method.
 ## 50.
 
 
-*  Bad practice - Finalizer does not call superclass finalizer
+### Bad practice - Finalizer does not call superclass finalizer
 
 system_tags : null, priority : 2; plugin_rule_key : FI_MISSING_SUPER_CALL
 
@@ -920,7 +920,7 @@ system_tags : null, priority : 2; plugin_rule_key : FI_MISSING_SUPER_CALL
 ## 51.
 
 
-*  Correctness - TestCase defines setUp that doesn't call super.setUp()
+### Correctness - TestCase defines setUp that doesn't call super.setUp()
 
 system_tags : null, priority : 3; plugin_rule_key : IJU_SETUP_NO_SUPER
 
@@ -934,7 +934,7 @@ super.setUp(), but doesn't.</h5>
 ## 52.
 
 
-*  Experimental - Test for circular dependencies among classes
+### Experimental - Test for circular dependencies among classes
 
 system_tags : null, priority : 0; plugin_rule_key : CD_CIRCULAR_DEPENDENCY
 
@@ -951,7 +951,7 @@ system_tags : null, priority : 0; plugin_rule_key : CD_CIRCULAR_DEPENDENCY
 ## 53.
 
 
-*  Correctness - Method attempts to access a prepared statement parameter with index 0
+### Correctness - Method attempts to access a prepared statement parameter with index 0
 
 system_tags : null, priority : 3; plugin_rule_key : SQL_BAD_PREPARED_STATEMENT_ACCESS
 
@@ -965,7 +965,7 @@ parameter index is 0. As parameter indexes start at index 1, this is always a mi
 ## 54.
 
 
-*  Dodgy - Unusual equals method
+### Dodgy - Unusual equals method
 
 system_tags : null, priority : 1; plugin_rule_key : EQ_UNUSUAL
 
@@ -981,7 +981,7 @@ this code, but it is worth reviewing.
 ## 55.
 
 
-*  Dodgy - Transient field of class that isn't Serializable.
+### Dodgy - Transient field of class that isn't Serializable.
 
 system_tags : null, priority : 2; plugin_rule_key : SE_TRANSIENT_FIELD_OF_NONSERIALIZABLE_CLASS
 
@@ -998,7 +998,7 @@ it may indicate a misunderstanding of how serialization works.
 ## 56.
 
 
-*  Correctness - Use of class without a hashCode() method in a hashed data structure
+### Correctness - Use of class without a hashCode() method in a hashed data structure
 
 system_tags : null, priority : 3; plugin_rule_key : HE_USE_OF_UNHASHABLE_CLASS
 
@@ -1014,7 +1014,7 @@ fix this problem of highest importance.
 ## 57.
 
 
-*  Correctness - Value required to have type qualifier, but marked as unknown
+### Correctness - Value required to have type qualifier, but marked as unknown
 
 system_tags : null, priority : 3; plugin_rule_key : TQ_EXPLICIT_UNKNOWN_SOURCE_VALUE_REACHES_ALWAYS_SINK
 
@@ -1031,7 +1031,7 @@ system_tags : null, priority : 3; plugin_rule_key : TQ_EXPLICIT_UNKNOWN_SOURCE_V
 ## 58.
 
 
-*  Bad comparison of int value with long constant
+### Bad comparison of int value with long constant
 
 system_tags : null, priority : 2; plugin_rule_key : INT_BAD_COMPARISON_WITH_INT_VALUE
 
@@ -1045,7 +1045,7 @@ system_tags : null, priority : 2; plugin_rule_key : INT_BAD_COMPARISON_WITH_INT_
 ## 59.
 
 
-*  Bad practice - Fields of immutable classes should be final
+### Bad practice - Fields of immutable classes should be final
 
 system_tags : null, priority : 1; plugin_rule_key : JCIP_FIELD_ISNT_FINAL_IN_IMMUTABLE_CLASS
 
@@ -1060,7 +1060,7 @@ that all fields are final.
 ## 60.
 
 
-*  Correctness - Covariant equals() method defined, Object.equals(Object) inherited
+### Correctness - Covariant equals() method defined, Object.equals(Object) inherited
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_SELF_USE_OBJECT
 
@@ -1081,7 +1081,7 @@ This rule is deprecated, use {rule:squid:S1201} instead.
 ## 61.
 
 
-*  Dodgy - Redundant nullcheck of value known to be non-null
+### Dodgy - Redundant nullcheck of value known to be non-null
 
 system_tags : null, priority : 3; plugin_rule_key : RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE
 
@@ -1095,7 +1095,7 @@ the constant null.</h5>
 ## 62.
 
 
-*  Correctness - instanceof will always return false
+### Correctness - instanceof will always return false
 
 system_tags : null, priority : 3; plugin_rule_key : BC_IMPOSSIBLE_INSTANCEOF
 
@@ -1111,7 +1111,7 @@ an indication of some misunderstanding or some other logic error.
 ## 63.
 
 
-*  Bad practice - serialVersionUID isn't final
+### Bad practice - serialVersionUID isn't final
 
 system_tags : null, priority : 3; plugin_rule_key : SE_NONFINAL_SERIALVERSIONID
 
@@ -1127,7 +1127,7 @@ system_tags : null, priority : 3; plugin_rule_key : SE_NONFINAL_SERIALVERSIONID
 ## 64.
 
 
-*  Malicious code vulnerability - May expose internal representation by incorporating reference to mutable object
+### Malicious code vulnerability - May expose internal representation by incorporating reference to mutable object
 
 system_tags : null, priority : 2; plugin_rule_key : EI_EXPOSE_REP2
 
@@ -1146,7 +1146,7 @@ system_tags : null, priority : 2; plugin_rule_key : EI_EXPOSE_REP2
 ## 65.
 
 
-*  Dodgy - Remainder of 32-bit signed random integer
+### Dodgy - Remainder of 32-bit signed random integer
 
 system_tags : null, priority : 3; plugin_rule_key : RV_REM_OF_RANDOM_INT
 
@@ -1164,7 +1164,7 @@ consider using the Random.nextInt(int) method instead.
 ## 66.
 
 
-*  Bad practice - Creates an empty jar file entry
+### Bad practice - Creates an empty jar file entry
 
 system_tags : null, priority : 2; plugin_rule_key : AM_CREATES_EMPTY_JAR_FILE_ENTRY
 
@@ -1182,7 +1182,7 @@ should be written to the JarFile between the calls to
 ## 67.
 
 
-*  Correctness - Method call passes null for nonnull parameter
+### Correctness - Method call passes null for nonnull parameter
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NULL_PARAM_DEREF
 
@@ -1200,7 +1200,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_NULL_PARAM_DEREF
 ## 68.
 
 
-*  Method ignores return value, is this OK?
+### Method ignores return value, is this OK?
 
 system_tags : null, priority : 1; plugin_rule_key : RV_RETURN_VALUE_IGNORED_INFERRED
 
@@ -1220,7 +1220,7 @@ ignoring the return value of this method is important or acceptable.<p>
 ## 69.
 
 
-*  Performance - Method invokes inefficient new String(String) constructor
+### Performance - Method invokes inefficient new String(String) constructor
 
 system_tags : null, priority : 2; plugin_rule_key : DM_STRING_CTOR
 
@@ -1236,7 +1236,7 @@ system_tags : null, priority : 2; plugin_rule_key : DM_STRING_CTOR
 ## 70.
 
 
-*  Bad practice - Class is Serializable, but doesn't define serialVersionUID
+### Bad practice - Class is Serializable, but doesn't define serialVersionUID
 
 system_tags : null, priority : 2; plugin_rule_key : SE_NO_SERIALVERSIONID
 
@@ -1260,7 +1260,7 @@ system_tags : null, priority : 2; plugin_rule_key : SE_NO_SERIALVERSIONID
 ## 71.
 
 
-*  Bad practice - Non-serializable value stored into instance field of a serializable class
+### Bad practice - Non-serializable value stored into instance field of a serializable class
 
 system_tags : null, priority : 3; plugin_rule_key : SE_BAD_FIELD_STORE
 
@@ -1274,7 +1274,7 @@ of a serializable class.</h5>
 ## 72.
 
 
-*  Bad practice - Class is Externalizable but doesn't define a void constructor
+### Bad practice - Class is Externalizable but doesn't define a void constructor
 
 system_tags : null, priority : 2; plugin_rule_key : SE_NO_SUITABLE_CONSTRUCTOR_FOR_EXTERNALIZATION
 
@@ -1291,7 +1291,7 @@ system_tags : null, priority : 2; plugin_rule_key : SE_NO_SUITABLE_CONSTRUCTOR_F
 ## 73.
 
 
-*  Correctness - Using pointer equality to compare different types
+### Correctness - Using pointer equality to compare different types
 
 system_tags : null, priority : 3; plugin_rule_key : EC_UNRELATED_TYPES_USING_POINTER_EQUALITY
 
@@ -1306,7 +1306,7 @@ different types.  The result of this comparison will always be false at runtime.
 ## 74.
 
 
-*  Multithreaded correctness - Invokes run on a thread (did you mean to start it instead?)
+### Multithreaded correctness - Invokes run on a thread (did you mean to start it instead?)
 
 system_tags : null, priority : 2; plugin_rule_key : RU_INVOKE_RUN
 
@@ -1326,7 +1326,7 @@ This rule is deprecated, use {rule:squid:S1217} instead.
 ## 75.
 
 
-*  Unused public or protected field
+### Unused public or protected field
 
 system_tags : null, priority : 0; plugin_rule_key : UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD
 
@@ -1340,7 +1340,7 @@ with classes not seen as part of the analysis. If not, consider removing it from
 ## 76.
 
 
-*  Correctness - Method attempts to access a result set field with index 0
+### Correctness - Method attempts to access a result set field with index 0
 
 system_tags : null, priority : 3; plugin_rule_key : SQL_BAD_RESULTSET_ACCESS
 
@@ -1354,7 +1354,7 @@ field index is 0. As ResultSet fields start at index 1, this is always a mistake
 ## 77.
 
 
-*  Performance - Primitive value is boxed and then immediately unboxed
+### Performance - Primitive value is boxed and then immediately unboxed
 
 system_tags : null, priority : 2; plugin_rule_key : BX_BOXING_IMMEDIATELY_UNBOXED
 
@@ -1370,7 +1370,7 @@ to immediately undo the work of the boxing.
 ## 78.
 
 
-*  Correctness - JUnit assertion in run method will not be noticed by JUnit
+### Correctness - JUnit assertion in run method will not be noticed by JUnit
 
 system_tags : null, priority : 3; plugin_rule_key : IJU_ASSERT_METHOD_INVOKED_FROM_RUN_METHOD
 
@@ -1388,7 +1388,7 @@ in the test failing.
 ## 79.
 
 
-*  Correctness - Array formatted in useless way using format string
+### Correctness - Array formatted in useless way using format string
 
 system_tags : null, priority : 2; plugin_rule_key : VA_FORMAT_STRING_BAD_CONVERSION_FROM_ARRAY
 
@@ -1406,7 +1406,7 @@ Consider wrapping the array using <code>Arrays.asList(...)</code> before handlin
 ## 80.
 
 
-*  Bad practice - Usage of GetResource may be unsafe if class is extended
+### Bad practice - Usage of GetResource may be unsafe if class is extended
 
 system_tags : null, priority : 2; plugin_rule_key : UI_INHERITANCE_UNSAFE_GETRESOURCE
 
@@ -1421,7 +1421,7 @@ another package.</h5>
 ## 81.
 
 
-*  Bad practice - Static initializer creates instance before all static final fields assigned
+### Bad practice - Static initializer creates instance before all static final fields assigned
 
 system_tags : null, priority : 3; plugin_rule_key : SI_INSTANCE_BEFORE_FINALS_ASSIGNED
 
@@ -1435,7 +1435,7 @@ before all of the static final fields are assigned.</h5>
 ## 82.
 
 
-*  Correctness - Repeated conditional tests
+### Correctness - Repeated conditional tests
 
 system_tags : null, priority : 2; plugin_rule_key : RpC_REPEATED_CONDITIONAL_TEST
 
@@ -1451,7 +1451,7 @@ system_tags : null, priority : 2; plugin_rule_key : RpC_REPEATED_CONDITIONAL_TES
 ## 83.
 
 
-*  Multithreaded correctness - Synchronize and null check on the same field.
+### Multithreaded correctness - Synchronize and null check on the same field.
 
 system_tags : null, priority : 2; plugin_rule_key : NP_SYNC_AND_NULL_CHECK_FIELD
 
@@ -1467,7 +1467,7 @@ another field.</h5>
 ## 84.
 
 
-*  Correctness - Useless assignment in return statement
+### Correctness - Useless assignment in return statement
 
 system_tags : null, priority : 3; plugin_rule_key : DLS_DEAD_LOCAL_STORE_IN_RETURN
 
@@ -1483,7 +1483,7 @@ has effect. Please verify that this statement does the right thing.
 ## 85.
 
 
-*  Bad practice - Class inherits equals() and uses Object.hashCode()
+### Bad practice - Class inherits equals() and uses Object.hashCode()
 
 system_tags : null, priority : 3; plugin_rule_key : HE_INHERITS_EQUALS_USE_HASHCODE
 
@@ -1506,7 +1506,7 @@ system_tags : null, priority : 3; plugin_rule_key : HE_INHERITS_EQUALS_USE_HASHC
 ## 86.
 
 
-*  Correctness - File.separator used for regular expression
+### Correctness - File.separator used for regular expression
 
 system_tags : null, priority : 3; plugin_rule_key : RE_CANT_USE_FILE_SEPARATOR_AS_REGULAR_EXPRESSION
 
@@ -1527,7 +1527,7 @@ regular expression as an escape character. Amoung other options, you can just us
 ## 87.
 
 
-*  Multithreaded correctness - Wait not in loop
+### Multithreaded correctness - Wait not in loop
 
 system_tags : null, priority : 3; plugin_rule_key : WA_NOT_IN_LOOP
 
@@ -1543,7 +1543,7 @@ system_tags : null, priority : 3; plugin_rule_key : WA_NOT_IN_LOOP
 ## 88.
 
 
-*  Bad practice - Method may fail to close stream on exception
+### Bad practice - Method may fail to close stream on exception
 
 system_tags : null, priority : 3; plugin_rule_key : OS_OPEN_STREAM_EXCEPTION_PATH
 
@@ -1561,7 +1561,7 @@ closed.</h5>
 ## 89.
 
 
-*  Correctness - Can't use reflection to check for presence of annotation without runtime retention
+### Correctness - Can't use reflection to check for presence of annotation without runtime retention
 
 system_tags : null, priority : 2; plugin_rule_key : DMI_ANNOTATION_IS_NOT_VISIBLE_TO_REFLECTION
 
@@ -1576,7 +1576,7 @@ system_tags : null, priority : 2; plugin_rule_key : DMI_ANNOTATION_IS_NOT_VISIBL
 ## 90.
 
 
-*  Method relaxes nullness annotation on return value
+### Method relaxes nullness annotation on return value
 
 system_tags : null, priority : 2; plugin_rule_key : NP_METHOD_RETURN_RELAXING_ANNOTATION
 
@@ -1594,7 +1594,7 @@ Doing so violates the contract that the method shouldn't return null.
 ## 91.
 
 
-*  Correctness - Null pointer dereference
+### Correctness - Null pointer dereference
 
 system_tags : null, priority : 3; plugin_rule_key : NP_ALWAYS_NULL
 
@@ -1608,7 +1608,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_ALWAYS_NULL
 ## 92.
 
 
-*  Multithreaded correctness - Static Calendar
+### Multithreaded correctness - Static Calendar
 
 system_tags : null, priority : 3; plugin_rule_key : STCAL_STATIC_CALENDAR_INSTANCE
 
@@ -1628,7 +1628,7 @@ and <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6178997">Sun Bug
 ## 93.
 
 
-*  Performance - Unused field
+### Performance - Unused field
 
 system_tags : null, priority : 2; plugin_rule_key : UUF_UNUSED_FIELD
 
@@ -1641,7 +1641,7 @@ system_tags : null, priority : 2; plugin_rule_key : UUF_UNUSED_FIELD
 ## 94.
 
 
-*  Correctness - Value is null and guaranteed to be dereferenced on exception path
+### Correctness - Value is null and guaranteed to be dereferenced on exception path
 
 system_tags : null, priority : 3; plugin_rule_key : NP_GUARANTEED_DEREF_ON_EXCEPTION_PATH
 
@@ -1660,7 +1660,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_GUARANTEED_DEREF_ON_EXCEP
 ## 95.
 
 
-*  Multithreaded correctness - Field not guarded against concurrent access
+### Multithreaded correctness - Field not guarded against concurrent access
 
 system_tags : null, priority : 3; plugin_rule_key : IS_FIELD_NOT_GUARDED
 
@@ -1674,7 +1674,7 @@ but can be accessed in a way that seems to violate the annotation.</h5>
 ## 96.
 
 
-*  Bad practice - Class defines equals() but not hashCode()
+### Bad practice - Class defines equals() but not hashCode()
 
 system_tags : null, priority : 2; plugin_rule_key : HE_EQUALS_NO_HASHCODE
 
@@ -1693,7 +1693,7 @@ This rule is deprecated, use {rule:squid:S1206} instead.
 ## 97.
 
 
-*  Bad practice - Clone method may return null
+### Bad practice - Clone method may return null
 
 system_tags : null, priority : 3; plugin_rule_key : NP_CLONE_COULD_RETURN_NULL
 
@@ -1710,7 +1710,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_CLONE_COULD_RETURN_NULL
 ## 98.
 
 
-*  Correctness - Bad comparison of signed byte
+### Correctness - Bad comparison of signed byte
 
 system_tags : null, priority : 3; plugin_rule_key : INT_BAD_COMPARISON_WITH_SIGNED_BYTE
 
@@ -1727,7 +1727,7 @@ use <code>0xff &amp; b</code>
 ## 99.
 
 
-*  Correctness - Method doesn't override method in superclass due to wrong package for parameter
+### Correctness - Method doesn't override method in superclass due to wrong package for parameter
 
 system_tags : null, priority : 2; plugin_rule_key : NM_WRONG_PACKAGE
 
@@ -1761,7 +1761,7 @@ types are <code>Foo</code>'s from different packages.
 ## 100.
 
 
-*  Dodgy - Useless control flow
+### Dodgy - Useless control flow
 
 system_tags : null, priority : 3; plugin_rule_key : UCF_USELESS_CONTROL_FLOW
 
@@ -1783,7 +1783,7 @@ block for an <code>if</code> statement:</h5>
 ## 101.
 
 
-*  Correctness - Don't use removeAll to clear a collection
+### Correctness - Don't use removeAll to clear a collection
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_USING_REMOVEALL_TO_CLEAR_COLLECTION
 
@@ -1798,7 +1798,7 @@ not <code>c.removeAll(c)</code>.
 ## 102.
 
 
-*  Bad practice - equals() method does not check for null argument
+### Bad practice - equals() method does not check for null argument
 
 system_tags : null, priority : 3; plugin_rule_key : NP_EQUALS_SHOULD_HANDLE_NULL_ARGUMENT
 
@@ -1816,7 +1816,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_EQUALS_SHOULD_HANDLE_NULL
 ## 103.
 
 
-*  Security - A prepared statement is generated from a nonconstant String
+### Security - A prepared statement is generated from a nonconstant String
 
 system_tags : null, priority : 3; plugin_rule_key : SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING
 
@@ -1832,7 +1832,7 @@ be used to make the prepared statement do something unexpected and undesirable.
 ## 104.
 
 
-*  Correctness - Integer shift by an amount not in the range 0..31
+### Correctness - Integer shift by an amount not in the range 0..31
 
 system_tags : null, priority : 3; plugin_rule_key : ICAST_BAD_SHIFT_AMOUNT
 
@@ -1851,7 +1851,7 @@ and it at least confusing.
 ## 105.
 
 
-*  Dodgy - int division result cast to double or float
+### Dodgy - int division result cast to double or float
 
 system_tags : null, priority : 3; plugin_rule_key : ICAST_IDIV_CAST_TO_DOUBLE
 
@@ -1883,7 +1883,7 @@ double value2 =  x / (double) y;
 ## 106.
 
 
-*  Bad practice - The readResolve method must be declared with a return type of Object.
+### Bad practice - The readResolve method must be declared with a return type of Object.
 
 system_tags : null, priority : 2; plugin_rule_key : SE_READ_RESOLVE_MUST_RETURN_OBJECT
 
@@ -1898,7 +1898,7 @@ mechanism, it must be declared to have a return type of Object.
 ## 107.
 
 
-*  Correctness - Class overrides a method implemented in super class Adapter wrongly
+### Correctness - Class overrides a method implemented in super class Adapter wrongly
 
 system_tags : null, priority : 3; plugin_rule_key : BOA_BADLY_OVERRIDDEN_ADAPTER
 
@@ -1913,7 +1913,7 @@ get called when the event occurs.</h5>
 ## 108.
 
 
-*  Correctness - Unnecessary type check done using instanceof operator
+### Correctness - Unnecessary type check done using instanceof operator
 
 system_tags : null, priority : 3; plugin_rule_key : SIO_SUPERFLUOUS_INSTANCEOF
 
@@ -1927,7 +1927,7 @@ is of the type requested. </h5>
 ## 109.
 
 
-*  Experimental - Method superfluously delegates to parent class method
+### Experimental - Method superfluously delegates to parent class method
 
 system_tags : null, priority : 0; plugin_rule_key : USM_USELESS_SUBCLASS_METHOD
 
@@ -1943,7 +1943,7 @@ system_tags : null, priority : 0; plugin_rule_key : USM_USELESS_SUBCLASS_METHOD
 ## 110.
 
 
-*  Performance - Inefficient use of keySet iterator instead of entrySet iterator
+### Performance - Inefficient use of keySet iterator instead of entrySet iterator
 
 system_tags : null, priority : 3; plugin_rule_key : WMI_WRONG_MAP_ITERATOR
 
@@ -1958,7 +1958,7 @@ Map.get(key) lookup.</h5>
 ## 111.
 
 
-*  Correctness - Useless control flow to next line
+### Correctness - Useless control flow to next line
 
 system_tags : null, priority : 3; plugin_rule_key : UCF_USELESS_CONTROL_FLOW_NEXT_LINE
 
@@ -1979,7 +1979,7 @@ body of an <code>if</code> statement, e.g.:</h5>
 ## 112.
 
 
-*  Malicious code vulnerability - May expose internal static state by storing a mutable object into a static field
+### Malicious code vulnerability - May expose internal static state by storing a mutable object into a static field
 
 system_tags : null, priority : 2; plugin_rule_key : EI_EXPOSE_STATIC_REP2
 
@@ -1997,7 +1997,7 @@ system_tags : null, priority : 2; plugin_rule_key : EI_EXPOSE_STATIC_REP2
 ## 113.
 
 
-*  Correctness - Null value is guaranteed to be dereferenced
+### Correctness - Null value is guaranteed to be dereferenced
 
 system_tags : null, priority : 4; plugin_rule_key : NP_GUARANTEED_DEREF
 
@@ -2015,7 +2015,7 @@ system_tags : null, priority : 4; plugin_rule_key : NP_GUARANTEED_DEREF
 ## 114.
 
 
-*  Multithreaded correctness - Condition.await() not in loop
+### Multithreaded correctness - Condition.await() not in loop
 
 system_tags : null, priority : 3; plugin_rule_key : WA_AWAIT_NOT_IN_LOOP
 
@@ -2032,7 +2032,7 @@ system_tags : null, priority : 3; plugin_rule_key : WA_AWAIT_NOT_IN_LOOP
 ## 115.
 
 
-*  Bad practice - Use of member identifier that is a keyword in later versions of Java
+### Bad practice - Use of member identifier that is a keyword in later versions of Java
 
 system_tags : null, priority : 2; plugin_rule_key : NM_FUTURE_KEYWORD_USED_AS_MEMBER_IDENTIFIER
 
@@ -2047,7 +2047,7 @@ will need to be changed in order to compile it in later versions of Java.</h5>
 ## 116.
 
 
-*  Multithreaded correctness - Constructor invokes Thread.start()
+### Multithreaded correctness - Constructor invokes Thread.start()
 
 system_tags : null, priority : 3; plugin_rule_key : SC_START_IN_CTOR
 
@@ -2062,7 +2062,7 @@ system_tags : null, priority : 3; plugin_rule_key : SC_START_IN_CTOR
 ## 117.
 
 
-*  Dodgy - Consider returning a zero length array rather than null
+### Dodgy - Consider returning a zero length array rather than null
 
 system_tags : null, priority : 2; plugin_rule_key : PZLA_PREFER_ZERO_LENGTH_ARRAYS
 
@@ -2088,7 +2088,7 @@ This rule is deprecated, use {rule:squid:S1168} instead.
 ## 118.
 
 
-*  Correctness - Invocation of hashCode on an array
+### Correctness - Invocation of hashCode on an array
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_INVOKING_HASHCODE_ON_ARRAY
 
@@ -2108,7 +2108,7 @@ use <code>java.util.Arrays.hashCode(a)</code>.
 ## 119.
 
 
-*  Correctness - Uninitialized read of field method called from constructor of superclass
+### Correctness - Uninitialized read of field method called from constructor of superclass
 
 system_tags : null, priority : 2; plugin_rule_key : UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR
 
@@ -2140,7 +2140,7 @@ system_tags : null, priority : 2; plugin_rule_key : UR_UNINIT_READ_CALLED_FROM_S
 ## 120.
 
 
-*  Correctness - Nonsensical self computation involving a variable (e.g., x & x)
+### Correctness - Nonsensical self computation involving a variable (e.g., x & x)
 
 system_tags : null, priority : 3; plugin_rule_key : SA_LOCAL_SELF_COMPUTATION
 
@@ -2158,7 +2158,7 @@ a logic error.  Double check the computation.
 ## 121.
 
 
-*  Correctness - Illegal format string
+### Correctness - Illegal format string
 
 system_tags : null, priority : 3; plugin_rule_key : VA_FORMAT_STRING_ILLEGAL
 
@@ -2175,7 +2175,7 @@ this statement is executed.
 ## 122.
 
 
-*  Correctness - Method call passes null for nonnull parameter (ALL_TARGETS_DANGEROUS)
+### Correctness - Method call passes null for nonnull parameter (ALL_TARGETS_DANGEROUS)
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NULL_PARAM_DEREF_ALL_TARGETS_DANGEROUS
 
@@ -2194,7 +2194,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_NULL_PARAM_DEREF_ALL_TARG
 ## 123.
 
 
-*  Experimental - Missing expected or desired warning from FindBugs
+### Experimental - Missing expected or desired warning from FindBugs
 
 system_tags : null, priority : 0; plugin_rule_key : FB_MISSING_EXPECTED_WARNING
 
@@ -2210,7 +2210,7 @@ system_tags : null, priority : 0; plugin_rule_key : FB_MISSING_EXPECTED_WARNING
 ## 124.
 
 
-*  Correctness - The readResolve method must not be declared as a static method.
+### Correctness - The readResolve method must not be declared as a static method.
 
 system_tags : null, priority : 2; plugin_rule_key : SE_READ_RESOLVE_IS_STATIC
 
@@ -2225,7 +2225,7 @@ mechanism, it must not be declared as a static method.
 ## 125.
 
 
-*  Dodgy - Class implements same interface as superclass
+### Dodgy - Class implements same interface as superclass
 
 system_tags : null, priority : 2; plugin_rule_key : RI_REDUNDANT_INTERFACES
 
@@ -2244,7 +2244,7 @@ system_tags : null, priority : 2; plugin_rule_key : RI_REDUNDANT_INTERFACES
 ## 126.
 
 
-*  Dodgy - Class extends Servlet class and uses instance variables
+### Dodgy - Class extends Servlet class and uses instance variables
 
 system_tags : null, priority : 3; plugin_rule_key : MTIA_SUSPECT_SERVLET_INSTANCE_FIELD
 
@@ -2262,7 +2262,7 @@ system_tags : null, priority : 3; plugin_rule_key : MTIA_SUSPECT_SERVLET_INSTANC
 ## 127.
 
 
-*  Bad practice - Finalizer only nulls fields
+### Bad practice - Finalizer only nulls fields
 
 system_tags : null, priority : 2; plugin_rule_key : FI_FINALIZER_ONLY_NULLS_FIELDS
 
@@ -2277,7 +2277,7 @@ method.
 ## 128.
 
 
-*  Correctness - No previous argument for format string
+### Correctness - No previous argument for format string
 
 system_tags : null, priority : 3; plugin_rule_key : VA_FORMAT_STRING_NO_PREVIOUS_ARGUMENT
 
@@ -2298,7 +2298,7 @@ For example,
 ## 129.
 
 
-*  Experimental - Method may fail to clean up stream or resource
+### Experimental - Method may fail to clean up stream or resource
 
 system_tags : null, priority : 0; plugin_rule_key : OBL_UNSATISFIED_OBLIGATION
 
@@ -2344,7 +2344,7 @@ system_tags : null, priority : 0; plugin_rule_key : OBL_UNSATISFIED_OBLIGATION
 ## 130.
 
 
-*  Experimental - Abstract Method is already defined in implemented interface
+### Experimental - Abstract Method is already defined in implemented interface
 
 system_tags : null, priority : 0; plugin_rule_key : USM_USELESS_ABSTRACT_METHOD
 
@@ -2360,7 +2360,7 @@ system_tags : null, priority : 0; plugin_rule_key : USM_USELESS_ABSTRACT_METHOD
 ## 131.
 
 
-*  Dodgy - Call to unsupported method
+### Dodgy - Call to unsupported method
 
 system_tags : null, priority : 2; plugin_rule_key : DMI_UNSUPPORTED_METHOD
 
@@ -2374,7 +2374,7 @@ system_tags : null, priority : 2; plugin_rule_key : DMI_UNSUPPORTED_METHOD
 ## 132.
 
 
-*  Correctness - Random value from 0 to 1 is coerced to the integer 0
+### Correctness - Random value from 0 to 1 is coerced to the integer 0
 
 system_tags : null, priority : 2; plugin_rule_key : RV_01_TO_INT
 
@@ -2389,7 +2389,7 @@ want to multiple the random value by something else before coercing it to an int
 ## 133.
 
 
-*  Dodgy - Ambiguous invocation of either an inherited or outer method
+### Dodgy - Ambiguous invocation of either an inherited or outer method
 
 system_tags : null, priority : 2; plugin_rule_key : IA_AMBIGUOUS_INVOCATION_OF_INHERITED_OR_OUTER_METHOD
 
@@ -2408,7 +2408,7 @@ that you want to invoke the inherited method, not the method in the outer class.
 ## 134.
 
 
-*  Correctness - Check to see if ((...) & 0) == 0
+### Correctness - Check to see if ((...) & 0) == 0
 
 system_tags : null, priority : 3; plugin_rule_key : BIT_AND_ZZ
 
@@ -2423,7 +2423,7 @@ This may indicate a logic error or typo.</h5>
 ## 135.
 
 
-*  Performance - Method invokes inefficient new String() constructor
+### Performance - Method invokes inefficient new String() constructor
 
 system_tags : null, priority : 2; plugin_rule_key : DM_STRING_VOID_CTOR
 
@@ -2441,7 +2441,7 @@ system_tags : null, priority : 2; plugin_rule_key : DM_STRING_VOID_CTOR
 ## 136.
 
 
-*  Multithreaded correctness - Method does not release lock on all paths
+### Multithreaded correctness - Method does not release lock on all paths
 
 system_tags : null, priority : 3; plugin_rule_key : UL_UNRELEASED_LOCK
 
@@ -2466,7 +2466,7 @@ for using a JSR-166 lock is:
 ## 137.
 
 
-*  Security - HTTP Response splitting vulnerability
+### Security - HTTP Response splitting vulnerability
 
 system_tags : null, priority : 2; plugin_rule_key : HRS_REQUEST_PARAMETER_TO_HTTP_HEADER
 
@@ -2486,7 +2486,7 @@ consider using a commercial static analysis or pen-testing tool.
 ## 138.
 
 
-*  Bad practice - Class defines clone() but doesn't implement Cloneable
+### Bad practice - Class defines clone() but doesn't implement Cloneable
 
 system_tags : null, priority : 2; plugin_rule_key : CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE
 
@@ -2502,7 +2502,7 @@ can clone themselves), but just make sure that this is what you intended.
 ## 139.
 
 
-*  Multithreaded correctness - Synchronization on interned String could lead to deadlock
+### Multithreaded correctness - Synchronization on interned String could lead to deadlock
 
 system_tags : null, priority : 3; plugin_rule_key : DL_SYNCHRONIZATION_ON_SHARED_CONSTANT
 
@@ -2526,7 +2526,7 @@ blocking and deadlock behavior. See <a href="http://www.javalobby.org/java/forum
 ## 140.
 
 
-*  Correctness - Method defines a variable that obscures a field
+### Correctness - Method defines a variable that obscures a field
 
 system_tags : null, priority : 2; plugin_rule_key : MF_METHOD_MASKS_FIELD
 
@@ -2542,7 +2542,7 @@ or both.</h5>
 ## 141.
 
 
-*  Unwritten public or protected field
+### Unwritten public or protected field
 
 system_tags : null, priority : 1; plugin_rule_key : UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD
 
@@ -2556,7 +2556,7 @@ Check for errors (should it have been initialized?), or remove it if it is usele
 ## 142.
 
 
-*  Correctness - Self comparison of field with itself
+### Correctness - Self comparison of field with itself
 
 system_tags : null, priority : 3; plugin_rule_key : SA_FIELD_SELF_COMPARISON
 
@@ -2571,7 +2571,7 @@ a logic error.  Make sure that you are comparing the right things.
 ## 143.
 
 
-*  Bad practice - Serializable inner class
+### Bad practice - Serializable inner class
 
 system_tags : null, priority : 2; plugin_rule_key : SE_INNER_CLASS
 
@@ -2588,7 +2588,7 @@ problem.
 ## 144.
 
 
-*  Dodgy - Class is final but declares protected field
+### Dodgy - Class is final but declares protected field
 
 system_tags : null, priority : 1; plugin_rule_key : CI_CONFUSED_INHERITANCE
 
@@ -2606,7 +2606,7 @@ system_tags : null, priority : 1; plugin_rule_key : CI_CONFUSED_INHERITANCE
 ## 145.
 
 
-*  Correctness - Unwritten field
+### Correctness - Unwritten field
 
 system_tags : null, priority : 1; plugin_rule_key : UWF_UNWRITTEN_FIELD
 
@@ -2619,7 +2619,7 @@ system_tags : null, priority : 1; plugin_rule_key : UWF_UNWRITTEN_FIELD
 ## 146.
 
 
-*  Bad practice - Finalizer does nothing but call superclass finalizer
+### Bad practice - Finalizer does nothing but call superclass finalizer
 
 system_tags : null, priority : 1; plugin_rule_key : FI_USELESS
 
@@ -2634,7 +2634,7 @@ system_tags : null, priority : 1; plugin_rule_key : FI_USELESS
 ## 147.
 
 
-*  Correctness - Apparent method/constructor confusion
+### Correctness - Apparent method/constructor confusion
 
 system_tags : null, priority : 2; plugin_rule_key : NM_METHOD_CONSTRUCTOR_CONFUSION
 
@@ -2651,7 +2651,7 @@ system_tags : null, priority : 2; plugin_rule_key : NM_METHOD_CONSTRUCTOR_CONFUS
 ## 148.
 
 
-*  Multithreaded correctness - Method synchronizes on an updated field
+### Multithreaded correctness - Method synchronizes on an updated field
 
 system_tags : null, priority : 2; plugin_rule_key : ML_SYNC_ON_UPDATED_FIELD
 
@@ -2667,7 +2667,7 @@ threads may be synchronizing on different objects.</h5>
 ## 149.
 
 
-*  Correctness - Method performs math using floating point precision
+### Correctness - Method performs math using floating point precision
 
 system_tags : null, priority : 3; plugin_rule_key : FL_MATH_USING_FLOAT_PRECISION
 
@@ -2683,7 +2683,7 @@ system_tags : null, priority : 3; plugin_rule_key : FL_MATH_USING_FLOAT_PRECISIO
 ## 150.
 
 
-*  Correctness - MessageFormat supplied where printf style format expected
+### Correctness - MessageFormat supplied where printf style format expected
 
 system_tags : null, priority : 2; plugin_rule_key : VA_FORMAT_STRING_EXPECTED_MESSAGE_FORMAT_SUPPLIED
 
@@ -2696,7 +2696,7 @@ A method is called that expects a Java printf format string and a list of argume
 ## 151.
 
 
-*  Dodgy - Non serializable object written to ObjectOutput
+### Dodgy - Non serializable object written to ObjectOutput
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_NONSERIALIZABLE_OBJECT_WRITTEN
 
@@ -2712,7 +2712,7 @@ If the object is, indeed, non-serializable, an error will result.
 ## 152.
 
 
-*  Dodgy - Class extends Struts Action class and uses instance variables
+### Dodgy - Class extends Struts Action class and uses instance variables
 
 system_tags : null, priority : 3; plugin_rule_key : MTIA_SUSPECT_STRUTS_INSTANCE_FIELD
 
@@ -2731,7 +2731,7 @@ system_tags : null, priority : 3; plugin_rule_key : MTIA_SUSPECT_STRUTS_INSTANCE
 ## 153.
 
 
-*  Correctness - equals() method defined that doesn't override Object.equals(Object)
+### Correctness - equals() method defined that doesn't override Object.equals(Object)
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_OTHER_USE_OBJECT
 
@@ -2748,7 +2748,7 @@ system_tags : null, priority : 2; plugin_rule_key : EQ_OTHER_USE_OBJECT
 ## 154.
 
 
-*  Useless increment in return statement
+### Useless increment in return statement
 
 system_tags : null, priority : 2; plugin_rule_key : DLS_DEAD_LOCAL_INCREMENT_IN_RETURN
 
@@ -2766,7 +2766,7 @@ Please verify that this statement does the right thing.
 ## 155.
 
 
-*  Dodgy - Redundant comparison of non-null value to null
+### Dodgy - Redundant comparison of non-null value to null
 
 system_tags : null, priority : 3; plugin_rule_key : RCN_REDUNDANT_COMPARISON_OF_NULL_AND_NONNULL_VALUE
 
@@ -2780,7 +2780,7 @@ known to be null.</h5>
 ## 156.
 
 
-*  Format string should use %n rather than \n
+### Format string should use %n rather than \n
 
 system_tags : null, priority : 2; plugin_rule_key : VA_FORMAT_STRING_USES_NEWLINE
 
@@ -2794,7 +2794,7 @@ better to use %n, which will produce the platform-specific line separator.</h5>
 ## 157.
 
 
-*  Malicious code vulnerability - Field isn't final and can't be protected from malicious code
+### Malicious code vulnerability - Field isn't final and can't be protected from malicious code
 
 system_tags : null, priority : 2; plugin_rule_key : MS_CANNOT_BE_FINAL
 
@@ -2811,7 +2811,7 @@ system_tags : null, priority : 2; plugin_rule_key : MS_CANNOT_BE_FINAL
 ## 158.
 
 
-*  Correctness - Store of null value into field annotated NonNull
+### Correctness - Store of null value into field annotated NonNull
 
 system_tags : null, priority : 3; plugin_rule_key : NP_STORE_INTO_NONNULL_FIELD
 
@@ -2824,7 +2824,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_STORE_INTO_NONNULL_FIELD
 ## 159.
 
 
-*  Correctness - Invocation of toString on an anonymous array
+### Correctness - Invocation of toString on an anonymous array
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_INVOKING_TOSTRING_ON_ANONYMOUS_ARRAY
 
@@ -2841,7 +2841,7 @@ String that gives the contents of the array. See Programming Puzzlers, chapter 3
 ## 160.
 
 
-*  Dodgy - Check for oddness that won't work for negative numbers
+### Dodgy - Check for oddness that won't work for negative numbers
 
 system_tags : null, priority : 3; plugin_rule_key : IM_BAD_CHECK_FOR_ODD
 
@@ -2858,7 +2858,7 @@ for oddness, consider using x &amp; 1 == 1, or x % 2 != 0.
 ## 161.
 
 
-*  Multithreaded correctness - Method spins on field
+### Multithreaded correctness - Method spins on field
 
 system_tags : null, priority : 2; plugin_rule_key : SP_SPIN_ON_FIELD
 
@@ -2874,7 +2874,7 @@ system_tags : null, priority : 2; plugin_rule_key : SP_SPIN_ON_FIELD
 ## 162.
 
 
-*  Multithreaded correctness - Inconsistent synchronization
+### Multithreaded correctness - Inconsistent synchronization
 
 system_tags : null, priority : 3; plugin_rule_key : IS2_INCONSISTENT_SYNC
 
@@ -2909,7 +2909,7 @@ system_tags : null, priority : 3; plugin_rule_key : IS2_INCONSISTENT_SYNC
 ## 163.
 
 
-*  Correctness - int value cast to double and then passed to Math.ceil
+### Correctness - int value cast to double and then passed to Math.ceil
 
 system_tags : null, priority : 3; plugin_rule_key : ICAST_INT_CAST_TO_DOUBLE_PASSED_TO_CEIL
 
@@ -2931,7 +2931,7 @@ floating point arithmetic.
 ## 164.
 
 
-*  Bad practice - Method may fail to close database resource on exception
+### Bad practice - Method may fail to close database resource on exception
 
 system_tags : null, priority : 3; plugin_rule_key : ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH
 
@@ -2950,7 +2950,7 @@ have problems communicating with the database.</h5>
 ## 165.
 
 
-*  Bad practice - Class implements Cloneable but does not define or use clone method
+### Bad practice - Class implements Cloneable but does not define or use clone method
 
 system_tags : null, priority : 2; plugin_rule_key : CN_IDIOM
 
@@ -2965,7 +2965,7 @@ system_tags : null, priority : 2; plugin_rule_key : CN_IDIOM
 ## 166.
 
 
-*  Correctness - Creation of ScheduledThreadPoolExecutor with zero core threads
+### Correctness - Creation of ScheduledThreadPoolExecutor with zero core threads
 
 system_tags : null, priority : 1; plugin_rule_key : DMI_SCHEDULED_THREAD_POOL_EXECUTOR_WITH_ZERO_CORE_THREADS
 
@@ -2980,7 +2980,7 @@ A ScheduledThreadPoolExecutor with zero core threads will never execute anything
 ## 167.
 
 
-*  Bad practice - Unchecked type in generic call
+### Bad practice - Unchecked type in generic call
 
 system_tags : null, priority : 3; plugin_rule_key : GC_UNCHECKED_TYPE_IN_GENERIC_CALL
 
@@ -2999,7 +2999,7 @@ system_tags : null, priority : 3; plugin_rule_key : GC_UNCHECKED_TYPE_IN_GENERIC
 ## 168.
 
 
-*  Multithreaded correctness - Synchronization on Boolean could lead to deadlock
+### Multithreaded correctness - Synchronization on Boolean could lead to deadlock
 
 system_tags : null, priority : 3; plugin_rule_key : DL_SYNCHRONIZATION_ON_BOOLEAN
 
@@ -3026,7 +3026,7 @@ and possible deadlock</p>
 ## 169.
 
 
-*  Bad practice - Certain swing methods needs to be invoked in Swing thread
+### Bad practice - Certain swing methods needs to be invoked in Swing thread
 
 system_tags : null, priority : 2; plugin_rule_key : SW_SWING_METHODS_INVOKED_IN_SWING_THREAD
 
@@ -3047,7 +3047,7 @@ visible), they could trigger listener notification on the event dispatch thread.
 ## 170.
 
 
-*  Dead store due to switch statement fall through to throw
+### Dead store due to switch statement fall through to throw
 
 system_tags : null, priority : 3; plugin_rule_key : SF_DEAD_STORE_DUE_TO_SWITCH_FALLTHROUGH_TO_THROW
 
@@ -3063,7 +3063,7 @@ system_tags : null, priority : 3; plugin_rule_key : SF_DEAD_STORE_DUE_TO_SWITCH_
 ## 171.
 
 
-*  Dodgy - Possible null pointer dereference due to return value of called method
+### Dodgy - Possible null pointer dereference due to return value of called method
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE
 
@@ -3104,7 +3104,7 @@ public Date getDate() { /* ... */ }
 ## 172.
 
 
-*  Reliance on default encoding
+### Reliance on default encoding
 
 system_tags : null, priority : 2; plugin_rule_key : DM_DEFAULT_ENCODING
 
@@ -3120,7 +3120,7 @@ Charset object explicitly.</h5>
 ## 173.
 
 
-*  Multithreaded correctness - Possible double check of field
+### Multithreaded correctness - Possible double check of field
 
 system_tags : null, priority : 2; plugin_rule_key : DC_DOUBLECHECK
 
@@ -3137,7 +3137,7 @@ system_tags : null, priority : 2; plugin_rule_key : DC_DOUBLECHECK
 ## 174.
 
 
-*  Correctness - Invocation of equals() on an array, which is equivalent to ==
+### Correctness - Invocation of equals() on an array, which is equivalent to ==
 
 system_tags : null, priority : 3; plugin_rule_key : EC_BAD_ARRAY_COMPARE
 
@@ -3157,7 +3157,7 @@ contents of the arrays, use java.util.Arrays.equals(Object[], Object[]).
 ## 175.
 
 
-*  Dodgy - Exception is caught when Exception is not thrown
+### Dodgy - Exception is caught when Exception is not thrown
 
 system_tags : null, priority : 2; plugin_rule_key : REC_CATCH_EXCEPTION
 
@@ -3176,7 +3176,7 @@ system_tags : null, priority : 2; plugin_rule_key : REC_CATCH_EXCEPTION
 ## 176.
 
 
-*  Correctness - Value annotated as never carrying a type qualifier used where value carrying that qualifier is required
+### Correctness - Value annotated as never carrying a type qualifier used where value carrying that qualifier is required
 
 system_tags : null, priority : 3; plugin_rule_key : TQ_NEVER_VALUE_USED_WHERE_ALWAYS_REQUIRED
 
@@ -3202,7 +3202,7 @@ system_tags : null, priority : 3; plugin_rule_key : TQ_NEVER_VALUE_USED_WHERE_AL
 ## 177.
 
 
-*  Correctness - Uninitialized read of field in constructor
+### Correctness - Uninitialized read of field in constructor
 
 system_tags : null, priority : 2; plugin_rule_key : UR_UNINIT_READ
 
@@ -3217,7 +3217,7 @@ system_tags : null, priority : 2; plugin_rule_key : UR_UNINIT_READ
 ## 178.
 
 
-*  Correctness - Vacuous call to collections
+### Correctness - Vacuous call to collections
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_VACUOUS_SELF_COLLECTION_CALL
 
@@ -3232,7 +3232,7 @@ always be true, and <code>c.retainAll(c)</code> should have no effect.
 ## 179.
 
 
-*  Correctness - Futile attempt to change max pool size of ScheduledThreadPoolExecutor
+### Correctness - Futile attempt to change max pool size of ScheduledThreadPoolExecutor
 
 system_tags : null, priority : 1; plugin_rule_key : DMI_FUTILE_ATTEMPT_TO_CHANGE_MAXPOOL_SIZE_OF_SCHEDULED_THREAD_POOL_EXECUTOR
 
@@ -3247,7 +3247,7 @@ While ScheduledThreadPoolExecutor inherits from ThreadPoolExecutor, a few of the
 ## 180.
 
 
-*  Correctness - Incompatible bit masks (BIT_AND)
+### Correctness - Incompatible bit masks (BIT_AND)
 
 system_tags : null, priority : 3; plugin_rule_key : BIT_AND
 
@@ -3263,7 +3263,7 @@ This may indicate a logic error or typo.</h5>
 ## 181.
 
 
-*  Correctness - Collections should not contain themselves
+### Correctness - Collections should not contain themselves
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_COLLECTIONS_SHOULD_NOT_CONTAIN_THEMSELVES
 
@@ -3280,7 +3280,7 @@ It is likely that the wrong value is being passed as a parameter.
 ## 182.
 
 
-*  Method may fail to clean up stream or resource on checked exception
+### Method may fail to clean up stream or resource on checked exception
 
 system_tags : null, priority : 3; plugin_rule_key : OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE
 
@@ -3298,7 +3298,7 @@ description of the analysis technique. .</h5>
 ## 183.
 
 
-*  Correctness - Signature declares use of unhashable class in hashed construct
+### Correctness - Signature declares use of unhashable class in hashed construct
 
 system_tags : null, priority : 3; plugin_rule_key : HE_SIGNATURE_DECLARES_HASHING_OF_UNHASHABLE_CLASS
 
@@ -3316,7 +3316,7 @@ equal objects have equal hashCodes.
 ## 184.
 
 
-*  Correctness - Call to equals() with null argument
+### Correctness - Call to equals() with null argument
 
 system_tags : null, priority : 3; plugin_rule_key : EC_NULL_ARG
 
@@ -3331,7 +3331,7 @@ this call should always return <code>false</code>.</h5>
 ## 185.
 
 
-*  Value without a type qualifier used where a value is required to have that qualifier
+### Value without a type qualifier used where a value is required to have that qualifier
 
 system_tags : null, priority : 2; plugin_rule_key : TQ_UNKNOWN_VALUE_USED_WHERE_ALWAYS_STRICTLY_REQUIRED
 
@@ -3349,7 +3349,7 @@ To coerce a value to have a strict annotation, define an identity function where
 ## 186.
 
 
-*  Correctness - Method may return null, but is declared @NonNull
+### Correctness - Method may return null, but is declared @NonNull
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NONNULL_RETURN_VIOLATION
 
@@ -3365,7 +3365,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_NONNULL_RETURN_VIOLATION
 ## 187.
 
 
-*  Correctness - Primitive array passed to function expecting a variable number of object arguments
+### Correctness - Primitive array passed to function expecting a variable number of object arguments
 
 system_tags : null, priority : 3; plugin_rule_key : VA_PRIMITIVE_ARRAY_PASSED_TO_OBJECT_VARARG
 
@@ -3381,7 +3381,7 @@ This creates an array of length one to hold the primitive array and passes it to
 ## 188.
 
 
-*  Dodgy - Dead store to local variable
+### Dodgy - Dead store to local variable
 
 system_tags : null, priority : 3; plugin_rule_key : DLS_DEAD_LOCAL_STORE
 
@@ -3404,7 +3404,7 @@ there is no easy way to eliminate these false positives.
 ## 189.
 
 
-*  Bad practice - Class defines equals() and uses Object.hashCode()
+### Bad practice - Class defines equals() and uses Object.hashCode()
 
 system_tags : null, priority : 3; plugin_rule_key : HE_EQUALS_USE_HASHCODE
 
@@ -3433,7 +3433,7 @@ This rule is deprecated, use {rule:squid:S1206} instead.
 ## 190.
 
 
-*  Correctness - Bad attempt to compute absolute value of signed 32-bit random integer
+### Correctness - Bad attempt to compute absolute value of signed 32-bit random integer
 
 system_tags : null, priority : 3; plugin_rule_key : RV_ABSOLUTE_VALUE_OF_RANDOM_INT
 
@@ -3450,7 +3450,7 @@ generator is <code>Integer.MIN_VALUE</code>, then the result will be negative as
 ## 191.
 
 
-*  Dodgy - Test for floating point equality
+### Dodgy - Test for floating point equality
 
 system_tags : null, priority : 3; plugin_rule_key : FE_FLOATING_POINT_EQUALITY
 
@@ -3473,7 +3473,7 @@ system_tags : null, priority : 3; plugin_rule_key : FE_FLOATING_POINT_EQUALITY
 ## 192.
 
 
-*  Nonnull field is not initialized
+### Nonnull field is not initialized
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NONNULL_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR
 
@@ -3490,7 +3490,7 @@ be initialized before use.
 ## 193.
 
 
-*  Bad practice - Class names shouldn't shadow simple name of implemented interface
+### Bad practice - Class names shouldn't shadow simple name of implemented interface
 
 system_tags : null, priority : 2; plugin_rule_key : NM_SAME_SIMPLE_NAME_AS_INTERFACE
 
@@ -3508,7 +3508,7 @@ opportunities to accidently define methods that do not override methods in their
 ## 194.
 
 
-*  Multithreaded correctness - Sychronization on getClass rather than class literal
+### Multithreaded correctness - Sychronization on getClass rather than class literal
 
 system_tags : null, priority : 3; plugin_rule_key : WL_USING_GETCLASS_RATHER_THAN_CLASS_LITERAL
 
@@ -3545,7 +3545,7 @@ system_tags : null, priority : 3; plugin_rule_key : WL_USING_GETCLASS_RATHER_THA
 ## 195.
 
 
-*  Security - Nonconstant string passed to execute method on an SQL statement
+### Security - Nonconstant string passed to execute method on an SQL statement
 
 system_tags : null, priority : 3; plugin_rule_key : SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE
 
@@ -3562,7 +3562,7 @@ SQL injection attacks.
 ## 196.
 
 
-*  Correctness - Invalid syntax for regular expression
+### Correctness - Invalid syntax for regular expression
 
 system_tags : null, priority : 3; plugin_rule_key : RE_BAD_SYNTAX_FOR_REGULAR_EXPRESSION
 
@@ -3579,7 +3579,7 @@ executed.
 ## 197.
 
 
-*  Dodgy - Parameter must be nonnull but is marked as nullable
+### Dodgy - Parameter must be nonnull but is marked as nullable
 
 system_tags : null, priority : 3; plugin_rule_key : NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE
 
@@ -3595,7 +3595,7 @@ of the parameter or the annotation is wrong.
 ## 198.
 
 
-*  Multithreaded correctness - Call to static Calendar
+### Multithreaded correctness - Call to static Calendar
 
 system_tags : null, priority : 3; plugin_rule_key : STCAL_INVOKE_ON_STATIC_CALENDAR_INSTANCE
 
@@ -3612,7 +3612,7 @@ and <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6178997">Sun Bug
 ## 199.
 
 
-*  BigDecimal constructed from double that isn't represented precisely
+### BigDecimal constructed from double that isn't represented precisely
 
 system_tags : null, priority : 2; plugin_rule_key : DMI_BIGDECIMAL_CONSTRUCTED_FROM_DOUBLE
 
@@ -3629,7 +3629,7 @@ create the BigDecimal (e.g., <code>BigDecimal.valueOf(0.1)</code> gives 0.1).</h
 ## 200.
 
 
-*  Correctness - Bad comparison of nonnegative value with negative constant
+### Correctness - Bad comparison of nonnegative value with negative constant
 
 system_tags : null, priority : 3; plugin_rule_key : INT_BAD_COMPARISON_WITH_NONNEGATIVE_VALUE
 
@@ -3643,7 +3643,7 @@ system_tags : null, priority : 3; plugin_rule_key : INT_BAD_COMPARISON_WITH_NONN
 ## 201.
 
 
-*  Multithreaded correctness - Inconsistent synchronization
+### Multithreaded correctness - Inconsistent synchronization
 
 system_tags : null, priority : 2; plugin_rule_key : IS_INCONSISTENT_SYNC
 
@@ -3674,7 +3674,7 @@ system_tags : null, priority : 2; plugin_rule_key : IS_INCONSISTENT_SYNC
 ## 202.
 
 
-*  Dodgy - Remainder of hashCode could be negative
+### Dodgy - Remainder of hashCode could be negative
 
 system_tags : null, priority : 3; plugin_rule_key : RV_REM_OF_HASHCODE
 
@@ -3700,7 +3700,7 @@ value of the result of the remainder operation (i.e., use
 ## 203.
 
 
-*  Experimental - Potential lost logger changes due to weak reference in OpenJDK
+### Experimental - Potential lost logger changes due to weak reference in OpenJDK
 
 system_tags : null, priority : 0; plugin_rule_key : LG_LOST_LOGGER_DUE_TO_WEAK_REFERENCE
 
@@ -3738,7 +3738,7 @@ system_tags : null, priority : 0; plugin_rule_key : LG_LOST_LOGGER_DUE_TO_WEAK_R
 ## 204.
 
 
-*  Adding elements of an entry set may fail due to reuse of Entry objects
+### Adding elements of an entry set may fail due to reuse of Entry objects
 
 system_tags : null, priority : 2; plugin_rule_key : DMI_ENTRY_SETS_MAY_REUSE_ENTRY_OBJECTS
 
@@ -3755,7 +3755,7 @@ system_tags : null, priority : 2; plugin_rule_key : DMI_ENTRY_SETS_MAY_REUSE_ENT
 ## 205.
 
 
-*  Correctness - int value cast to float and then passed to Math.round
+### Correctness - int value cast to float and then passed to Math.round
 
 system_tags : null, priority : 3; plugin_rule_key : ICAST_INT_CAST_TO_FLOAT_PASSED_TO_ROUND
 
@@ -3777,7 +3777,7 @@ floating point arithmetic.
 ## 206.
 
 
-*  Correctness - Bad attempt to compute absolute value of signed 32-bit hashcode
+### Correctness - Bad attempt to compute absolute value of signed 32-bit hashcode
 
 system_tags : null, priority : 3; plugin_rule_key : RV_ABSOLUTE_VALUE_OF_HASHCODE
 
@@ -3794,7 +3794,7 @@ is <code>Integer.MIN_VALUE</code>, then the result will be negative as well (sin
 ## 207.
 
 
-*  Correctness - hasNext method invokes next
+### Correctness - hasNext method invokes next
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_CALLING_NEXT_FROM_HASNEXT
 
@@ -3811,7 +3811,7 @@ and the next method is supposed to change the state of the iterator.
 ## 208.
 
 
-*  Correctness - Possible null pointer dereference
+### Correctness - Possible null pointer dereference
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NULL_ON_SOME_PATH
 
@@ -3829,7 +3829,7 @@ the null pointer exception can't ever be executed; deciding that is beyond the a
 ## 209.
 
 
-*  Multithreaded correctness - Class's readObject() method is synchronized
+### Multithreaded correctness - Class's readObject() method is synchronized
 
 system_tags : null, priority : 3; plugin_rule_key : RS_READOBJECT_SYNC
 
@@ -3847,7 +3847,7 @@ system_tags : null, priority : 3; plugin_rule_key : RS_READOBJECT_SYNC
 ## 210.
 
 
-*  Correctness - equals(...) used to compare incompatible arrays
+### Correctness - equals(...) used to compare incompatible arrays
 
 system_tags : null, priority : 4; plugin_rule_key : EC_INCOMPATIBLE_ARRAY_COMPARE
 
@@ -3863,7 +3863,7 @@ This method invokes the .equals(Object o) to compare two arrays, but the arrays 
 ## 211.
 
 
-*  Dodgy - Unchecked/unconfirmed cast
+### Dodgy - Unchecked/unconfirmed cast
 
 system_tags : null, priority : 3; plugin_rule_key : BC_UNCONFIRMED_CAST
 
@@ -3880,7 +3880,7 @@ cast will not fail.
 ## 212.
 
 
-*  Bad practice - equals method fails for subtypes
+### Bad practice - equals method fails for subtypes
 
 system_tags : null, priority : 3; plugin_rule_key : EQ_GETCLASS_AND_CLASS_CONSTANT
 
@@ -3897,7 +3897,7 @@ It is better to check if <code>this.getClass() == o.getClass()</code>.
 ## 213.
 
 
-*  Correctness - Double assignment of field
+### Correctness - Double assignment of field
 
 system_tags : null, priority : 3; plugin_rule_key : SA_FIELD_DOUBLE_ASSIGNMENT
 
@@ -3918,7 +3918,7 @@ system_tags : null, priority : 3; plugin_rule_key : SA_FIELD_DOUBLE_ASSIGNMENT
 ## 214.
 
 
-*  Correctness - Number of format-string arguments does not correspond to number of placeholders
+### Correctness - Number of format-string arguments does not correspond to number of placeholders
 
 system_tags : null, priority : 3; plugin_rule_key : VA_FORMAT_STRING_ARG_MISMATCH
 
@@ -3936,7 +3936,7 @@ author intended.
 ## 215.
 
 
-*  Correctness - Primitive value is unboxed and coerced for ternary operator
+### Correctness - Primitive value is unboxed and coerced for ternary operator
 
 system_tags : null, priority : 2; plugin_rule_key : BX_UNBOXED_AND_COERCED_FOR_TERNARY_OPERATOR
 
@@ -3956,7 +3956,7 @@ converted to a floating point value, and boxed. See JLS Section 15.25.
 ## 216.
 
 
-*  Switch statement found where one case falls through to the next case
+### Switch statement found where one case falls through to the next case
 
 system_tags : null, priority : 3; plugin_rule_key : SF_SWITCH_FALLTHROUGH
 
@@ -3976,7 +3976,7 @@ This rule is deprecated, use {rule:squid:S128} instead.
 ## 217.
 
 
-*  Correctness - Double.longBitsToDouble invoked on an int
+### Correctness - Double.longBitsToDouble invoked on an int
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_LONG_BITS_TO_DOUBLE_INVOKED_ON_INT
 
@@ -3992,7 +3992,7 @@ system_tags : null, priority : 3; plugin_rule_key : DMI_LONG_BITS_TO_DOUBLE_INVO
 ## 218.
 
 
-*  Correctness - TestCase has no tests
+### Correctness - TestCase has no tests
 
 system_tags : null, priority : 3; plugin_rule_key : IJU_NO_TESTS
 
@@ -4005,7 +4005,7 @@ system_tags : null, priority : 3; plugin_rule_key : IJU_NO_TESTS
 ## 219.
 
 
-*  Correctness - "." used for regular expression
+### Correctness - "." used for regular expression
 
 system_tags : null, priority : 3; plugin_rule_key : RE_POSSIBLE_UNINTENDED_PATTERN
 
@@ -4024,7 +4024,7 @@ character has been replaced by a / character.
 ## 220.
 
 
-*  Correctness - Self comparison of value with itself
+### Correctness - Self comparison of value with itself
 
 system_tags : null, priority : 3; plugin_rule_key : SA_LOCAL_SELF_COMPARISON
 
@@ -4039,7 +4039,7 @@ a logic error.  Make sure that you are comparing the right things.
 ## 221.
 
 
-*  Bad practice - Superclass uses subclass during initialization
+### Bad practice - Superclass uses subclass during initialization
 
 system_tags : null, priority : 2; plugin_rule_key : IC_SUPERCLASS_USES_SUBCLASS_DURING_INITIALIZATION
 
@@ -4064,7 +4064,7 @@ public class CircularClassInitialization {
 ## 222.
 
 
-*  Multithreaded correctness - Unsynchronized get method, synchronized set method
+### Multithreaded correctness - Unsynchronized get method, synchronized set method
 
 system_tags : null, priority : 2; plugin_rule_key : UG_SYNC_SET_UNSYNC_GET
 
@@ -4081,7 +4081,7 @@ system_tags : null, priority : 2; plugin_rule_key : UG_SYNC_SET_UNSYNC_GET
 ## 223.
 
 
-*  Correctness - Impossible downcast
+### Correctness - Impossible downcast
 
 system_tags : null, priority : 4; plugin_rule_key : BC_IMPOSSIBLE_DOWNCAST
 
@@ -4094,7 +4094,7 @@ This cast will always throw a ClassCastException. The analysis believes it knows
 ## 224.
 
 
-*  Correctness - Nonsensical self computation involving a field (e.g., x & x)
+### Correctness - Nonsensical self computation involving a field (e.g., x & x)
 
 system_tags : null, priority : 3; plugin_rule_key : SA_FIELD_SELF_COMPUTATION
 
@@ -4112,7 +4112,7 @@ a logic error.  Double check the computation.
 ## 225.
 
 
-*  Multithreaded correctness - Using notify() rather than notifyAll()
+### Multithreaded correctness - Using notify() rather than notifyAll()
 
 system_tags : null, priority : 3; plugin_rule_key : NO_NOTIFY_NOT_NOTIFYALL
 
@@ -4128,7 +4128,7 @@ system_tags : null, priority : 3; plugin_rule_key : NO_NOTIFY_NOT_NOTIFYALL
 ## 226.
 
 
-*  Boxed value is unboxed and then immediately reboxed
+### Boxed value is unboxed and then immediately reboxed
 
 system_tags : null, priority : 2; plugin_rule_key : BX_UNBOXING_IMMEDIATELY_REBOXED
 
@@ -4141,7 +4141,7 @@ system_tags : null, priority : 2; plugin_rule_key : BX_UNBOXING_IMMEDIATELY_REBO
 ## 227.
 
 
-*  Dead store due to switch statement fall through
+### Dead store due to switch statement fall through
 
 system_tags : null, priority : 3; plugin_rule_key : SF_DEAD_STORE_DUE_TO_SWITCH_FALLTHROUGH
 
@@ -4158,7 +4158,7 @@ system_tags : null, priority : 3; plugin_rule_key : SF_DEAD_STORE_DUE_TO_SWITCH_
 ## 228.
 
 
-*  Bad practice - Class defines compareTo(...) and uses Object.equals()
+### Bad practice - Class defines compareTo(...) and uses Object.equals()
 
 system_tags : null, priority : 3; plugin_rule_key : EQ_COMPARETO_USE_OBJECT_EQUALS
 
@@ -4189,7 +4189,7 @@ This rule is deprecated, use {rule:squid:S1210} instead.
 ## 229.
 
 
-*  Multithreaded correctness - Incorrect lazy initialization and update of static field
+### Multithreaded correctness - Incorrect lazy initialization and update of static field
 
 system_tags : null, priority : 3; plugin_rule_key : LI_LAZY_INIT_UPDATE_STATIC
 
@@ -4208,7 +4208,7 @@ any other thread from accessing the stored object until it is fully initialized.
 ## 230.
 
 
-*  Bad practice - serialVersionUID isn't long
+### Bad practice - serialVersionUID isn't long
 
 system_tags : null, priority : 2; plugin_rule_key : SE_NONLONG_SERIALVERSIONID
 
@@ -4224,7 +4224,7 @@ system_tags : null, priority : 2; plugin_rule_key : SE_NONLONG_SERIALVERSIONID
 ## 231.
 
 
-*  Bad practice - Method may fail to close database resource
+### Bad practice - Method may fail to close database resource
 
 system_tags : null, priority : 3; plugin_rule_key : ODR_OPEN_DATABASE_RESOURCE
 
@@ -4244,7 +4244,7 @@ have problems communicating with the database.
 ## 232.
 
 
-*  Correctness - Suspicious reference comparison to constant
+### Correctness - Suspicious reference comparison to constant
 
 system_tags : null, priority : 2; plugin_rule_key : RC_REF_COMPARISON_BAD_PRACTICE
 
@@ -4257,7 +4257,7 @@ This method compares a reference value to a constant using the == or != operator
 ## 233.
 
 
-*  Class defines hashcode(); should it be hashCode()?
+### Class defines hashcode(); should it be hashCode()?
 
 system_tags : null, priority : 3; plugin_rule_key : NM_LCASE_HASHCODE
 
@@ -4278,7 +4278,7 @@ This rule is deprecated, use {rule:squid:S1221} instead.
 ## 234.
 
 
-*  Security - JSP reflected cross site scripting vulnerability
+### Security - JSP reflected cross site scripting vulnerability
 
 system_tags : null, priority : 3; plugin_rule_key : XSS_REQUEST_PARAMETER_TO_JSP_WRITER
 
@@ -4298,7 +4298,7 @@ consider using a commercial static analysis or pen-testing tool.
 ## 235.
 
 
-*  Performance - Method uses toArray() with zero-length array argument
+### Performance - Method uses toArray() with zero-length array argument
 
 system_tags : null, priority : 3; plugin_rule_key : ITA_INEFFICIENT_TO_ARRAY
 
@@ -4317,7 +4317,7 @@ directly. This avoids the need to create a second array
 ## 236.
 
 
-*  Performance - Should be a static inner class
+### Performance - Should be a static inner class
 
 system_tags : null, priority : 2; plugin_rule_key : SIC_INNER_SHOULD_BE_STATIC
 
@@ -4335,7 +4335,7 @@ system_tags : null, priority : 2; plugin_rule_key : SIC_INNER_SHOULD_BE_STATIC
 ## 237.
 
 
-*  Bad practice - Comparison of String parameter using == or !=
+### Bad practice - Comparison of String parameter using == or !=
 
 system_tags : null, priority : 2; plugin_rule_key : ES_COMPARING_PARAMETER_STRING_WITH_EQ
 
@@ -4352,7 +4352,7 @@ using the <code>equals(Object)</code> method instead.</h5>
 ## 238.
 
 
-*  Correctness - A collection is added to itself
+### Correctness - A collection is added to itself
 
 system_tags : null, priority : 3; plugin_rule_key : IL_CONTAINER_ADDED_TO_ITSELF
 
@@ -4367,7 +4367,7 @@ set will throw a StackOverflowException.
 ## 239.
 
 
-*  Correctness - The type of a supplied argument doesn't match format specifier
+### Correctness - The type of a supplied argument doesn't match format specifier
 
 system_tags : null, priority : 3; plugin_rule_key : VA_FORMAT_STRING_BAD_CONVERSION
 
@@ -4385,7 +4385,7 @@ the String "1" is incompatible with the format specifier %d.
 ## 240.
 
 
-*  Correctness - A parameter is dead upon entry to a method but overwritten
+### Correctness - A parameter is dead upon entry to a method but overwritten
 
 system_tags : null, priority : 3; plugin_rule_key : IP_PARAMETER_IS_DEAD_BUT_OVERWRITTEN
 
@@ -4403,7 +4403,7 @@ the caller.
 ## 241.
 
 
-*  Bad practice - Covariant compareTo() method defined
+### Bad practice - Covariant compareTo() method defined
 
 system_tags : null, priority : 2; plugin_rule_key : CO_SELF_NO_OBJECT
 
@@ -4419,7 +4419,7 @@ system_tags : null, priority : 2; plugin_rule_key : CO_SELF_NO_OBJECT
 ## 242.
 
 
-*  Malicious code vulnerability - Field is a mutable array
+### Malicious code vulnerability - Field is a mutable array
 
 system_tags : null, priority : 2; plugin_rule_key : MS_MUTABLE_ARRAY
 
@@ -4435,7 +4435,7 @@ system_tags : null, priority : 2; plugin_rule_key : MS_MUTABLE_ARRAY
 ## 243.
 
 
-*  Multithreaded correctness - Unconditional wait
+### Multithreaded correctness - Unconditional wait
 
 system_tags : null, priority : 2; plugin_rule_key : UW_UNCOND_WAIT
 
@@ -4452,7 +4452,7 @@ system_tags : null, priority : 2; plugin_rule_key : UW_UNCOND_WAIT
 ## 244.
 
 
-*  An increment to a volatile field isn't atomic
+### An increment to a volatile field isn't atomic
 
 system_tags : null, priority : 3; plugin_rule_key : VO_VOLATILE_INCREMENT
 
@@ -4466,7 +4466,7 @@ than one thread is incrementing the field at the same time, increments could be 
 ## 245.
 
 
-*  Dead store to local variable that shadows field
+### Dead store to local variable that shadows field
 
 system_tags : null, priority : 2; plugin_rule_key : DLS_DEAD_LOCAL_STORE_SHADOWS_FIELD
 
@@ -4482,7 +4482,7 @@ variable instead?</h5>
 ## 246.
 
 
-*  compareTo()/compare() returns Integer.MIN_VALUE
+### compareTo()/compare() returns Integer.MIN_VALUE
 
 system_tags : null, priority : 2; plugin_rule_key : CO_COMPARETO_RESULTS_MIN_VALUE
 
@@ -4499,7 +4499,7 @@ the value returned is Integer.MIN_VALUE. So just return -1 rather than Integer.M
 ## 247.
 
 
-*  Experimental - Calls to equals on a final class that doesn't override Object's equals method
+### Experimental - Calls to equals on a final class that doesn't override Object's equals method
 
 system_tags : null, priority : 0; plugin_rule_key : UOE_USE_OBJECT_EQUALS
 
@@ -4521,7 +4521,7 @@ system_tags : null, priority : 0; plugin_rule_key : UOE_USE_OBJECT_EQUALS
 ## 248.
 
 
-*  Multithreaded correctness - Synchronization on boxed primitive values
+### Multithreaded correctness - Synchronization on boxed primitive values
 
 system_tags : null, priority : 3; plugin_rule_key : DL_SYNCHRONIZATION_ON_UNSHARED_BOXED_PRIMITIVE
 
@@ -4553,7 +4553,7 @@ throughout the JVM, leading to very confusing behavior and potential deadlock.
 ## 249.
 
 
-*  Bad practice - Method with Boolean return type returns explicit null
+### Bad practice - Method with Boolean return type returns explicit null
 
 system_tags : null, priority : 2; plugin_rule_key : NP_BOOLEAN_RETURN_NULL
 
@@ -4571,7 +4571,7 @@ system_tags : null, priority : 2; plugin_rule_key : NP_BOOLEAN_RETURN_NULL
 ## 250.
 
 
-*  Performance - Explicit garbage collection; extremely dubious except in benchmarking code
+### Performance - Explicit garbage collection; extremely dubious except in benchmarking code
 
 system_tags : null, priority : 2; plugin_rule_key : DM_GC
 
@@ -4594,7 +4594,7 @@ This rule is deprecated, use {rule:squid:S1215} instead.
 ## 251.
 
 
-*  Multithreaded correctness - Synchronization on boxed primitive could lead to deadlock
+### Multithreaded correctness - Synchronization on boxed primitive could lead to deadlock
 
 system_tags : null, priority : 3; plugin_rule_key : DL_SYNCHRONIZATION_ON_BOXED_PRIMITIVE
 
@@ -4619,7 +4619,7 @@ and possible deadlock</p>
 ## 252.
 
 
-*  Bad practice - Method might drop exception
+### Bad practice - Method might drop exception
 
 system_tags : null, priority : 2; plugin_rule_key : DE_MIGHT_DROP
 
@@ -4634,7 +4634,7 @@ system_tags : null, priority : 2; plugin_rule_key : DE_MIGHT_DROP
 ## 253.
 
 
-*  Dodgy - Method discards result of readLine after checking if it is nonnull
+### Dodgy - Method discards result of readLine after checking if it is nonnull
 
 system_tags : null, priority : 2; plugin_rule_key : RV_DONT_JUST_NULL_CHECK_READLINE
 
@@ -4649,7 +4649,7 @@ to use that non-null value. Calling readLine again will give you a different lin
 ## 254.
 
 
-*  Experimental - Bad Applet Constructor relies on uninitialized AppletStub
+### Experimental - Bad Applet Constructor relies on uninitialized AppletStub
 
 system_tags : null, priority : 0; plugin_rule_key : BAC_BAD_APPLET_CONSTRUCTOR
 
@@ -4666,7 +4666,7 @@ system_tags : null, priority : 0; plugin_rule_key : BAC_BAD_APPLET_CONSTRUCTOR
 ## 255.
 
 
-*  Performance - Unread field
+### Performance - Unread field
 
 system_tags : null, priority : 2; plugin_rule_key : URF_UNREAD_FIELD
 
@@ -4679,7 +4679,7 @@ system_tags : null, priority : 2; plugin_rule_key : URF_UNREAD_FIELD
 ## 256.
 
 
-*  Correctness - A known null value is checked to see if it is an instance of a type
+### Correctness - A known null value is checked to see if it is an instance of a type
 
 system_tags : null, priority : 4; plugin_rule_key : NP_NULL_INSTANCEOF
 
@@ -4696,7 +4696,7 @@ an indication of some misunderstanding or some other logic error.
 ## 257.
 
 
-*  Malicious code vulnerability - Field should be package protected
+### Malicious code vulnerability - Field should be package protected
 
 system_tags : null, priority : 2; plugin_rule_key : MS_PKGPROTECT
 
@@ -4712,7 +4712,7 @@ system_tags : null, priority : 2; plugin_rule_key : MS_PKGPROTECT
 ## 258.
 
 
-*  Correctness - Value required to not have type qualifier, but marked as unknown
+### Correctness - Value required to not have type qualifier, but marked as unknown
 
 system_tags : null, priority : 3; plugin_rule_key : TQ_EXPLICIT_UNKNOWN_SOURCE_VALUE_REACHES_NEVER_SINK
 
@@ -4729,7 +4729,7 @@ system_tags : null, priority : 3; plugin_rule_key : TQ_EXPLICIT_UNKNOWN_SOURCE_V
 ## 259.
 
 
-*  Experimental - Method accesses a private member variable of owning class
+### Experimental - Method accesses a private member variable of owning class
 
 system_tags : null, priority : 0; plugin_rule_key : IMA_INEFFICIENT_MEMBER_ACCESS
 
@@ -4747,7 +4747,7 @@ system_tags : null, priority : 0; plugin_rule_key : IMA_INEFFICIENT_MEMBER_ACCES
 ## 260.
 
 
-*  Code checks for specific values returned by compareTo
+### Code checks for specific values returned by compareTo
 
 system_tags : null, priority : 2; plugin_rule_key : RV_CHECK_COMPARETO_FOR_SPECIFIC_RETURN_VALUE
 
@@ -4763,7 +4763,7 @@ some of them will return other values.</h5>
 ## 261.
 
 
-*  int value converted to long and used as absolute time
+### int value converted to long and used as absolute time
 
 system_tags : null, priority : 2; plugin_rule_key : ICAST_INT_2_LONG_AS_INSTANT
 
@@ -4795,7 +4795,7 @@ Date getDate(long seconds) { return new Date(seconds * 1000); }
 ## 262.
 
 
-*  Multithreaded correctness - Method calls Thread.sleep() with a lock held
+### Multithreaded correctness - Method calls Thread.sleep() with a lock held
 
 system_tags : null, priority : 3; plugin_rule_key : SWL_SLEEP_WITH_LOCK_HELD
 
@@ -4814,7 +4814,7 @@ system_tags : null, priority : 3; plugin_rule_key : SWL_SLEEP_WITH_LOCK_HELD
 ## 263.
 
 
-*  Malicious code vulnerability - Finalizer should be protected, not public
+### Malicious code vulnerability - Finalizer should be protected, not public
 
 system_tags : null, priority : 2; plugin_rule_key : FI_PUBLIC_SHOULD_BE_PROTECTED
 
@@ -4828,7 +4828,7 @@ system_tags : null, priority : 2; plugin_rule_key : FI_PUBLIC_SHOULD_BE_PROTECTE
 ## 264.
 
 
-*  Correctness - Unneeded use of currentThread() call, to call interrupted()
+### Correctness - Unneeded use of currentThread() call, to call interrupted()
 
 system_tags : null, priority : 3; plugin_rule_key : STI_INTERRUPTED_ON_CURRENTTHREAD
 
@@ -4844,7 +4844,7 @@ static method, is more simple and clear to use Thread.interrupted().
 ## 265.
 
 
-*  Bad practice - Check for sign of bitwise operation
+### Bad practice - Check for sign of bitwise operation
 
 system_tags : null, priority : 3; plugin_rule_key : BIT_SIGNED_CHECK
 
@@ -4867,7 +4867,7 @@ to use '!= 0' instead of '&gt; 0'.
 ## 266.
 
 
-*  Correctness - Field not initialized in constructor
+### Correctness - Field not initialized in constructor
 
 system_tags : null, priority : 1; plugin_rule_key : UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR
 
@@ -4880,7 +4880,7 @@ system_tags : null, priority : 1; plugin_rule_key : UWF_FIELD_NOT_INITIALIZED_IN
 ## 267.
 
 
-*  Correctness - equals() method defined that doesn't override equals(Object)
+### Correctness - equals() method defined that doesn't override equals(Object)
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_OTHER_NO_OBJECT
 
@@ -4902,7 +4902,7 @@ This rule is deprecated, use {rule:squid:S1201} instead.
 ## 268.
 
 
-*  Correctness - Method call passes null to a nonnull parameter
+### Correctness - Method call passes null to a nonnull parameter
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NONNULL_PARAM_VIOLATION
 
@@ -4920,7 +4920,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_NONNULL_PARAM_VIOLATION
 ## 269.
 
 
-*  Bad practice - Empty finalizer should be deleted
+### Bad practice - Empty finalizer should be deleted
 
 system_tags : null, priority : 2; plugin_rule_key : FI_EMPTY
 
@@ -4934,7 +4934,7 @@ system_tags : null, priority : 2; plugin_rule_key : FI_EMPTY
 ## 270.
 
 
-*  Correctness - close() invoked on a value that is always null
+### Correctness - close() invoked on a value that is always null
 
 system_tags : null, priority : 4; plugin_rule_key : NP_CLOSING_NULL
 
@@ -4947,7 +4947,7 @@ close() is being invoked on a value that is always null. If this statement is ex
 ## 271.
 
 
-*  Correctness - Field only ever set to null
+### Correctness - Field only ever set to null
 
 system_tags : null, priority : 3; plugin_rule_key : UWF_NULL_FIELD
 
@@ -4962,7 +4962,7 @@ Check for errors, or remove it if it is useless.</h5>
 ## 272.
 
 
-*  Multithreaded correctness - Naked notify
+### Multithreaded correctness - Naked notify
 
 system_tags : null, priority : 3; plugin_rule_key : NN_NAKED_NOTIFY
 
@@ -4984,7 +4984,7 @@ system_tags : null, priority : 3; plugin_rule_key : NN_NAKED_NOTIFY
 ## 273.
 
 
-*  Bad practice - Method may fail to close stream
+### Bad practice - Method may fail to close stream
 
 system_tags : null, priority : 3; plugin_rule_key : OS_OPEN_STREAM
 
@@ -5003,7 +5003,7 @@ closed.</h5>
 ## 274.
 
 
-*  Bad practice - Class names shouldn't shadow simple name of superclass
+### Bad practice - Class names shouldn't shadow simple name of superclass
 
 system_tags : null, priority : 2; plugin_rule_key : NM_SAME_SIMPLE_NAME_AS_SUPERCLASS
 
@@ -5021,7 +5021,7 @@ opportunities to accidently define methods that do not override methods in their
 ## 275.
 
 
-*  Bad practice - Abstract class defines covariant equals() method
+### Bad practice - Abstract class defines covariant equals() method
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_ABSTRACT_SELF
 
@@ -5041,7 +5041,7 @@ This rule is deprecated, use {rule:squid:S1201} instead.
 ## 276.
 
 
-*  Bad practice - Store of non serializable object into HttpSession
+### Bad practice - Store of non serializable object into HttpSession
 
 system_tags : null, priority : 3; plugin_rule_key : J2EE_STORE_OF_NON_SERIALIZABLE_OBJECT_INTO_SESSION
 
@@ -5057,7 +5057,7 @@ If this session is passivated or migrated, an error will result.
 ## 277.
 
 
-*  Dodgy - Redundant comparison of two null values
+### Dodgy - Redundant comparison of two null values
 
 system_tags : null, priority : 3; plugin_rule_key : RCN_REDUNDANT_COMPARISON_TWO_NULL_VALUES
 
@@ -5071,7 +5071,7 @@ both be definitely null.</h5>
 ## 278.
 
 
-*  Performance - Could be refactored into a named static inner class
+### Performance - Could be refactored into a named static inner class
 
 system_tags : null, priority : 2; plugin_rule_key : SIC_INNER_SHOULD_BE_STATIC_ANON
 
@@ -5090,7 +5090,7 @@ the inner class so that it is a named inner class.</h5>
 ## 279.
 
 
-*  Bad practice - Class is not derived from an Exception, even though it is named as such
+### Bad practice - Class is not derived from an Exception, even though it is named as such
 
 system_tags : null, priority : 2; plugin_rule_key : NM_CLASS_NOT_EXCEPTION
 
@@ -5104,7 +5104,7 @@ be confusing to users of this class.</h5>
 ## 280.
 
 
-*  Experimental - Unexpected/undesired warning from FindBugs
+### Experimental - Unexpected/undesired warning from FindBugs
 
 system_tags : null, priority : 0; plugin_rule_key : FB_UNEXPECTED_WARNING
 
@@ -5120,7 +5120,7 @@ system_tags : null, priority : 0; plugin_rule_key : FB_UNEXPECTED_WARNING
 ## 281.
 
 
-*  Correctness - Method must be private in order for serialization to work
+### Correctness - Method must be private in order for serialization to work
 
 system_tags : null, priority : 2; plugin_rule_key : SE_METHOD_MUST_BE_PRIVATE
 
@@ -5135,7 +5135,7 @@ system_tags : null, priority : 2; plugin_rule_key : SE_METHOD_MUST_BE_PRIVATE
 ## 282.
 
 
-*  Correctness - Method assigns boolean literal in boolean expression
+### Correctness - Method assigns boolean literal in boolean expression
 
 system_tags : null, priority : 3; plugin_rule_key : QBA_QUESTIONABLE_BOOLEAN_ASSIGNMENT
 
@@ -5152,7 +5152,7 @@ system_tags : null, priority : 3; plugin_rule_key : QBA_QUESTIONABLE_BOOLEAN_ASS
 ## 283.
 
 
-*  Performance - Unread field: should this field be static?
+### Performance - Unread field: should this field be static?
 
 system_tags : null, priority : 2; plugin_rule_key : SS_SHOULD_BE_STATIC
 
@@ -5167,7 +5167,7 @@ system_tags : null, priority : 2; plugin_rule_key : SS_SHOULD_BE_STATIC
 ## 284.
 
 
-*  Bad practice - Explicit invocation of finalizer
+### Bad practice - Explicit invocation of finalizer
 
 system_tags : null, priority : 2; plugin_rule_key : FI_EXPLICIT_INVOCATION
 
@@ -5190,7 +5190,7 @@ This rule is deprecated, use {rule:squid:ObjectFinalizeCheck} instead.
 ## 285.
 
 
-*  Correctness - equals() used to compare array and nonarray
+### Correctness - equals() used to compare array and nonarray
 
 system_tags : null, priority : 3; plugin_rule_key : EC_ARRAY_AND_NONARRAY
 
@@ -5210,7 +5210,7 @@ contents of the arrays, use java.util.Arrays.equals(Object[], Object[]).
 ## 286.
 
 
-*  Correctness - Incompatible bit masks (BIT_IOR)
+### Correctness - Incompatible bit masks (BIT_IOR)
 
 system_tags : null, priority : 3; plugin_rule_key : BIT_IOR
 
@@ -5230,7 +5230,7 @@ operator ("|") instead of bitwise AND ("&amp;").</p>
 ## 287.
 
 
-*  Malicious code vulnerability - Field isn't final but should be
+### Malicious code vulnerability - Field isn't final but should be
 
 system_tags : null, priority : 2; plugin_rule_key : MS_SHOULD_BE_FINAL
 
@@ -5250,7 +5250,7 @@ system_tags : null, priority : 2; plugin_rule_key : MS_SHOULD_BE_FINAL
 ## 288.
 
 
-*  Bad practice - Transient field that isn't set by deserialization.
+### Bad practice - Transient field that isn't set by deserialization.
 
 system_tags : null, priority : 2; plugin_rule_key : SE_TRANSIENT_FIELD_NOT_RESTORED
 
@@ -5265,7 +5265,7 @@ deserialized instance of the class.
 ## 289.
 
 
-*  Correctness - Covariant equals() method defined for enum
+### Correctness - Covariant equals() method defined for enum
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_DONT_DEFINE_EQUALS_FOR_ENUM
 
@@ -5288,7 +5288,7 @@ This rule is deprecated, use {rule:squid:S1201} instead.
 ## 290.
 
 
-*  Correctness - More arguments are passed that are actually used in the format string
+### Correctness - More arguments are passed that are actually used in the format string
 
 system_tags : null, priority : 2; plugin_rule_key : VA_FORMAT_STRING_EXTRA_ARGUMENTS_PASSED
 
@@ -5306,7 +5306,7 @@ information that was intended to be included in the formatted string.
 ## 291.
 
 
-*  Correctness - equals method always returns false
+### Correctness - equals method always returns false
 
 system_tags : null, priority : 4; plugin_rule_key : EQ_ALWAYS_FALSE
 
@@ -5326,7 +5326,7 @@ public boolean equals(Object o) { return this == o; }
 ## 292.
 
 
-*  Unread public/protected field
+### Unread public/protected field
 
 system_tags : null, priority : 0; plugin_rule_key : URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD
 
@@ -5340,7 +5340,7 @@ used with classes not seen as part of the analysis. If not, consider removing it
 ## 293.
 
 
-*  Dodgy - Vacuous bit mask operation on integer value
+### Dodgy - Vacuous bit mask operation on integer value
 
 system_tags : null, priority : 3; plugin_rule_key : INT_VACUOUS_BIT_OPERATION
 
@@ -5356,7 +5356,7 @@ system_tags : null, priority : 3; plugin_rule_key : INT_VACUOUS_BIT_OPERATION
 ## 294.
 
 
-*  Switch statement found where default case is missing
+### Switch statement found where default case is missing
 
 system_tags : null, priority : 2; plugin_rule_key : SF_SWITCH_NO_DEFAULT
 
@@ -5376,7 +5376,7 @@ This rule is deprecated, use {rule:squid:SwitchLastCaseIsDefaultCheck} instead.
 ## 295.
 
 
-*  Boxing/unboxing to parse a primitive
+### Boxing/unboxing to parse a primitive
 
 system_tags : null, priority : 2; plugin_rule_key : DM_BOXED_PRIMITIVE_FOR_PARSING
 
@@ -5392,7 +5392,7 @@ It is more efficient to just call the static parseXXX method.
 ## 296.
 
 
-*  Correctness - An apparent infinite loop
+### Correctness - An apparent infinite loop
 
 system_tags : null, priority : 3; plugin_rule_key : IL_INFINITE_LOOP
 
@@ -5406,7 +5406,7 @@ throwing an exception).</h5>
 ## 297.
 
 
-*  Correctness - equals method compares class names rather than class objects
+### Correctness - equals method compares class names rather than class objects
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_COMPARING_CLASS_NAMES
 
@@ -5422,7 +5422,7 @@ different class loaders. Just check to see if the class objects are the same.
 ## 298.
 
 
-*  Correctness - Null pointer dereference in method on exception path
+### Correctness - Null pointer dereference in method on exception path
 
 system_tags : null, priority : 3; plugin_rule_key : NP_ALWAYS_NULL_EXCEPTION
 
@@ -5441,7 +5441,7 @@ be an exception path, since the default case is often infeasible.</p>
 ## 299.
 
 
-*  Dodgy - Method uses the same code for two branches
+### Dodgy - Method uses the same code for two branches
 
 system_tags : null, priority : 3; plugin_rule_key : DB_DUPLICATE_BRANCHES
 
@@ -5457,7 +5457,7 @@ system_tags : null, priority : 3; plugin_rule_key : DB_DUPLICATE_BRANCHES
 ## 300.
 
 
-*  Bad practice - Dubious catching of IllegalMonitorStateException
+### Bad practice - Dubious catching of IllegalMonitorStateException
 
 system_tags : null, priority : 2; plugin_rule_key : IMSE_DONT_CATCH_IMSE
 
@@ -5472,7 +5472,7 @@ system_tags : null, priority : 2; plugin_rule_key : IMSE_DONT_CATCH_IMSE
 ## 301.
 
 
-*  Security - Servlet reflected cross site scripting vulnerability
+### Security - Servlet reflected cross site scripting vulnerability
 
 system_tags : null, priority : 3; plugin_rule_key : XSS_REQUEST_PARAMETER_TO_SERVLET_WRITER
 
@@ -5492,7 +5492,7 @@ consider using a commercial static analysis or pen-testing tool.
 ## 302.
 
 
-*  Dodgy - Code contains a hard coded reference to an absolute pathname
+### Dodgy - Code contains a hard coded reference to an absolute pathname
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_HARDCODED_ABSOLUTE_FILENAME
 
@@ -5507,7 +5507,7 @@ system_tags : null, priority : 3; plugin_rule_key : DMI_HARDCODED_ABSOLUTE_FILEN
 ## 303.
 
 
-*  Bad practice - Class defines hashCode() but not equals()
+### Bad practice - Class defines hashCode() but not equals()
 
 system_tags : null, priority : 3; plugin_rule_key : HE_HASHCODE_NO_EQUALS
 
@@ -5526,7 +5526,7 @@ This rule is deprecated, use {rule:squid:S1206} instead.
 ## 304.
 
 
-*  Correctness - Call to equals() comparing unrelated class and interface
+### Correctness - Call to equals() comparing unrelated class and interface
 
 system_tags : null, priority : 3; plugin_rule_key : EC_UNRELATED_CLASS_AND_INTERFACE
 
@@ -5552,7 +5552,7 @@ the result of this comparison will always be false at runtime.
 ## 305.
 
 
-*  Dodgy - Dereference of the result of readLine() without nullcheck
+### Dodgy - Dereference of the result of readLine() without nullcheck
 
 system_tags : null, priority : 3; plugin_rule_key : NP_DEREFERENCE_OF_READLINE_VALUE
 
@@ -5567,7 +5567,7 @@ to read, readLine() will return null and dereferencing that will generate a null
 ## 306.
 
 
-*  Correctness - Impossible cast
+### Correctness - Impossible cast
 
 system_tags : null, priority : 4; plugin_rule_key : BC_IMPOSSIBLE_CAST
 
@@ -5582,7 +5582,7 @@ This cast will always throw a ClassCastException.
 ## 307.
 
 
-*  Correctness - Possible null pointer dereference in method on exception path
+### Correctness - Possible null pointer dereference in method on exception path
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NULL_ON_SOME_PATH_EXCEPTION
 
@@ -5602,7 +5602,7 @@ be an exception path, since the default case is often infeasible.</p>
 ## 308.
 
 
-*  Dodgy - Unsigned right shift cast to short/byte
+### Dodgy - Unsigned right shift cast to short/byte
 
 system_tags : null, priority : 3; plugin_rule_key : ICAST_QUESTIONABLE_UNSIGNED_RIGHT_SHIFT
 
@@ -5620,7 +5620,7 @@ a signed and unsigned right shift (depending upon the size of the shift).
 ## 309.
 
 
-*  Dodgy - Initialization circularity
+### Dodgy - Initialization circularity
 
 system_tags : null, priority : 3; plugin_rule_key : IC_INIT_CIRCULARITY
 
@@ -5635,7 +5635,7 @@ system_tags : null, priority : 3; plugin_rule_key : IC_INIT_CIRCULARITY
 ## 310.
 
 
-*  Performance - Method calls static Math class method on a constant value
+### Performance - Method calls static Math class method on a constant value
 
 system_tags : null, priority : 3; plugin_rule_key : UM_UNNECESSARY_MATH
 
@@ -5725,7 +5725,7 @@ just use the constant. Methods detected are:
 ## 311.
 
 
-*  Class names should start with an upper case letter
+### Class names should start with an upper case letter
 
 system_tags : null, priority : 2; plugin_rule_key : NM_CLASS_NAMING_CONVENTION
 
@@ -5746,7 +5746,7 @@ This rule is deprecated, use {rule:squid:S00101} and {rule:squid:S00114} instead
 ## 312.
 
 
-*  Correctness - Nullcheck of value previously dereferenced
+### Correctness - Nullcheck of value previously dereferenced
 
 system_tags : null, priority : 3; plugin_rule_key : RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE
 
@@ -5764,7 +5764,7 @@ or the previous dereference is erroneous.</h5>
 ## 313.
 
 
-*  Dodgy - Class doesn't override equals in superclass
+### Dodgy - Class doesn't override equals in superclass
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_DOESNT_OVERRIDE_EQUALS
 
@@ -5784,7 +5784,7 @@ invoking super.equals(o).
 ## 314.
 
 
-*  Self assignment of local rather than assignment to field
+### Self assignment of local rather than assignment to field
 
 system_tags : null, priority : 2; plugin_rule_key : SA_LOCAL_SELF_ASSIGNMENT_INSTEAD_OF_FIELD
 
@@ -5809,7 +5809,7 @@ This rule is deprecated, use {rule:squid:S1226} instead.
 ## 315.
 
 
-*  Class defines tostring(); should it be toString()?
+### Class defines tostring(); should it be toString()?
 
 system_tags : null, priority : 2; plugin_rule_key : NM_LCASE_TOSTRING
 
@@ -5826,7 +5826,7 @@ system_tags : null, priority : 2; plugin_rule_key : NM_LCASE_TOSTRING
 ## 316.
 
 
-*  Multithreaded correctness - A thread was created using the default empty run method
+### Multithreaded correctness - A thread was created using the default empty run method
 
 system_tags : null, priority : 2; plugin_rule_key : DM_USELESS_THREAD
 
@@ -5841,7 +5841,7 @@ system_tags : null, priority : 2; plugin_rule_key : DM_USELESS_THREAD
 ## 317.
 
 
-*  Using monitor style wait methods on util.concurrent abstraction
+### Using monitor style wait methods on util.concurrent abstraction
 
 system_tags : null, priority : 2; plugin_rule_key : JML_JSR166_CALLING_WAIT_RATHER_THAN_AWAIT
 
@@ -5857,7 +5857,7 @@ design, as other developers will find it exceptionally confusing.</h5>
 ## 318.
 
 
-*  Bad practice - Finalizer nullifies superclass finalizer
+### Bad practice - Finalizer nullifies superclass finalizer
 
 system_tags : null, priority : 3; plugin_rule_key : FI_NULLIFY_SUPER
 
@@ -5873,7 +5873,7 @@ system_tags : null, priority : 3; plugin_rule_key : FI_NULLIFY_SUPER
 ## 319.
 
 
-*  Malicious code vulnerability - Field is a mutable Hashtable
+### Malicious code vulnerability - Field is a mutable Hashtable
 
 system_tags : null, priority : 2; plugin_rule_key : MS_MUTABLE_HASHTABLE
 
@@ -5889,7 +5889,7 @@ system_tags : null, priority : 2; plugin_rule_key : MS_MUTABLE_HASHTABLE
 ## 320.
 
 
-*  Bad practice - Confusing method names
+### Bad practice - Confusing method names
 
 system_tags : null, priority : 2; plugin_rule_key : NM_CONFUSING
 
@@ -5902,7 +5902,7 @@ system_tags : null, priority : 2; plugin_rule_key : NM_CONFUSING
 ## 321.
 
 
-*  Performance - Method allocates an object, only to get the class object
+### Performance - Method allocates an object, only to get the class object
 
 system_tags : null, priority : 2; plugin_rule_key : DM_NEW_FOR_GETCLASS
 
@@ -5916,7 +5916,7 @@ system_tags : null, priority : 2; plugin_rule_key : DM_NEW_FOR_GETCLASS
 ## 322.
 
 
-*  Dodgy - Computation of average could overflow
+### Dodgy - Computation of average could overflow
 
 system_tags : null, priority : 3; plugin_rule_key : IM_AVERAGE_COMPUTATION_COULD_OVERFLOW
 
@@ -5941,7 +5941,7 @@ publicized the bug pattern</a>.
 ## 323.
 
 
-*  Bad practice - Non-serializable class has a serializable inner class
+### Bad practice - Non-serializable class has a serializable inner class
 
 system_tags : null, priority : 1; plugin_rule_key : SE_BAD_FIELD_INNER_CLASS
 
@@ -5961,7 +5961,7 @@ of the outer class, which it often not what you really want.
 ## 324.
 
 
-*  Correctness - Read of unwritten field
+### Correctness - Read of unwritten field
 
 system_tags : null, priority : 2; plugin_rule_key : NP_UNWRITTEN_FIELD
 
@@ -5974,7 +5974,7 @@ system_tags : null, priority : 2; plugin_rule_key : NP_UNWRITTEN_FIELD
 ## 325.
 
 
-*  Bad practice - Method ignores exceptional return value
+### Bad practice - Method ignores exceptional return value
 
 system_tags : null, priority : 2; plugin_rule_key : RV_RETURN_VALUE_IGNORED_BAD_PRACTICE
 
@@ -5994,7 +5994,7 @@ signals unexpected behavior by returning an atypical return value.
 ## 326.
 
 
-*  Comparing values with incompatible type qualifiers
+### Comparing values with incompatible type qualifiers
 
 system_tags : null, priority : 2; plugin_rule_key : TQ_COMPARING_VALUES_WITH_INCOMPATIBLE_TYPE_QUALIFIERS
 
@@ -6028,7 +6028,7 @@ public boolean example(@Negative Integer value1, @NonNegative Integer value2) {
 ## 327.
 
 
-*  Bad practice - Suspicious reference comparison
+### Bad practice - Suspicious reference comparison
 
 system_tags : null, priority : 3; plugin_rule_key : RC_REF_COMPARISON
 
@@ -6044,7 +6044,7 @@ not be compared by reference are java.lang.Integer, java.lang.Float, etc.</h5>
 ## 328.
 
 
-*  Correctness - Class defines field that masks a superclass field
+### Correctness - Class defines field that masks a superclass field
 
 system_tags : null, priority : 2; plugin_rule_key : MF_CLASS_MASKS_FIELD
 
@@ -6060,7 +6060,7 @@ the fields when they wanted the other.</h5>
 ## 329.
 
 
-*  Dodgy - Class exposes synchronization and semaphores in its public interface
+### Dodgy - Class exposes synchronization and semaphores in its public interface
 
 system_tags : null, priority : 3; plugin_rule_key : PS_PUBLIC_SEMAPHORES
 
@@ -6079,7 +6079,7 @@ system_tags : null, priority : 3; plugin_rule_key : PS_PUBLIC_SEMAPHORES
 ## 330.
 
 
-*  Dodgy - Class too big for analysis
+### Dodgy - Class too big for analysis
 
 system_tags : null, priority : 1; plugin_rule_key : SKIPPED_CLASS_TOO_BIG
 
@@ -6093,7 +6093,7 @@ system_tags : null, priority : 1; plugin_rule_key : SKIPPED_CLASS_TOO_BIG
 ## 331.
 
 
-*  Performance - Huge string constants is duplicated across multiple class files
+### Performance - Huge string constants is duplicated across multiple class files
 
 system_tags : null, priority : 3; plugin_rule_key : HSC_HUGE_SHARED_STRING_CONSTANT
 
@@ -6113,7 +6113,7 @@ that classfile. See <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=
 ## 332.
 
 
-*  Bad practice - Class is Serializable but its superclass doesn't define a void constructor
+### Bad practice - Class is Serializable but its superclass doesn't define a void constructor
 
 system_tags : null, priority : 2; plugin_rule_key : SE_NO_SUITABLE_CONSTRUCTOR
 
@@ -6131,7 +6131,7 @@ system_tags : null, priority : 2; plugin_rule_key : SE_NO_SUITABLE_CONSTRUCTOR
 ## 333.
 
 
-*  Multithreaded correctness - Mismatched notify()
+### Multithreaded correctness - Mismatched notify()
 
 system_tags : null, priority : 3; plugin_rule_key : MWN_MISMATCHED_NOTIFY
 
@@ -6146,7 +6146,7 @@ an <code>IllegalMonitorStateException</code> being thrown.</h5>
 ## 334.
 
 
-*  Multithreaded correctness - Call to static DateFormat
+### Multithreaded correctness - Call to static DateFormat
 
 system_tags : null, priority : 3; plugin_rule_key : STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE
 
@@ -6163,7 +6163,7 @@ and <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6178997">Sun Bug
 ## 335.
 
 
-*  Dodgy - Double assignment of local variable
+### Dodgy - Double assignment of local variable
 
 system_tags : null, priority : 3; plugin_rule_key : SA_LOCAL_DOUBLE_ASSIGNMENT
 
@@ -6184,7 +6184,7 @@ system_tags : null, priority : 3; plugin_rule_key : SA_LOCAL_DOUBLE_ASSIGNMENT
 ## 336.
 
 
-*  Bad practice - Method invoked that should be only be invoked inside a doPrivileged block
+### Bad practice - Method invoked that should be only be invoked inside a doPrivileged block
 
 system_tags : null, priority : 2; plugin_rule_key : DP_DO_INSIDE_DO_PRIVILEGED
 
@@ -6199,7 +6199,7 @@ system_tags : null, priority : 2; plugin_rule_key : DP_DO_INSIDE_DO_PRIVILEGED
 ## 337.
 
 
-*  Correctness - Method ignores return value
+### Correctness - Method ignores return value
 
 system_tags : null, priority : 2; plugin_rule_key : RV_RETURN_VALUE_IGNORED2
 
@@ -6231,7 +6231,7 @@ dateString = dateString.trim();
 ## 338.
 
 
-*  Correctness - Very confusing method names
+### Correctness - Very confusing method names
 
 system_tags : null, priority : 2; plugin_rule_key : NM_VERY_CONFUSING
 
@@ -6247,7 +6247,7 @@ identical then one of the methods would override the other.
 ## 339.
 
 
-*  Correctness - Doomed attempt to append to an object output stream
+### Correctness - Doomed attempt to append to an object output stream
 
 system_tags : null, priority : 3; plugin_rule_key : IO_APPENDING_TO_OBJECT_OUTPUT_STREAM
 
@@ -6272,7 +6272,7 @@ system_tags : null, priority : 3; plugin_rule_key : IO_APPENDING_TO_OBJECT_OUTPU
 ## 340.
 
 
-*  Bad practice - Method invokes dangerous method runFinalizersOnExit
+### Bad practice - Method invokes dangerous method runFinalizersOnExit
 
 system_tags : null, priority : 2; plugin_rule_key : DM_RUN_FINALIZERS_ON_EXIT
 
@@ -6287,7 +6287,7 @@ dangerous methods in the Java libraries.</em> -- Joshua Bloch</h5>
 ## 341.
 
 
-*  Multithreaded correctness - Static DateFormat
+### Multithreaded correctness - Static DateFormat
 
 system_tags : null, priority : 3; plugin_rule_key : STCAL_STATIC_SIMPLE_DATE_FORMAT_INSTANCE
 
@@ -6306,7 +6306,7 @@ and <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6178997">Sun Bug
 ## 342.
 
 
-*  Bad practice - Finalizer nulls fields
+### Bad practice - Finalizer nulls fields
 
 system_tags : null, priority : 2; plugin_rule_key : FI_FINALIZER_NULLS_FIELDS
 
@@ -6320,7 +6320,7 @@ system_tags : null, priority : 2; plugin_rule_key : FI_FINALIZER_NULLS_FIELDS
 ## 343.
 
 
-*  Correctness - Doomed test for equality to NaN
+### Correctness - Doomed test for equality to NaN
 
 system_tags : null, priority : 3; plugin_rule_key : FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER
 
@@ -6344,7 +6344,7 @@ system_tags : null, priority : 3; plugin_rule_key : FE_TEST_IF_EQUAL_TO_NOT_A_NU
 ## 344.
 
 
-*  Multithreaded correctness - Wait with two locks held
+### Multithreaded correctness - Wait with two locks held
 
 system_tags : null, priority : 2; plugin_rule_key : TLW_TWO_LOCK_WAIT
 
@@ -6364,7 +6364,7 @@ This not necessarily a bug, but is worth examining
 ## 345.
 
 
-*  Security - Hardcoded constant database password
+### Security - Hardcoded constant database password
 
 system_tags : null, priority : 4; plugin_rule_key : DMI_CONSTANT_DB_PASSWORD
 
@@ -6379,7 +6379,7 @@ system_tags : null, priority : 4; plugin_rule_key : DMI_CONSTANT_DB_PASSWORD
 ## 346.
 
 
-*  Reversed method arguments
+### Reversed method arguments
 
 system_tags : null, priority : 1; plugin_rule_key : DMI_ARGUMENTS_WRONG_ORDER
 
@@ -6394,7 +6394,7 @@ to be checked is the first argument.</h5>
 ## 347.
 
 
-*  Performance - Maps and sets of URLs can be performance hogs
+### Performance - Maps and sets of URLs can be performance hogs
 
 system_tags : null, priority : 4; plugin_rule_key : DMI_COLLECTION_OF_URLS
 
@@ -6411,7 +6411,7 @@ Consider using <code>java.net.URI</code> instead.
 ## 348.
 
 
-*  Method names should start with a lower case letter
+### Method names should start with a lower case letter
 
 system_tags : null, priority : 2; plugin_rule_key : NM_METHOD_NAMING_CONVENTION
 
@@ -6431,7 +6431,7 @@ This rule is deprecated, use {rule:squid:S00100} instead.
 ## 349.
 
 
-*  Correctness - Deadly embrace of non-static inner class and thread local
+### Correctness - Deadly embrace of non-static inner class and thread local
 
 system_tags : null, priority : 2; plugin_rule_key : SIC_THREADLOCAL_DEADLY_EMBRACE
 
@@ -6444,7 +6444,7 @@ This class is an inner class, but should probably be a static inner class. As it
 ## 350.
 
 
-*  Bad practice - Method doesn't override method in superclass due to wrong package for parameter
+### Bad practice - Method doesn't override method in superclass due to wrong package for parameter
 
 system_tags : null, priority : 2; plugin_rule_key : NM_WRONG_PACKAGE_INTENTIONAL
 
@@ -6484,7 +6484,7 @@ removing or deprecating the method with the similar but not identical signature.
 ## 351.
 
 
-*  Correctness - Integer remainder modulo 1
+### Correctness - Integer remainder modulo 1
 
 system_tags : null, priority : 3; plugin_rule_key : INT_BAD_REM_BY_1
 
@@ -6499,7 +6499,7 @@ Did you mean (exp &amp; 1) or (exp % 2) instead?
 ## 352.
 
 
-*  Bad practice - Comparison of String objects using == or !=
+### Bad practice - Comparison of String objects using == or !=
 
 system_tags : null, priority : 2; plugin_rule_key : ES_COMPARING_STRINGS_WITH_EQ
 
@@ -6517,7 +6517,7 @@ using the <code>equals(Object)</code> method instead.</h5>
 ## 353.
 
 
-*  Dodgy - Complicated, subtle or wrong increment in for-loop
+### Dodgy - Complicated, subtle or wrong increment in for-loop
 
 system_tags : null, priority : 3; plugin_rule_key : QF_QUESTIONABLE_FOR_LOOP
 
@@ -6533,7 +6533,7 @@ system_tags : null, priority : 3; plugin_rule_key : QF_QUESTIONABLE_FOR_LOOP
 ## 354.
 
 
-*  Dodgy - Non-Boolean argument formatted using %b format specifier
+### Dodgy - Non-Boolean argument formatted using %b format specifier
 
 system_tags : null, priority : 2; plugin_rule_key : VA_FORMAT_STRING_BAD_CONVERSION_TO_BOOLEAN
 
@@ -6550,7 +6550,7 @@ This feature of format strings is strange, and may not be what you intended.
 ## 355.
 
 
-*  Dodgy - Method directly allocates a specific implementation of xml interfaces
+### Dodgy - Method directly allocates a specific implementation of xml interfaces
 
 system_tags : null, priority : 3; plugin_rule_key : XFB_XML_FACTORY_BYPASS
 
@@ -6574,7 +6574,7 @@ system_tags : null, priority : 3; plugin_rule_key : XFB_XML_FACTORY_BYPASS
 ## 356.
 
 
-*  Multithreaded correctness - Class's writeObject() method is synchronized but nothing else is
+### Multithreaded correctness - Class's writeObject() method is synchronized but nothing else is
 
 system_tags : null, priority : 3; plugin_rule_key : WS_WRITEOBJECT_SYNC
 
@@ -6588,7 +6588,7 @@ system_tags : null, priority : 3; plugin_rule_key : WS_WRITEOBJECT_SYNC
 ## 357.
 
 
-*  Bad practice - clone method does not call super.clone()
+### Bad practice - clone method does not call super.clone()
 
 system_tags : null, priority : 2; plugin_rule_key : CN_IDIOM_NO_SUPER_CALL
 
@@ -6612,7 +6612,7 @@ This rule is deprecated, use {rule:squid:S1182} instead.
 ## 358.
 
 
-*  Correctness - Dead store of class literal
+### Correctness - Dead store of class literal
 
 system_tags : null, priority : 3; plugin_rule_key : DLS_DEAD_STORE_OF_CLASS_LITERAL
 
@@ -6634,7 +6634,7 @@ for more details and examples, and suggestions on how to force class initializat
 ## 359.
 
 
-*  Bad practice - Equals method should not assume anything about the type of its argument
+### Bad practice - Equals method should not assume anything about the type of its argument
 
 system_tags : null, priority : 3; plugin_rule_key : BC_EQUALS_METHOD_SHOULD_WORK_FOR_ALL_OBJECTS
 
@@ -6651,7 +6651,7 @@ false if <code>o</code> is not the same type as <code>this</code>.
 ## 360.
 
 
-*  Multithreaded correctness - Synchronization on field in futile attempt to guard that field
+### Multithreaded correctness - Synchronization on field in futile attempt to guard that field
 
 system_tags : null, priority : 2; plugin_rule_key : ML_SYNC_ON_FIELD_TO_GUARD_CHANGING_THAT_FIELD
 
@@ -6684,7 +6684,7 @@ private Long getNotificationSequenceNumber() {
 ## 361.
 
 
-*  Multithreaded correctness - Mismatched wait()
+### Multithreaded correctness - Mismatched wait()
 
 system_tags : null, priority : 3; plugin_rule_key : MWN_MISMATCHED_WAIT
 
@@ -6699,7 +6699,7 @@ an <code>IllegalMonitorStateException</code> being thrown.</h5>
 ## 362.
 
 
-*  Performance - Use the nextInt method of Random rather than nextDouble to generate a random integer
+### Performance - Use the nextInt method of Random rather than nextDouble to generate a random integer
 
 system_tags : null, priority : 2; plugin_rule_key : DM_NEXTINT_VIA_NEXTDOUBLE
 
@@ -6714,7 +6714,7 @@ using <code>r.nextInt(n)</code>, rather than using <code>(int)(r.nextDouble() * 
 ## 363.
 
 
-*  Sequence of calls to concurrent abstraction may not be atomic
+### Sequence of calls to concurrent abstraction may not be atomic
 
 system_tags : null, priority : 2; plugin_rule_key : AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION
 
@@ -6727,7 +6727,7 @@ system_tags : null, priority : 2; plugin_rule_key : AT_OPERATION_SEQUENCE_ON_CON
 ## 364.
 
 
-*  Dodgy - Dead store of null to local variable
+### Dodgy - Dead store of null to local variable
 
 system_tags : null, priority : 3; plugin_rule_key : DLS_DEAD_LOCAL_STORE_OF_NULL
 
@@ -6743,7 +6743,7 @@ as of Java SE 6.0, this is no longer needed or useful.
 ## 365.
 
 
-*  Performance - The equals and hashCode methods of URL are blocking
+### Performance - The equals and hashCode methods of URL are blocking
 
 system_tags : null, priority : 4; plugin_rule_key : DMI_BLOCKING_METHODS_ON_URL
 
@@ -6760,7 +6760,7 @@ Consider using <code>java.net.URI</code> instead.
 ## 366.
 
 
-*  Dodgy - Possible null pointer dereference on path that might be infeasible
+### Dodgy - Possible null pointer dereference on path that might be infeasible
 
 system_tags : null, priority : 3; plugin_rule_key : NP_NULL_ON_SOME_PATH_MIGHT_BE_INFEASIBLE
 
@@ -6779,7 +6779,7 @@ Due to the fact that this value had been previously tested for nullness, this is
 ## 367.
 
 
-*  Absolute path traversal in servlet
+### Absolute path traversal in servlet
 
 system_tags : null, priority : 2; plugin_rule_key : PT_ABSOLUTE_PATH_TRAVERSAL
 
@@ -6804,7 +6804,7 @@ consider using a commercial static analysis or pen-testing tool.
 ## 368.
 
 
-*  Bad practice - Very confusing method names (but perhaps intentional)
+### Bad practice - Very confusing method names (but perhaps intentional)
 
 system_tags : null, priority : 2; plugin_rule_key : NM_VERY_CONFUSING_INTENTIONAL
 
@@ -6822,7 +6822,7 @@ You should try hard to eliminate one of them, unless you are forced to have both
 ## 369.
 
 
-*  Security - Servlet reflected cross site scripting vulnerability
+### Security - Servlet reflected cross site scripting vulnerability
 
 system_tags : null, priority : 3; plugin_rule_key : XSS_REQUEST_PARAMETER_TO_SEND_ERROR
 
@@ -6843,7 +6843,7 @@ consider using a commercial static analysis or pen-testing tool.
 ## 370.
 
 
-*  Dodgy - private readResolve method not inherited by subclasses
+### Dodgy - private readResolve method not inherited by subclasses
 
 system_tags : null, priority : 2; plugin_rule_key : SE_PRIVATE_READ_RESOLVE_NOT_INHERITED
 
@@ -6858,7 +6858,7 @@ This might be intentional and OK, but should be reviewed to ensure it is what is
 ## 371.
 
 
-*  Correctness - Invocation of toString on an array
+### Correctness - Invocation of toString on an array
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_INVOKING_TOSTRING_ON_ARRAY
 
@@ -6875,7 +6875,7 @@ String that gives the contents of the array. See Programming Puzzlers, chapter 3
 ## 372.
 
 
-*  Correctness - Method does not check for null argument
+### Correctness - Method does not check for null argument
 
 system_tags : null, priority : 2; plugin_rule_key : NP_ARGUMENT_MIGHT_BE_NULL
 
@@ -6892,7 +6892,7 @@ system_tags : null, priority : 2; plugin_rule_key : NP_ARGUMENT_MIGHT_BE_NULL
 ## 373.
 
 
-*  Bad practice - Abstract class defines covariant compareTo() method
+### Bad practice - Abstract class defines covariant compareTo() method
 
 system_tags : null, priority : 2; plugin_rule_key : CO_ABSTRACT_SELF
 
@@ -6908,7 +6908,7 @@ system_tags : null, priority : 2; plugin_rule_key : CO_ABSTRACT_SELF
 ## 374.
 
 
-*  Bad practice - Method invokes System.exit(...)
+### Bad practice - Method invokes System.exit(...)
 
 system_tags : null, priority : 2; plugin_rule_key : DM_EXIT
 
@@ -6928,7 +6928,7 @@ This rule is deprecated, use {rule:squid:S1147} instead.
 ## 375.
 
 
-*  Correctness - Return value of putIfAbsent ignored, value passed to putIfAbsent reused
+### Correctness - Return value of putIfAbsent ignored, value passed to putIfAbsent reused
 
 system_tags : null, priority : 2; plugin_rule_key : RV_RETURN_VALUE_OF_PUTIFABSENT_IGNORED
 
@@ -6941,7 +6941,7 @@ The putIfAbsent method is typically used to ensure that a single value is associ
 ## 376.
 
 
-*  Multithreaded correctness - Method does not release lock on all exception paths
+### Multithreaded correctness - Method does not release lock on all exception paths
 
 system_tags : null, priority : 3; plugin_rule_key : UL_UNRELEASED_LOCK_EXCEPTION_PATH
 
@@ -6966,7 +6966,7 @@ for using a JSR-166 lock is:
 ## 377.
 
 
-*  Non-transient non-serializable instance field in serializable class
+### Non-transient non-serializable instance field in serializable class
 
 system_tags : null, priority : 2; plugin_rule_key : SE_BAD_FIELD
 
@@ -6984,7 +6984,7 @@ system_tags : null, priority : 2; plugin_rule_key : SE_BAD_FIELD
 ## 378.
 
 
-*  Dodgy - Self assignment of local variable
+### Dodgy - Self assignment of local variable
 
 system_tags : null, priority : 3; plugin_rule_key : SA_LOCAL_SELF_ASSIGNMENT
 
@@ -7006,7 +7006,7 @@ Such assignments are useless, and may indicate a logic error or typo.
 ## 379.
 
 
-*  Read of unwritten public or protected field
+### Read of unwritten public or protected field
 
 system_tags : null, priority : 2; plugin_rule_key : NP_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD
 
@@ -7021,7 +7021,7 @@ system_tags : null, priority : 2; plugin_rule_key : NP_UNWRITTEN_PUBLIC_OR_PROTE
 ## 380.
 
 
-*  Bad practice - Method ignores results of InputStream.read()
+### Bad practice - Method ignores results of InputStream.read()
 
 system_tags : null, priority : 2; plugin_rule_key : RR_NOT_CHECKED
 
@@ -7040,7 +7040,7 @@ system_tags : null, priority : 2; plugin_rule_key : RR_NOT_CHECKED
 ## 381.
 
 
-*  Dodgy - Write to static field from instance method
+### Dodgy - Write to static field from instance method
 
 system_tags : null, priority : 3; plugin_rule_key : ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD
 
@@ -7056,7 +7056,7 @@ and generally bad practice.
 ## 382.
 
 
-*  Bad practice - Covariant equals() method defined
+### Bad practice - Covariant equals() method defined
 
 system_tags : null, priority : 2; plugin_rule_key : EQ_SELF_NO_OBJECT
 
@@ -7076,7 +7076,7 @@ This rule is deprecated, use {rule:squid:S1201} instead.
 ## 383.
 
 
-*  Bad practice - toString method may return null
+### Bad practice - toString method may return null
 
 system_tags : null, priority : 3; plugin_rule_key : NP_TOSTRING_COULD_RETURN_NULL
 
@@ -7093,7 +7093,7 @@ system_tags : null, priority : 3; plugin_rule_key : NP_TOSTRING_COULD_RETURN_NUL
 ## 384.
 
 
-*  Correctness - No relationship between generic parameter and method argument
+### Correctness - No relationship between generic parameter and method argument
 
 system_tags : null, priority : 3; plugin_rule_key : GC_UNRELATED_TYPES
 
@@ -7128,7 +7128,7 @@ system_tags : null, priority : 3; plugin_rule_key : GC_UNRELATED_TYPES
 ## 385.
 
 
-*  Correctness - An apparent infinite recursive loop
+### Correctness - An apparent infinite recursive loop
 
 system_tags : null, priority : 3; plugin_rule_key : IL_INFINITE_RECURSIVE_LOOP
 
@@ -7142,7 +7142,7 @@ an infinite recursive loop that will result in a stack overflow.</h5>
 ## 386.
 
 
-*  Performance - Method invokes toString() method on a String
+### Performance - Method invokes toString() method on a String
 
 system_tags : null, priority : 0; plugin_rule_key : DM_STRING_TOSTRING
 
@@ -7156,7 +7156,7 @@ system_tags : null, priority : 0; plugin_rule_key : DM_STRING_TOSTRING
 ## 387.
 
 
-*  Bad practice - Creates an empty zip file entry
+### Bad practice - Creates an empty zip file entry
 
 system_tags : null, priority : 2; plugin_rule_key : AM_CREATES_EMPTY_ZIP_FILE_ENTRY
 
@@ -7174,7 +7174,7 @@ should be written to the ZipFile between the calls to
 ## 388.
 
 
-*  Dodgy - Questionable use of non-short-circuit logic
+### Dodgy - Questionable use of non-short-circuit logic
 
 system_tags : null, priority : 2; plugin_rule_key : NS_NON_SHORT_CIRCUIT
 
@@ -7199,7 +7199,7 @@ Language Specification</a> for details
 ## 389.
 
 
-*  Performance - Method invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead
+### Performance - Method invokes inefficient Boolean constructor; use Boolean.valueOf(...) instead
 
 system_tags : null, priority : 2; plugin_rule_key : DM_BOOLEAN_CTOR
 
@@ -7215,7 +7215,7 @@ system_tags : null, priority : 2; plugin_rule_key : DM_BOOLEAN_CTOR
 ## 390.
 
 
-*  Dodgy - Questionable cast to concrete collection
+### Dodgy - Questionable cast to concrete collection
 
 system_tags : null, priority : 3; plugin_rule_key : BC_BAD_CAST_TO_CONCRETE_COLLECTION
 
@@ -7235,7 +7235,7 @@ collection class.
 ## 391.
 
 
-*  Performance - Could be refactored into a static inner class
+### Performance - Could be refactored into a static inner class
 
 system_tags : null, priority : 2; plugin_rule_key : SIC_INNER_SHOULD_BE_STATIC_NEEDS_THIS
 
@@ -7257,7 +7257,7 @@ inner object.&nbsp; This reference makes the instances
 ## 392.
 
 
-*  Multithreaded correctness - Incorrect lazy initialization of static field
+### Multithreaded correctness - Incorrect lazy initialization of static field
 
 system_tags : null, priority : 3; plugin_rule_key : LI_LAZY_INIT_STATIC
 
@@ -7277,7 +7277,7 @@ For more information, see the
 ## 393.
 
 
-*  Bad practice - Use of identifier that is a keyword in later versions of Java
+### Bad practice - Use of identifier that is a keyword in later versions of Java
 
 system_tags : null, priority : 2; plugin_rule_key : NM_FUTURE_KEYWORD_USED_AS_IDENTIFIER
 
@@ -7291,7 +7291,7 @@ in order to compile it in later versions of Java.</h5>
 ## 394.
 
 
-*  Dodgy - Result of integer multiplication cast to long
+### Dodgy - Result of integer multiplication cast to long
 
 system_tags : null, priority : 3; plugin_rule_key : ICAST_INTEGER_MULTIPLY_CAST_TO_LONG
 
@@ -7324,7 +7324,7 @@ or
 ## 395.
 
 
-*  Correctness - Static Thread.interrupted() method invoked on thread instance
+### Correctness - Static Thread.interrupted() method invoked on thread instance
 
 system_tags : null, priority : 3; plugin_rule_key : STI_INTERRUPTED_ON_UNKNOWNTHREAD
 
@@ -7341,7 +7341,7 @@ object than the one the author intended.
 ## 396.
 
 
-*  D'oh! A nonsensical method invocation
+### D'oh! A nonsensical method invocation
 
 system_tags : null, priority : 2; plugin_rule_key : DMI_DOH
 
@@ -7354,7 +7354,7 @@ system_tags : null, priority : 2; plugin_rule_key : DMI_DOH
 ## 397.
 
 
-*  Correctness - Self assignment of field
+### Correctness - Self assignment of field
 
 system_tags : null, priority : 3; plugin_rule_key : SA_FIELD_SELF_ASSIGNMENT
 
@@ -7375,7 +7375,7 @@ system_tags : null, priority : 3; plugin_rule_key : SA_FIELD_SELF_ASSIGNMENT
 ## 398.
 
 
-*  Security - Empty database password
+### Security - Empty database password
 
 system_tags : null, priority : 3; plugin_rule_key : DMI_EMPTY_DB_PASSWORD
 
@@ -7389,7 +7389,7 @@ system_tags : null, priority : 3; plugin_rule_key : DMI_EMPTY_DB_PASSWORD
 ## 399.
 
 
-*  Correctness - TestCase declares a bad suite method
+### Correctness - TestCase declares a bad suite method
 
 system_tags : null, priority : 3; plugin_rule_key : IJU_BAD_SUITE_METHOD
 
@@ -7407,7 +7407,7 @@ or
 ## 400.
 
 
-*  Correctness - Format string references missing argument
+### Correctness - Format string references missing argument
 
 system_tags : null, priority : 3; plugin_rule_key : VA_FORMAT_STRING_MISSING_ARGUMENT
 
@@ -7424,7 +7424,7 @@ this statement is executed.
 ## 401.
 
 
-*  Correctness - Bitwise add of signed byte value
+### Correctness - Bitwise add of signed byte value
 
 system_tags : null, priority : 3; plugin_rule_key : BIT_ADD_OF_SIGNED_BYTE
 
@@ -7459,7 +7459,7 @@ for(int i = 0; i &lt; 4; i++)
 ## 402.
 
 
-*  Performance - Method concatenates strings using + in a loop
+### Performance - Method concatenates strings using + in a loop
 
 system_tags : null, priority : 3; plugin_rule_key : SBSC_USE_STRINGBUFFER_CONCATENATION
 
@@ -7499,7 +7499,7 @@ a StringBuffer (or StringBuilder in Java 1.5) explicitly.</p>
 ## 403.
 
 
-*  Correctness - Value annotated as carrying a type qualifier used where a value that must not carry that qualifier is required
+### Correctness - Value annotated as carrying a type qualifier used where a value that must not carry that qualifier is required
 
 system_tags : null, priority : 3; plugin_rule_key : TQ_ALWAYS_VALUE_USED_WHERE_NEVER_REQUIRED
 
@@ -7536,7 +7536,7 @@ public @NonNegative Integer example(@Negative Integer value) {
 ## 404.
 
 
-*  Correctness - equals method always returns true
+### Correctness - equals method always returns true
 
 system_tags : null, priority : 4; plugin_rule_key : EQ_ALWAYS_TRUE
 
@@ -7551,7 +7551,7 @@ Plus, it means that the equals method is not symmetric.
 ## 405.
 
 
-*  Bad practice - Needless instantiation of class that only supplies static methods
+### Bad practice - Needless instantiation of class that only supplies static methods
 
 system_tags : null, priority : 2; plugin_rule_key : ISC_INSTANTIATE_STATIC_CLASS
 
@@ -7565,7 +7565,7 @@ does not need to be created, just access the static methods directly using the c
 ## 406.
 
 
-*  Dodgy - Questionable cast to abstract collection
+### Dodgy - Questionable cast to abstract collection
 
 system_tags : null, priority : 2; plugin_rule_key : BC_BAD_CAST_TO_ABSTRACT_COLLECTION
 
@@ -7584,7 +7584,7 @@ to iterate through a collection, you don't need to cast it to a Set or List.
 ## 407.
 
 
-*  Bad practice - Iterator next() method can't throw NoSuchElementException
+### Bad practice - Iterator next() method can't throw NoSuchElementException
 
 system_tags : null, priority : 1; plugin_rule_key : IT_NO_SUCH_ELEMENT
 
@@ -7601,7 +7601,7 @@ system_tags : null, priority : 1; plugin_rule_key : IT_NO_SUCH_ELEMENT
 ## 408.
 
 
-*  Malicious code vulnerability - May expose internal representation by returning reference to mutable object
+### Malicious code vulnerability - May expose internal representation by returning reference to mutable object
 
 system_tags : null, priority : 2; plugin_rule_key : EI_EXPOSE_REP
 
@@ -7620,7 +7620,7 @@ system_tags : null, priority : 2; plugin_rule_key : EI_EXPOSE_REP
 ## 409.
 
 
-*  Multithreaded correctness - Mutable servlet field
+### Multithreaded correctness - Mutable servlet field
 
 system_tags : null, priority : 2; plugin_rule_key : MSF_MUTABLE_SERVLET_FIELD
 
@@ -7638,7 +7638,7 @@ Thus, having a mutable instance field generally creates race conditions.
 ## 410.
 
 
-*  Correctness - Bitwise OR of signed byte value
+### Correctness - Bitwise OR of signed byte value
 
 system_tags : null, priority : 3; plugin_rule_key : BIT_IOR_OF_SIGNED_BYTE
 
@@ -7673,7 +7673,7 @@ for(int i = 0; i &lt; 4; i++)
 ## 411.
 
 
-*  Multithreaded correctness - Synchronization performed on java.util.concurrent Lock
+### Multithreaded correctness - Synchronization performed on java.util.concurrent Lock
 
 system_tags : null, priority : 3; plugin_rule_key : JLM_JSR166_LOCK_MONITORENTER
 
@@ -7689,7 +7689,7 @@ the <code>lock()</code> and <code>unlock()</code> methods instead.
 ## 412.
 
 
-*  Bad practice - serialVersionUID isn't static
+### Bad practice - serialVersionUID isn't static
 
 system_tags : null, priority : 2; plugin_rule_key : SE_NONSTATIC_SERIALVERSIONID
 
@@ -7705,7 +7705,7 @@ system_tags : null, priority : 2; plugin_rule_key : SE_NONSTATIC_SERIALVERSIONID
 ## 413.
 
 
-*  Dodgy - instanceof will always return true
+### Dodgy - instanceof will always return true
 
 system_tags : null, priority : 3; plugin_rule_key : BC_VACUOUS_INSTANCEOF
 
@@ -7724,7 +7724,7 @@ better to do a null test rather than an instanceof test.
 ## 414.
 
 
-*  Correctness - Suspicious reference comparison of Boolean values
+### Correctness - Suspicious reference comparison of Boolean values
 
 system_tags : null, priority : 2; plugin_rule_key : RC_REF_COMPARISON_BAD_PRACTICE_BOOLEAN
 
@@ -7737,7 +7737,7 @@ This method compares two Boolean values using the == or != operator. Normally, t
 ## 415.
 
 
-*  Dodgy - Potentially dangerous use of non-short-circuit logic
+### Dodgy - Potentially dangerous use of non-short-circuit logic
 
 system_tags : null, priority : 3; plugin_rule_key : NS_DANGEROUS_NON_SHORT_CIRCUIT
 
@@ -7767,7 +7767,7 @@ Language Specification</a> for details
 ## 416.
 
 
-*  Correctness - Impossible downcast of toArray() result
+### Correctness - Impossible downcast of toArray() result
 
 system_tags : null, priority : 4; plugin_rule_key : BC_IMPOSSIBLE_DOWNCAST_OF_TOARRAY
 
@@ -7788,7 +7788,7 @@ system_tags : null, priority : 4; plugin_rule_key : BC_IMPOSSIBLE_DOWNCAST_OF_TO
 ## 417.
 
 
-*  Malicious code vulnerability - Field should be moved out of an interface and made package protected
+### Malicious code vulnerability - Field should be moved out of an interface and made package protected
 
 system_tags : null, priority : 2; plugin_rule_key : MS_OOI_PKGPROTECT
 
@@ -7811,7 +7811,7 @@ defined in an interface references a mutable
 ## 418.
 
 
-*  Correctness - Call to equals() comparing different types
+### Correctness - Call to equals() comparing different types
 
 system_tags : null, priority : 3; plugin_rule_key : EC_UNRELATED_TYPES
 
@@ -7835,7 +7835,7 @@ the result of this comparison will always be false at runtime.
 ## 419.
 
 
-*  Malicious code vulnerability - Public static method may expose internal representation by returning array
+### Malicious code vulnerability - Public static method may expose internal representation by returning array
 
 system_tags : null, priority : 3; plugin_rule_key : MS_EXPOSE_REP
 
@@ -7852,7 +7852,7 @@ system_tags : null, priority : 3; plugin_rule_key : MS_EXPOSE_REP
 ## 420.
 
 
-*  Dodgy - Immediate dereference of the result of readLine()
+### Dodgy - Immediate dereference of the result of readLine()
 
 system_tags : null, priority : 3; plugin_rule_key : NP_IMMEDIATE_DEREFERENCE_OF_READLINE
 
@@ -7867,7 +7867,7 @@ to read, readLine() will return null and dereferencing that will generate a null
 ## 421.
 
 
-*  Multithreaded correctness - Empty synchronized block
+### Multithreaded correctness - Empty synchronized block
 
 system_tags : null, priority : 2; plugin_rule_key : ESync_EMPTY_SYNC
 
@@ -7888,7 +7888,7 @@ than less contrived solutions.
 ## 422.
 
 
-*  Security - HTTP cookie formed from untrusted input
+### Security - HTTP cookie formed from untrusted input
 
 system_tags : null, priority : 2; plugin_rule_key : HRS_REQUEST_PARAMETER_TO_COOKIE
 
@@ -7908,7 +7908,7 @@ consider using a commercial static analysis or pen-testing tool.
 ## 423.
 
 
-*  Correctness - Uncallable method defined in anonymous class
+### Correctness - Uncallable method defined in anonymous class
 
 system_tags : null, priority : 3; plugin_rule_key : UMAC_UNCALLABLE_METHOD_OF_ANONYMOUS_CLASS
 
@@ -7927,7 +7927,7 @@ in fact, override the method it is intended to.
 ## 424.
 
 
-*  Correctness - Overwritten increment
+### Correctness - Overwritten increment
 
 system_tags : null, priority : 3; plugin_rule_key : DLS_OVERWRITTEN_INCREMENT
 
@@ -7944,7 +7944,7 @@ overwrites the incremented value with the original value.
 ## 425.
 
 
-*  Relative path traversal in servlet
+### Relative path traversal in servlet
 
 system_tags : null, priority : 2; plugin_rule_key : PT_RELATIVE_PATH_TRAVERSAL
 
@@ -7968,7 +7968,7 @@ consider using a commercial static analysis or pen-testing tool.
 ## 426.
 
 
-*  Performance - Method creates Boxed primitive from primitive only to get primitive value
+### Performance - Method creates Boxed primitive from primitive only to get primitive value
 
 system_tags : null, priority : 0; plugin_rule_key : NAB_NEEDLESS_BOX_TO_UNBOX
 
@@ -7990,7 +7990,7 @@ convert it back to a primitive. Just use the primitive value instead.</h5>
 ## 427.
 
 
-*  Correctness - Class extends JComponent but does not implement Accessible interface
+### Correctness - Class extends JComponent but does not implement Accessible interface
 
 system_tags : null, priority : 0; plugin_rule_key : S508C_NON_ACCESSIBLE_JCOMPONENT
 
@@ -8005,7 +8005,7 @@ difficulties</h5>
 ## 428.
 
 
-*  Correctness - Hanging ExecutorService
+### Correctness - Hanging ExecutorService
 
 system_tags : null, priority : 0; plugin_rule_key : HES_EXECUTOR_NEVER_SHUTDOWN
 
@@ -8029,7 +8029,7 @@ it is good practice to explictly shutdown the <code>ExecutorService</code> when 
 ## 429.
 
 
-*  MT Correctness - Method calls Locale.setDefault()
+### MT Correctness - Method calls Locale.setDefault()
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_SETDEFAULTLOCALE
 
@@ -8042,7 +8042,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_SETDEFAULTLOCALE
 ## 430.
 
 
-*  Correctness - Method performs a contravariant array assignment
+### Correctness - Method performs a contravariant array assignment
 
 system_tags : null, priority : 0; plugin_rule_key : CVAA_CONTRAVARIANT_ARRAY_ASSIGNMENT
 
@@ -8064,7 +8064,7 @@ class B extends A {}
 ## 431.
 
 
-*  Style - Method uses instanceof on multiple types to arbitrate logic
+### Style - Method uses instanceof on multiple types to arbitrate logic
 
 system_tags : null, priority : 0; plugin_rule_key : ITC_INHERITANCE_TYPE_CHECKING
 
@@ -8080,7 +8080,7 @@ in these classes.</h5>
 ## 432.
 
 
-*  Style - Method adds unrelated types to collection or array
+### Style - Method adds unrelated types to collection or array
 
 system_tags : null, priority : 0; plugin_rule_key : UCC_UNRELATED_COLLECTION_CONTENTS
 
@@ -8095,7 +8095,7 @@ an instance of this class to the collection or array, if possible.</h5>
 ## 433.
 
 
-*  MT Correctness - Method tests if a lock is locked
+### MT Correctness - Method tests if a lock is locked
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_LOCK_ISLOCKED
 
@@ -8108,7 +8108,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_LOCK_ISLOCKED
 ## 434.
 
 
-*  Style - Method trims a String temporarily
+### Style - Method trims a String temporarily
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_TEMPORARY_TRIM
 
@@ -8125,7 +8125,7 @@ continue to test and use that trimmed string.
 ## 435.
 
 
-*  Style - Method uses old non collections interface methods
+### Style - Method uses old non collections interface methods
 
 system_tags : null, priority : 0; plugin_rule_key : NCMU_NON_COLLECTION_METHOD_USE
 
@@ -8140,7 +8140,7 @@ you can define this object by the Collections interface and allow better decoupl
 ## 436.
 
 
-*  Correctness - Method passes a non calendar object to Calendar.before or Calendar.after
+### Correctness - Method passes a non calendar object to Calendar.before or Calendar.after
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_INVALID_CALENDAR_COMPARE
 
@@ -8155,7 +8155,7 @@ false is returned</h5>
 ## 437.
 
 
-*  MT Correctness - Method sleeps without timeout
+### MT Correctness - Method sleeps without timeout
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_WAIT_WITHOUT_TIMEOUT
 
@@ -8168,7 +8168,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_WAIT_WITHOUT_TIMEOUT
 ## 438.
 
 
-*  Performance - Method uses a ternary operator to cast a boolean to true or false
+### Performance - Method uses a ternary operator to cast a boolean to true or false
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USELESS_TERNARY
 
@@ -8182,7 +8182,7 @@ The ternary operator is completely unecessary, just use the original boolean val
 ## 439.
 
 
-*  Style - Clone method declares it returns an type different then the owning class
+### Style - Clone method declares it returns an type different then the owning class
 
 system_tags : null, priority : 0; plugin_rule_key : CU_CLONE_USABILITY_MISMATCHED_RETURN
 
@@ -8197,7 +8197,7 @@ that is different than the class itself, or any interfaces that the class implem
 ## 440.
 
 
-*  Performance - Method copies arrays manually
+### Performance - Method copies arrays manually
 
 system_tags : null, priority : 0; plugin_rule_key : MAC_MANUAL_ARRAY_COPY
 
@@ -8211,7 +8211,7 @@ It is much better performing to use System.arraycopy as this method is native.</
 ## 441.
 
 
-*  Style - Method stutters exception message in logger
+### Style - Method stutters exception message in logger
 
 system_tags : null, priority : 0; plugin_rule_key : LO_STUTTERED_MESSAGE
 
@@ -8229,7 +8229,7 @@ this method, possibly including the values of key variables.
 ## 442.
 
 
-*  Correctness - Tag library is not recycleable
+### Correctness - Tag library is not recycleable
 
 system_tags : null, priority : 0; plugin_rule_key : NRTL_NON_RECYCLEABLE_TAG_LIB
 
@@ -8246,7 +8246,7 @@ container will not initialize the attribute correctly on reuse.</h5>
 ## 443.
 
 
-*  Style - Constrained method converts checked exception to unchecked instead of another allowable checked exception
+### Style - Constrained method converts checked exception to unchecked instead of another allowable checked exception
 
 system_tags : null, priority : 0; plugin_rule_key : EXS_EXCEPTION_SOFTENING_HAS_CHECKED
 
@@ -8262,7 +8262,7 @@ the new exception with the original exception using the initial cause field.</h5
 ## 444.
 
 
-*  Style - Constrained method converts checked exception to unchecked
+### Style - Constrained method converts checked exception to unchecked
 
 system_tags : null, priority : 0; plugin_rule_key : EXS_EXCEPTION_SOFTENING_NO_CHECKED
 
@@ -8278,7 +8278,7 @@ interface or superclass. Consider changes the signature of this method to includ
 ## 445.
 
 
-*  Correctness - Method uses jdbc vendor specific classes and methods
+### Correctness - Method uses jdbc vendor specific classes and methods
 
 system_tags : null, priority : 0; plugin_rule_key : JVR_JDBC_VENDOR_RELIANCE
 
@@ -8292,7 +8292,7 @@ This makes the code specific to this vendor, and unable to run on other database
 ## 446.
 
 
-*  Performance - Method passes empty string to StringBuffer of StringBuilder constructor
+### Performance - Method passes empty string to StringBuffer of StringBuilder constructor
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_STRINGBUFFER_WITH_EMPTY_STRING
 
@@ -8307,7 +8307,7 @@ default size instead.
 ## 447.
 
 
-*  Correctness - Method creates DOM node but doesn't attach it to a document
+### Correctness - Method creates DOM node but doesn't attach it to a document
 
 system_tags : null, priority : 0; plugin_rule_key : ODN_ORPHANED_DOM_NODE
 
@@ -8321,7 +8321,7 @@ system_tags : null, priority : 0; plugin_rule_key : ODN_ORPHANED_DOM_NODE
 ## 448.
 
 
-*  Correctness - Comparator method doesn't seem to return all ordering values
+### Correctness - Comparator method doesn't seem to return all ordering values
 
 system_tags : null, priority : 0; plugin_rule_key : SC_SUSPICIOUS_COMPARATOR_RETURN_VALUES
 
@@ -8336,7 +8336,7 @@ are transitive, this seems incorrect.</h5>
 ## 449.
 
 
-*  Correctness - Method ignores return value of a non mutating method
+### Correctness - Method ignores return value of a non mutating method
 
 system_tags : null, priority : 0; plugin_rule_key : NPMC_NON_PRODUCTIVE_METHOD_CALL
 
@@ -8351,7 +8351,7 @@ this method, and it can be removed.
 ## 450.
 
 
-*  Style - Empty method could be declared abstract
+### Style - Empty method could be declared abstract
 
 system_tags : null, priority : 0; plugin_rule_key : ACEM_ABSTRACT_CLASS_EMPTY_METHODS
 
@@ -8366,7 +8366,7 @@ subclass behavior is enforced.</h5>
 ## 451.
 
 
-*  Correctness - Method performs algorithmic operations on the result of a toString() call
+### Correctness - Method performs algorithmic operations on the result of a toString() call
 
 system_tags : null, priority : 0; plugin_rule_key : ITU_INAPPROPRIATE_TOSTRING_USE
 
@@ -8380,7 +8380,7 @@ As these methods are for debugging/logging purposes, it shouldn't be the basis o
 ## 452.
 
 
-*  Correctness - Method needlessly assigns a StringBuilder to itself, as it's mutable
+### Correctness - Method needlessly assigns a StringBuilder to itself, as it's mutable
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_STRINGBUILDER_IS_MUTABLE
 
@@ -8396,7 +8396,7 @@ This method calls StringBuilder.append and assigns the results to the same Strin
 ## 453.
 
 
-*  MT Correctness - Method attempts to manually schedule threads
+### MT Correctness - Method attempts to manually schedule threads
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_THREAD_YIELD
 
@@ -8409,7 +8409,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_THREAD_YIELD
 ## 454.
 
 
-*  Performance - Method retrieves instance to load static member
+### Performance - Method retrieves instance to load static member
 
 system_tags : null, priority : 0; plugin_rule_key : NIR_NEEDLESS_INSTANCE_RETRIEVAL
 
@@ -8424,7 +8424,7 @@ better performant to just load the static field from the class itself.</h5>
 ## 455.
 
 
-*  Correctness - Method attempts to store an array element to an array that does not appear to be allocated
+### Correctness - Method attempts to store an array element to an array that does not appear to be allocated
 
 system_tags : null, priority : 0; plugin_rule_key : AIOB_ARRAY_STORE_TO_NULL_REFERENCE
 
@@ -8437,7 +8437,7 @@ system_tags : null, priority : 0; plugin_rule_key : AIOB_ARRAY_STORE_TO_NULL_REF
 ## 456.
 
 
-*  Style - Method returns different types of unrelated Objects
+### Style - Method returns different types of unrelated Objects
 
 system_tags : null, priority : 0; plugin_rule_key : URV_UNRELATED_RETURN_VALUES
 
@@ -8451,7 +8451,7 @@ This will be very confusing to the code that must call it.</h5>
 ## 457.
 
 
-*  Correctness - Method declares unbound method template parameter(s)
+### Correctness - Method declares unbound method template parameter(s)
 
 system_tags : null, priority : 0; plugin_rule_key : UMTP_UNBOUND_METHOD_TEMPLATE_PARAMETER
 
@@ -8466,7 +8466,7 @@ just confusing to the reader.
 ## 458.
 
 
-*  Correctness - Method concatenates the result of a toString() call
+### Correctness - Method concatenates the result of a toString() call
 
 system_tags : null, priority : 0; plugin_rule_key : ISB_TOSTRING_APPENDING
 
@@ -8481,7 +8481,7 @@ does not suffer the potential for NullPointerExceptions, and is easier to read.<
 ## 459.
 
 
-*  Performance - Method fetches character array just to do the equivalent of the charAt method
+### Performance - Method fetches character array just to do the equivalent of the charAt method
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USE_CHARAT
 
@@ -8496,7 +8496,7 @@ to retrieve one of those characters by index. It is more performant to just use 
 ## 460.
 
 
-*  Style - Method returns null for Boolean type
+### Style - Method returns null for Boolean type
 
 system_tags : null, priority : 0; plugin_rule_key : TBP_TRISTATE_BOOLEAN_PATTERN
 
@@ -8513,7 +8513,7 @@ you want, and define that the method returns that type.</h5>
 ## 461.
 
 
-*  Performance - Method employs tail recursion
+### Performance - Method employs tail recursion
 
 system_tags : null, priority : 0; plugin_rule_key : TR_TAIL_RECURSION
 
@@ -8528,7 +8528,7 @@ will make it more performant, and reduce the stack size requirements.</h5>
 ## 462.
 
 
-*  Correctness - Method checks the result of a new allocation
+### Correctness - Method checks the result of a new allocation
 
 system_tags : null, priority : 0; plugin_rule_key : UNNC_UNNECESSARY_NEW_NULL_CHECK
 
@@ -8543,7 +8543,7 @@ this null check is unnecessary and can be removed.
 ## 463.
 
 
-*  Style - Method checks the size of a collection against zero rather than using isEmpty()
+### Style - Method checks the size of a collection against zero rather than using isEmpty()
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USE_ISEMPTY
 
@@ -8557,7 +8557,7 @@ is empty. For better code clarity, it is better to just use col.isEmpty() or !co
 ## 464.
 
 
-*  Performance - Method performs time consuming operation in gui thread
+### Performance - Method performs time consuming operation in gui thread
 
 system_tags : null, priority : 0; plugin_rule_key : SG_SLUGGISH_GUI
 
@@ -8574,7 +8574,7 @@ has a better experience.</h5>
 ## 465.
 
 
-*  Correctness - Method needlessly implements what is default streaming behavior
+### Correctness - Method needlessly implements what is default streaming behavior
 
 system_tags : null, priority : 0; plugin_rule_key : NCS_NEEDLESS_CUSTOM_SERIALIZATION
 
@@ -8588,7 +8588,7 @@ would be done if this method did not exist. Since this is the case, this method 
 ## 466.
 
 
-*  Style - Method stores return result in local before immediately returning it
+### Style - Method stores return result in local before immediately returning it
 
 system_tags : null, priority : 0; plugin_rule_key : USBR_UNNECESSARY_STORE_BEFORE_RETURN
 
@@ -8604,7 +8604,7 @@ assigned to the local variable, directly.
 ## 467.
 
 
-*  Style - Method uses a Side Effect Constructor
+### Style - Method uses a Side Effect Constructor
 
 system_tags : null, priority : 0; plugin_rule_key : SEC_SIDE_EFFECT_CONSTRUCTOR
 
@@ -8620,7 +8620,7 @@ the constructor, into a separate method, or into the calling method.
 ## 468.
 
 
-*  Correctness - Circular Dependencies
+### Correctness - Circular Dependencies
 
 system_tags : null, priority : 0; plugin_rule_key : CD_CIRCULAR_DEPENDENCY
 
@@ -8637,7 +8637,7 @@ to break the hard dependency.
 ## 469.
 
 
-*  Correctness - Method passes constant string to title/label of component
+### Correctness - Method passes constant string to title/label of component
 
 system_tags : null, priority : 0; plugin_rule_key : S508C_NON_TRANSLATABLE_STRING
 
@@ -8652,7 +8652,7 @@ through the use of a resource bundle.</h5>
 ## 470.
 
 
-*  Correctness - Class relies on internal api classes
+### Correctness - Class relies on internal api classes
 
 system_tags : null, priority : 0; plugin_rule_key : IICU_INCORRECT_INTERNAL_CLASS_USE
 
@@ -8673,7 +8673,7 @@ Packages that shouldn't be used are:
 ## 471.
 
 
-*  Style - Method uses simple loop to copy contents of one collection to another
+### Style - Method uses simple loop to copy contents of one collection to another
 
 system_tags : null, priority : 0; plugin_rule_key : UAA_USE_ADD_ALL
 
@@ -8689,7 +8689,7 @@ into a collection</h5>
 ## 472.
 
 
-*  Style - Method uses the same HttpRequest parameter name but with different casing
+### Style - Method uses the same HttpRequest parameter name but with different casing
 
 system_tags : null, priority : 0; plugin_rule_key : IKNC_INCONSISTENT_HTTP_PARAM_CASING
 
@@ -8703,7 +8703,7 @@ but with a different casing. As HttpServletRequest parameters are case sensitive
 ## 473.
 
 
-*  MT Correctness - Method calls wait, notify or notifyAll on a Thread instance
+### MT Correctness - Method calls wait, notify or notifyAll on a Thread instance
 
 system_tags : null, priority : 0; plugin_rule_key : STS_SPURIOUS_THREAD_STATES
 
@@ -8720,7 +8720,7 @@ notifications.
 ## 474.
 
 
-*  Correctness - Method creates promiscuous ServerSocket object
+### Correctness - Method creates promiscuous ServerSocket object
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_PROMISCUOUS_SERVERSOCKET
 
@@ -8733,7 +8733,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_PROMISCUOUS_SERVERSOCKET
 ## 475.
 
 
-*  Correctness - Method attempts to log using numbered formatting anchors
+### Correctness - Method attempts to log using numbered formatting anchors
 
 system_tags : null, priority : 0; plugin_rule_key : LO_INVALID_FORMATTING_ANCHOR
 
@@ -8748,7 +8748,7 @@ code uses. Thus no parameter replacement will occur.
 ## 476.
 
 
-*  Style - Unconstrained method converts checked exception to unchecked
+### Style - Unconstrained method converts checked exception to unchecked
 
 system_tags : null, priority : 0; plugin_rule_key : EXS_EXCEPTION_SOFTENING_NO_CONSTRAINTS
 
@@ -8763,7 +8763,7 @@ the exception to the throws clause of the method.
 ## 477.
 
 
-*  Performance - Class defines List based fields but uses them like Sets
+### Performance - Class defines List based fields but uses them like Sets
 
 system_tags : null, priority : 0; plugin_rule_key : DLC_DUBIOUS_LIST_COLLECTION
 
@@ -8779,7 +8779,7 @@ iteration is important to maintain insert order, perhaps consider a LinkedHashSe
 ## 478.
 
 
-*  Correctness - Method returns the result of invoking toString() without intermediate invocation of append() in ToStringBuilder
+### Correctness - Method returns the result of invoking toString() without intermediate invocation of append() in ToStringBuilder
 
 system_tags : null, priority : 0; plugin_rule_key : CSBTS_COMMONS_STRING_BUILDER_TOSTRING
 
@@ -8793,7 +8793,7 @@ intermediate invocation of append()</h5>
 ## 479.
 
 
-*  Correctness - Constructor makes call to non-final method
+### Correctness - Constructor makes call to non-final method
 
 system_tags : null, priority : 0; plugin_rule_key : PCOA_PARTIALLY_CONSTRUCTED_OBJECT_ACCESS
 
@@ -8808,7 +8808,7 @@ You should mark all methods called from the constructor as final to avoid this p
 ## 480.
 
 
-*  Correctness - Method attempts to access an array element outside the array's size
+### Correctness - Method attempts to access an array element outside the array's size
 
 system_tags : null, priority : 0; plugin_rule_key : AIOB_ARRAY_INDEX_OUT_OF_BOUNDS
 
@@ -8822,7 +8822,7 @@ array. This will cause an ArrayIndexOutOfBoundsException at runtime</h5>
 ## 481.
 
 
-*  Correctness - Method tests a field for not null as guard and reassigns it
+### Correctness - Method tests a field for not null as guard and reassigns it
 
 system_tags : null, priority : 0; plugin_rule_key : SNG_SUSPICIOUS_NULL_FIELD_GUARD
 
@@ -8837,7 +8837,7 @@ should have been a check to see if the field is null, not that the field was not
 ## 482.
 
 
-*  Correctness - Method calls wait when await was probably intended
+### Correctness - Method calls wait when await was probably intended
 
 system_tags : null, priority : 0; plugin_rule_key : SWCO_SUSPICIOUS_WAIT_ON_CONCURRENT_OBJECT
 
@@ -8852,7 +8852,7 @@ was intended.</h5>
 ## 483.
 
 
-*  Performance - Method appears to call the same method on the same object redundantly
+### Performance - Method appears to call the same method on the same object redundantly
 
 system_tags : null, priority : 0; plugin_rule_key : PRMC_POSSIBLY_REDUNDANT_METHOD_CALLS
 
@@ -8869,7 +8869,7 @@ result into a temporary, and using the temporary the second time.
 ## 484.
 
 
-*  Correctness - Method encodes String bytes without specifying the character encoding
+### Correctness - Method encodes String bytes without specifying the character encoding
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_STRING_BYTES_ENCODING
 
@@ -8882,7 +8882,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_STRING_BYTES_ENCODING
 ## 485.
 
 
-*  Style - Method builds String array using String Tokenizing
+### Style - Method builds String array using String Tokenizing
 
 system_tags : null, priority : 0; plugin_rule_key : USS_USE_STRING_SPLIT
 
@@ -8905,7 +8905,7 @@ hasMoreElements/hasMoreTokens call. So you may need to use</p>
 ## 486.
 
 
-*  Correctness - Gui uses absolute layout
+### Correctness - Gui uses absolute layout
 
 system_tags : null, priority : 0; plugin_rule_key : S508C_NULL_LAYOUT
 
@@ -8921,7 +8921,7 @@ font sizes, etc, difficult as items will not reposition
 ## 487.
 
 
-*  Correctness - Method passes boolean expression to Assert.assertTrue
+### Correctness - Method passes boolean expression to Assert.assertTrue
 
 system_tags : null, priority : 0; plugin_rule_key : JAO_JUNIT_ASSERTION_ODDITIES_USE_ASSERT_EQUALS
 
@@ -8936,7 +8936,7 @@ junit failure method is more meaningful of the intended test.</h5>
 ## 488.
 
 
-*  Correctness - Method passes a non array object to a parameter that expects an array
+### Correctness - Method passes a non array object to a parameter that expects an array
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_NON_ARRAY_PARM
 
@@ -8951,7 +8951,7 @@ an exception when run.
 ## 489.
 
 
-*  Correctness - Method uses Properties.put instead of Properties.setProperty
+### Correctness - Method uses Properties.put instead of Properties.setProperty
 
 system_tags : null, priority : 0; plugin_rule_key : IPU_IMPROPER_PROPERTIES_USE_SETPROPERTY
 
@@ -8966,7 +8966,7 @@ map, use of the derived put method is discouraged. Use the Properties.setPropert
 ## 490.
 
 
-*  Style - Method declares RuntimeException in throws clause
+### Style - Method declares RuntimeException in throws clause
 
 system_tags : null, priority : 0; plugin_rule_key : DRE_DECLARED_RUNTIME_EXCEPTION
 
@@ -8982,7 +8982,7 @@ is probably a better idea to prevent the occurance in code.</h5>
 ## 491.
 
 
-*  Performance - Method uses backport concurrency utils
+### Performance - Method uses backport concurrency utils
 
 system_tags : null, priority : 0; plugin_rule_key : BRPI_BACKPORT_REUSE_PUBLIC_IDENTIFIERS
 
@@ -8998,7 +8998,7 @@ classes should only be used if you are targeting JDK 1.4 and lower.
 ## 492.
 
 
-*  Style - Method calls keySet() just to call contains, use containsKey instead
+### Style - Method calls keySet() just to call contains, use containsKey instead
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USE_CONTAINSKEY
 
@@ -9011,7 +9011,7 @@ system_tags : null, priority : 0; plugin_rule_key : SPP_USE_CONTAINSKEY
 ## 493.
 
 
-*  Correctness - Method uses reflection to call a method available on java.lang.Object
+### Correctness - Method uses reflection to call a method available on java.lang.Object
 
 system_tags : null, priority : 0; plugin_rule_key : ROOM_REFLECTION_ON_OBJECT_METHODS
 
@@ -9026,7 +9026,7 @@ reflection.
 ## 494.
 
 
-*  Style - Inherited method returns more specific type of object than declared
+### Style - Inherited method returns more specific type of object than declared
 
 system_tags : null, priority : 0; plugin_rule_key : URV_INHERITED_METHOD_WITH_RELATED_TYPES
 
@@ -9042,7 +9042,7 @@ in handling of the return type.</h5>
 ## 495.
 
 
-*  Correctness - Method explicitly sets the color of a Component
+### Correctness - Method explicitly sets the color of a Component
 
 system_tags : null, priority : 0; plugin_rule_key : S508C_SET_COMP_COLOR
 
@@ -9057,7 +9057,7 @@ Colors should be allowed to be set from the operating system.</h5>
 ## 496.
 
 
-*  Performance - Method assigns a variable in a larger scope then is needed
+### Performance - Method assigns a variable in a larger scope then is needed
 
 system_tags : null, priority : 0; plugin_rule_key : BAS_BLOATED_ASSIGNMENT_SCOPE
 
@@ -9076,7 +9076,7 @@ will effect the execution of the assignment when done later on.</h5>
 ## 497.
 
 
-*  Correctness - Class defines fields that are used only as locals
+### Correctness - Class defines fields that are used only as locals
 
 system_tags : null, priority : 0; plugin_rule_key : FCBL_FIELD_COULD_BE_LOCAL
 
@@ -9092,7 +9092,7 @@ or more local variables.</h5>
 ## 498.
 
 
-*  Style - Class uses non owned variables to synchronize on
+### Style - Class uses non owned variables to synchronize on
 
 system_tags : null, priority : 0; plugin_rule_key : NOS_NON_OWNED_SYNCHRONIZATION
 
@@ -9110,7 +9110,7 @@ class. Synchronizing on 'this' is also not a good idea.</h5>
 ## 499.
 
 
-*  Performance - Method allocations a java.awt.Graphics object without disposing it
+### Performance - Method allocations a java.awt.Graphics object without disposing it
 
 system_tags : null, priority : 0; plugin_rule_key : LGO_LINGERING_GRAPHICS_OBJECT
 
@@ -9126,7 +9126,7 @@ created in a short period of time, it is recommended that you explicitly dispose
 ## 500.
 
 
-*  Correctness - Method returns an array that appears not to be initialized
+### Correctness - Method returns an array that appears not to be initialized
 
 system_tags : null, priority : 0; plugin_rule_key : SUA_SUSPICIOUS_UNINITIALIZED_ARRAY
 
@@ -9142,7 +9142,7 @@ be initialized.</h5>
 ## 501.
 
 
-*  Performance - Class defines unneeded synchronization on member collection
+### Performance - Class defines unneeded synchronization on member collection
 
 system_tags : null, priority : 0; plugin_rule_key : NMCS_NEEDLESS_MEMBER_COLLECTION_SYNCHRONIZATION
 
@@ -9158,7 +9158,7 @@ unnecessary and a potential performance bottleneck.</h5>
 ## 502.
 
 
-*  Correctness - Method incorrectly passes exception as first argument to logger method
+### Correctness - Method incorrectly passes exception as first argument to logger method
 
 system_tags : null, priority : 0; plugin_rule_key : LO_LOGGER_LOST_EXCEPTION_STACK_TRACE
 
@@ -9174,7 +9174,7 @@ the second argument to capture the stack trace.</h5>
 ## 503.
 
 
-*  Correctness - Method compares a double to Double.NAN
+### Correctness - Method compares a double to Double.NAN
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USE_ISNAN
 
@@ -9188,7 +9188,7 @@ Double.isNaN(d) or Float.isNaN(f) if a primitive; or d.isNaN() or f.isNaN() if a
 ## 504.
 
 
-*  Performance - Method uses a set of collections
+### Performance - Method uses a set of collections
 
 system_tags : null, priority : 0; plugin_rule_key : DSOC_DUBIOUS_SET_OF_COLLECTIONS
 
@@ -9210,7 +9210,7 @@ as the outer collection</p>
 ## 505.
 
 
-*  Performance - Method converts String to primitive using excessive boxing
+### Performance - Method converts String to primitive using excessive boxing
 
 system_tags : null, priority : 0; plugin_rule_key : NAB_NEEDLESS_BOXING_PARSE
 
@@ -9226,7 +9226,7 @@ method. </h5>
 ## 506.
 
 
-*  Correctness - Method uses java asserts rather than a junit assertion
+### Correctness - Method uses java asserts rather than a junit assertion
 
 system_tags : null, priority : 0; plugin_rule_key : JAO_JUNIT_ASSERTION_ODDITIES_ASSERT_USED
 
@@ -9241,7 +9241,7 @@ a following exception to occur.</h5>
 ## 507.
 
 
-*  Performance - Method converts String to boxed primitive using excessive boxing
+### Performance - Method converts String to boxed primitive using excessive boxing
 
 system_tags : null, priority : 0; plugin_rule_key : NAB_NEEDLESS_BOXING_VALUEOF
 
@@ -9257,7 +9257,7 @@ method. </h5>
 ## 508.
 
 
-*  Performance - Method passes constant String of length 1 to character overridden method
+### Performance - Method passes constant String of length 1 to character overridden method
 
 system_tags : null, priority : 0; plugin_rule_key : UCPM_USE_CHARACTER_PARAMETERIZED_METHOD
 
@@ -9272,7 +9272,7 @@ character, rather than pass a string.</h5>
 ## 509.
 
 
-*  MT Correctness - Method calls Condition.signal() rather than Condition.signalAll()
+### MT Correctness - Method calls Condition.signal() rather than Condition.signalAll()
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_SIGNAL_NOT_SIGNALALL
 
@@ -9285,7 +9285,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_SIGNAL_NOT_SIGNALALL
 ## 510.
 
 
-*  Correctness - Clone method stores a new value to member field of source object
+### Correctness - Clone method stores a new value to member field of source object
 
 system_tags : null, priority : 0; plugin_rule_key : SCA_SUSPICIOUS_CLONE_ALGORITHM
 
@@ -9300,7 +9300,7 @@ a read-only operation, this seems incorrect.</h5>
 ## 511.
 
 
-*  Performance - Method compares string without case after enforcing a case
+### Performance - Method compares string without case after enforcing a case
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USELESS_CASING
 
@@ -9315,7 +9315,7 @@ concern to case, the toUpperCase or toLowerCase calls are pointless and can be r
 ## 512.
 
 
-*  Correctness - Method deletes collection element while iterating
+### Correctness - Method deletes collection element while iterating
 
 system_tags : null, priority : 0; plugin_rule_key : DWI_DELETING_WHILE_ITERATING
 
@@ -9332,7 +9332,7 @@ method of the iterator should be used.
 ## 513.
 
 
-*  Style - Collection Naming Confusion
+### Style - Collection Naming Confusion
 
 system_tags : null, priority : 0; plugin_rule_key : CNC_COLLECTION_NAMING_CONFUSION
 
@@ -9347,7 +9347,7 @@ and likely caused by a previous refactor of type, without changing the name.</h5
 ## 514.
 
 
-*  Style - Method builds xml strings through adhoc concatenation
+### Style - Method builds xml strings through adhoc concatenation
 
 system_tags : null, priority : 0; plugin_rule_key : CBX_CUSTOM_BUILT_XML
 
@@ -9364,7 +9364,7 @@ read in and transformed into the final product, thru modification by Transformer
 ## 515.
 
 
-*  Style - Method uses integer based for loops to iterate over a List
+### Style - Method uses integer based for loops to iterate over a List
 
 system_tags : null, priority : 0; plugin_rule_key : LII_LIST_INDEXED_ITERATING
 
@@ -9380,7 +9380,7 @@ and they also allow for exchanging of other collection types without issue.</h5>
 ## 516.
 
 
-*  Performance - Method overly synchronizes a block of code
+### Performance - Method overly synchronizes a block of code
 
 system_tags : null, priority : 0; plugin_rule_key : BSB_BLOATED_SYNCHRONIZED_BLOCK
 
@@ -9397,7 +9397,7 @@ to this object.</h5>
 ## 517.
 
 
-*  Performance - Method passes parsed string to primitive wrapper constructor
+### Performance - Method passes parsed string to primitive wrapper constructor
 
 system_tags : null, priority : 0; plugin_rule_key : NAB_NEEDLESS_BOXING_STRING_CTOR
 
@@ -9412,7 +9412,7 @@ the same class's constructor. It is simpler to just pass the string to the Boxed
 ## 518.
 
 
-*  Correctness - Invalid Constant Argument
+### Correctness - Invalid Constant Argument
 
 system_tags : null, priority : 0; plugin_rule_key : ICA_INVALID_CONSTANT_ARGUMENT
 
@@ -9426,7 +9426,7 @@ This is likely going to cause this method to fail to operate correctly.</h5>
 ## 519.
 
 
-*  Correctness - Method asserts that an auto-boxed value is not null
+### Correctness - Method asserts that an auto-boxed value is not null
 
 system_tags : null, priority : 0; plugin_rule_key : JAO_JUNIT_ASSERTION_ODDITIES_IMPOSSIBLE_NULL
 
@@ -9441,7 +9441,7 @@ either.</h5>
 ## 520.
 
 
-*  Correctness - Hanging ExecutorService
+### Correctness - Hanging ExecutorService
 
 system_tags : null, priority : 0; plugin_rule_key : HES_LOCAL_EXECUTOR_SERVICE
 
@@ -9458,7 +9458,7 @@ system_tags : null, priority : 0; plugin_rule_key : HES_LOCAL_EXECUTOR_SERVICE
 ## 521.
 
 
-*  Correctness - Abstract method overrides a concrete implementation
+### Correctness - Abstract method overrides a concrete implementation
 
 system_tags : null, priority : 0; plugin_rule_key : AOM_ABSTRACT_OVERRIDDEN_METHOD
 
@@ -9473,7 +9473,7 @@ suspect that the super class method's implementation would be cast away.
 ## 522.
 
 
-*  Performance - Class uses an ordinary set or map with an enum class as the key
+### Performance - Class uses an ordinary set or map with an enum class as the key
 
 system_tags : null, priority : 0; plugin_rule_key : UEC_USE_ENUM_COLLECTIONS
 
@@ -9487,7 +9487,7 @@ It is better performant to use the jdk 1.5 EnumSet or EnumMap classes.</h5>
 ## 523.
 
 
-*  Performance - Method uses iterator().next() on a List to get the first item
+### Performance - Method uses iterator().next() on a List to get the first item
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USE_GET0
 
@@ -9501,7 +9501,7 @@ to just use myList.get(0).
 ## 524.
 
 
-*  Style - Method returns modified parameter
+### Style - Method returns modified parameter
 
 system_tags : null, priority : 0; plugin_rule_key : CFS_CONFUSING_FUNCTION_SEMANTICS
 
@@ -9519,7 +9519,7 @@ perhaps a clone of the parameter should be made.</h5>
 ## 525.
 
 
-*  Correctness - Non derivable method declares throwing an exception that isn't thrown
+### Correctness - Non derivable method declares throwing an exception that isn't thrown
 
 system_tags : null, priority : 0; plugin_rule_key : BED_BOGUS_EXCEPTION_DECLARATION
 
@@ -9535,7 +9535,7 @@ that will never be thrown. The exception in question should be removed from the 
 ## 526.
 
 
-*  Performance - Method needlessly boxes a boolean constant
+### Performance - Method needlessly boxes a boolean constant
 
 system_tags : null, priority : 0; plugin_rule_key : NAB_NEEDLESS_BOOLEAN_CONSTANT_CONVERSION
 
@@ -9558,7 +9558,7 @@ constant to a Boxed boolean variable. Use the correct constant for the variable 
 ## 527.
 
 
-*  Correctness - Method passes double value to BigDecimal Constructor
+### Correctness - Method passes double value to BigDecimal Constructor
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USE_BIGDECIMAL_STRING_CTOR
 
@@ -9573,7 +9573,7 @@ space. To take advantage of the BigDecimal space, pass the number as a string. <
 ## 528.
 
 
-*  Correctness - Method calls equals on an enum instance
+### Correctness - Method calls equals on an enum instance
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_EQUALS_ON_ENUM
 
@@ -9588,7 +9588,7 @@ that.</h5>
 ## 529.
 
 
-*  Style - Method needlessly defines parameter with concrete classes
+### Style - Method needlessly defines parameter with concrete classes
 
 system_tags : null, priority : 0; plugin_rule_key : OCP_OVERLY_CONCRETE_PARAMETER
 
@@ -9603,7 +9603,7 @@ make low impact changes easier to accomplish in the future.</h5>
 ## 530.
 
 
-*  Correctness - Method calls intern on a string constant
+### Correctness - Method calls intern on a string constant
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_INTERN_ON_CONSTANT
 
@@ -9617,7 +9617,7 @@ is superfluous</h5>
 ## 531.
 
 
-*  Correctness - Class doesn't serialize superclass fields
+### Correctness - Class doesn't serialize superclass fields
 
 system_tags : null, priority : 0; plugin_rule_key : PIS_POSSIBLE_INCOMPLETE_SERIALIZATION
 
@@ -9637,7 +9637,7 @@ Serializable or Externalizable methods in the child class.</h5>
 ## 532.
 
 
-*  Performance - Method allocates an object that is used in a constant way in a loop
+### Performance - Method allocates an object that is used in a constant way in a loop
 
 system_tags : null, priority : 0; plugin_rule_key : PCAIL_POSSIBLE_CONSTANT_ALLOCATION_IN_LOOP
 
@@ -9654,7 +9654,7 @@ in the loop.
 ## 533.
 
 
-*  Style - Poor Mans Enum
+### Style - Poor Mans Enum
 
 system_tags : null, priority : 0; plugin_rule_key : PME_POOR_MANS_ENUM
 
@@ -9669,7 +9669,7 @@ assigned to it. Thus it appears to be used like an enum value, and should probab
 ## 534.
 
 
-*  Style - Method is implemented with an exact copy of it's superclass's method
+### Style - Method is implemented with an exact copy of it's superclass's method
 
 system_tags : null, priority : 0; plugin_rule_key : COM_COPIED_OVERRIDDEN_METHOD
 
@@ -9684,7 +9684,7 @@ implementation, which usually means that this method can just be removed.
 ## 535.
 
 
-*  Performance - Method passes simple concatenating string in StringBuffer or StringBuilder append
+### Performance - Method passes simple concatenating string in StringBuffer or StringBuilder append
 
 system_tags : null, priority : 0; plugin_rule_key : ISB_INEFFICIENT_STRING_BUFFERING
 
@@ -9699,7 +9699,7 @@ of using the StringBuffer or StringBuilder class.</h5>
 ## 536.
 
 
-*  Style - Private method only returns one constant value
+### Style - Private method only returns one constant value
 
 system_tags : null, priority : 0; plugin_rule_key : MRC_METHOD_RETURNS_CONSTANT
 
@@ -9715,7 +9715,7 @@ was expected to be returned in another code path in this method.</h5>
 ## 537.
 
 
-*  Correctness - Method calls Runtime.exit() or Runtime.halt()
+### Correctness - Method calls Runtime.exit() or Runtime.halt()
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_RUNTIME_EXIT_OR_HALT
 
@@ -9728,7 +9728,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_RUNTIME_EXIT_OR_HALT
 ## 538.
 
 
-*  Correctness - Class defines static field that appears to allow memory bloat
+### Correctness - Class defines static field that appears to allow memory bloat
 
 system_tags : null, priority : 0; plugin_rule_key : PMB_POSSIBLE_MEMORY_BLOAT
 
@@ -9743,7 +9743,7 @@ memory bloat.</h5>
 ## 539.
 
 
-*  Correctness - Window sets size manually, and doesn't use pack
+### Correctness - Window sets size manually, and doesn't use pack
 
 system_tags : null, priority : 0; plugin_rule_key : S508C_NO_SETSIZE
 
@@ -9758,7 +9758,7 @@ to handle font size changes to use the pack method.
 ## 540.
 
 
-*  Style - Method asserts that a value is true or false
+### Style - Method asserts that a value is true or false
 
 system_tags : null, priority : 0; plugin_rule_key : JAO_JUNIT_ASSERTION_ODDITIES_BOOLEAN_ASSERT
 
@@ -9772,7 +9772,7 @@ use assertTrue, or assertFalse, instead.</h5>
 ## 541.
 
 
-*  Performance - Method creates Boxed primitive from primitive only to cast to another primitive type
+### Performance - Method creates Boxed primitive from primitive only to cast to another primitive type
 
 system_tags : null, priority : 0; plugin_rule_key : NAB_NEEDLESS_BOX_TO_CAST
 
@@ -9794,7 +9794,7 @@ cast the value to another primitive typee. It is simpler to just use casting</h5
 ## 542.
 
 
-*  Performance - Method concatenates an empty string to effect type conversion
+### Performance - Method concatenates an empty string to effect type conversion
 
 system_tags : null, priority : 0; plugin_rule_key : ISB_EMPTY_STRING_APPENDING
 
@@ -9810,7 +9810,7 @@ to accomplish this.</h5>
 ## 543.
 
 
-*  Performance - Method converts StringBuffer or Builder to String just to get it's length
+### Performance - Method converts StringBuffer or Builder to String just to get it's length
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USE_STRINGBUILDER_LENGTH
 
@@ -9825,7 +9825,7 @@ itself.</h5>
 ## 544.
 
 
-*  Correctness - Method manually casts the right hand side of an assignment more specifically than needed
+### Correctness - Method manually casts the right hand side of an assignment more specifically than needed
 
 system_tags : null, priority : 0; plugin_rule_key : OC_OVERZEALOUS_CASTING
 
@@ -9840,7 +9840,7 @@ that is on the left. Using a more specific type on the right hand side just incr
 ## 545.
 
 
-*  Correctness - Method returns the result of invoking equals() on EqualsBuilder
+### Correctness - Method returns the result of invoking equals() on EqualsBuilder
 
 system_tags : null, priority : 0; plugin_rule_key : CEBE_COMMONS_EQUALS_BUILDER_ISEQUALS
 
@@ -9854,7 +9854,7 @@ instead of calling the method isEqual().</h5>
 ## 546.
 
 
-*  Style - Method passes an empty string to equalsIgnoreCase or compareToIgnoreCase
+### Style - Method passes an empty string to equalsIgnoreCase or compareToIgnoreCase
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_EMPTY_CASING
 
@@ -9868,7 +9868,7 @@ is not case sensitive using equals is simpler. It would be even simpler to do a 
 ## 547.
 
 
-*  Correctness - Method specifies an unrelated class when allocating a Logger
+### Correctness - Method specifies an unrelated class when allocating a Logger
 
 system_tags : null, priority : 0; plugin_rule_key : LO_SUSPECT_LOG_CLASS
 
@@ -9882,7 +9882,7 @@ to the class in which the logger is going to be used. This is likely caused by c
 ## 548.
 
 
-*  Style - Method uses the same HttpSession attribute name but with different casing
+### Style - Method uses the same HttpSession attribute name but with different casing
 
 system_tags : null, priority : 0; plugin_rule_key : IKNC_INCONSISTENT_HTTP_ATTRIBUTE_CASING
 
@@ -9896,7 +9896,7 @@ but with a different casing. As HttpSession attribute are case sensitive, this w
 ## 549.
 
 
-*  Correctness - Method calls BigDecimal.equals()
+### Correctness - Method calls BigDecimal.equals()
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_BIGDECIMAL_EQUALS
 
@@ -9909,7 +9909,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_BIGDECIMAL_EQUALS
 ## 550.
 
 
-*  Correctness - Method performs a contravariant array element assignment
+### Correctness - Method performs a contravariant array element assignment
 
 system_tags : null, priority : 0; plugin_rule_key : CVAA_CONTRAVARIANT_ELEMENT_ASSIGNMENT
 
@@ -9932,7 +9932,7 @@ class B extends A {}
 ## 551.
 
 
-*  Correctness - Method checks a reference for null before calling instanceof
+### Correctness - Method checks a reference for null before calling instanceof
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_NULL_BEFORE_INSTANCEOF
 
@@ -9946,7 +9946,7 @@ Since instanceof will return false for null references, the null check is not ne
 ## 552.
 
 
-*  Style - Method asserts that two doubles are exactly equal
+### Style - Method asserts that two doubles are exactly equal
 
 system_tags : null, priority : 0; plugin_rule_key : JAO_JUNIT_ASSERTION_ODDITIES_INEXACT_DOUBLE
 
@@ -9960,7 +9960,7 @@ should be using the assert method that takes a range parameter that gives a rang
 ## 553.
 
 
-*  Correctness - Conflicting Time Units
+### Correctness - Conflicting Time Units
 
 system_tags : null, priority : 0; plugin_rule_key : CTU_CONFLICTING_TIME_UNITS
 
@@ -9976,7 +9976,7 @@ performing this calculation in order for it to be meaningful.
 ## 554.
 
 
-*  MT Correctness - Method uses suspicious thread priorities
+### MT Correctness - Method uses suspicious thread priorities
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_THREAD_PRIORITIES
 
@@ -9989,7 +9989,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_THREAD_PRIORITIES
 ## 555.
 
 
-*  Performance - Method passes primitive wrapper to same primitive wrapper constructor
+### Performance - Method passes primitive wrapper to same primitive wrapper constructor
 
 system_tags : null, priority : 0; plugin_rule_key : NAB_NEEDLESS_AUTOBOXING_CTOR
 
@@ -10005,7 +10005,7 @@ than constructing a new one. This code works because of an abuse of autoboxing.
 ## 556.
 
 
-*  Correctness - Serializable class defines a final transient field
+### Correctness - Serializable class defines a final transient field
 
 system_tags : null, priority : 0; plugin_rule_key : NFF_NON_FUNCTIONAL_FIELD
 
@@ -10021,7 +10021,7 @@ And since the field is final, no other method can initialize it as well.</h5>
 ## 557.
 
 
-*  Correctness - Method treats null and normal strings differently than an empty strings
+### Correctness - Method treats null and normal strings differently than an empty strings
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_SUSPECT_STRING_TEST
 
@@ -10042,7 +10042,7 @@ or perhaps ((s == null) || (s.length() == 0))?
 ## 558.
 
 
-*  Style - Method calls getProperties just to get one property, use getProperty instead
+### Style - Method calls getProperties just to get one property, use getProperty instead
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USE_GETPROPERTY
 
@@ -10060,7 +10060,7 @@ system_tags : null, priority : 0; plugin_rule_key : SPP_USE_GETPROPERTY
 ## 559.
 
 
-*  Performance - Method uses two date comparisons when one would do
+### Performance - Method uses two date comparisons when one would do
 
 system_tags : null, priority : 0; plugin_rule_key : DDC_DOUBLE_DATE_COMPARISON
 
@@ -10097,7 +10097,7 @@ could become
 ## 560.
 
 
-*  Performance - Method does not presize the allocation of a collection
+### Performance - Method does not presize the allocation of a collection
 
 system_tags : null, priority : 0; plugin_rule_key : PSC_PRESIZE_COLLECTIONS
 
@@ -10113,7 +10113,7 @@ and thus needlessly causes intermediate reallocations of the collection.
 ## 561.
 
 
-*  Correctness - Constructor declares a Logger parameter
+### Correctness - Constructor declares a Logger parameter
 
 system_tags : null, priority : 0; plugin_rule_key : LO_SUSPECT_LOG_PARAMETER
 
@@ -10128,7 +10128,7 @@ class to another. Declare the Logger static in each class instead.</h5>
 ## 562.
 
 
-*  Style - Method passes constant to second (actual) assertion parameter
+### Style - Method passes constant to second (actual) assertion parameter
 
 system_tags : null, priority : 0; plugin_rule_key : JAO_JUNIT_ASSERTION_ODDITIES_ACTUAL_CONSTANT
 
@@ -10143,7 +10143,7 @@ of values has been swapped here.</h5>
 ## 563.
 
 
-*  Correctness - Method passes a negative number as a bit to a BitSet which isn't supported
+### Correctness - Method passes a negative number as a bit to a BitSet which isn't supported
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_NEGATIVE_BITSET_ITEM
 
@@ -10157,7 +10157,7 @@ doesn't support negative values, and thus this method call will not work as expe
 ## 564.
 
 
-*  Correctness - Method uses array as basis of collection
+### Correctness - Method uses array as basis of collection
 
 system_tags : null, priority : 0; plugin_rule_key : ABC_ARRAY_BASED_COLLECTIONS
 
@@ -10175,7 +10175,7 @@ constructor.
 ## 565.
 
 
-*  Style - Method stacks similar try/catch blocks
+### Style - Method stacks similar try/catch blocks
 
 system_tags : null, priority : 0; plugin_rule_key : STB_STACKED_TRY_BLOCKS
 
@@ -10191,7 +10191,7 @@ simplify the method.</h5>
 ## 566.
 
 
-*  Correctness - Method modifies collection element while iterating
+### Correctness - Method modifies collection element while iterating
 
 system_tags : null, priority : 0; plugin_rule_key : DWI_MODIFYING_WHILE_ITERATING
 
@@ -10207,7 +10207,7 @@ use of it, will cause ConcurrentModificationExceptions to be thrown.
 ## 567.
 
 
-*  Correctness - Method calls Array.asList on an array of primitive values
+### Correctness - Method calls Array.asList on an array of primitive values
 
 system_tags : null, priority : 0; plugin_rule_key : CAAL_CONFUSING_ARRAY_AS_LIST
 
@@ -10224,7 +10224,7 @@ with one item in it, the array itself. This is rarely what is desired.
 ## 568.
 
 
-*  Style - Method does not define a parameter as final, but could
+### Style - Method does not define a parameter as final, but could
 
 system_tags : null, priority : 0; plugin_rule_key : FP_FINAL_PARAMETERS
 
@@ -10239,7 +10239,7 @@ as final.</h5>
 ## 569.
 
 
-*  Correctness - Method uses rt.jar class or method that does not exist
+### Correctness - Method uses rt.jar class or method that does not exist
 
 system_tags : null, priority : 0; plugin_rule_key : SJVU_SUSPICIOUS_JDK_VERSION_USE
 
@@ -10254,7 +10254,7 @@ this class has been compiled for. This can happen if you compile the class speci
 ## 570.
 
 
-*  Correctness - Method uses invalid C++ style null check on Boolean
+### Correctness - Method uses invalid C++ style null check on Boolean
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_INVALID_BOOLEAN_NULL_CHECK
 
@@ -10274,7 +10274,7 @@ if ((b != null) && b.booleanValue())
 ## 571.
 
 
-*  Correctness - Method assigns a value to a local twice in a row
+### Correctness - Method assigns a value to a local twice in a row
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_STUTTERED_ASSIGNMENT
 
@@ -10289,7 +10289,7 @@ assignment can be removed.</h5>
 ## 572.
 
 
-*  Style - Method accesses statically bound class with Class.forName
+### Style - Method accesses statically bound class with Class.forName
 
 system_tags : null, priority : 0; plugin_rule_key : SCR_SLOPPY_CLASS_REFLECTION
 
@@ -10305,7 +10305,7 @@ the class in question is already 'linked' to this class.</h5>
 ## 573.
 
 
-*  Correctness - Method returns the result of invoking hashCode() on HashCodeBuilder
+### Correctness - Method returns the result of invoking hashCode() on HashCodeBuilder
 
 system_tags : null, priority : 0; plugin_rule_key : CHTH_COMMONS_HASHCODE_BUILDER_TOHASHCODE
 
@@ -10319,7 +10319,7 @@ instead of calling the method toHashCode().</h5>
 ## 574.
 
 
-*  Correctness - Hanging ExecutorService
+### Correctness - Hanging ExecutorService
 
 system_tags : null, priority : 0; plugin_rule_key : HES_EXECUTOR_OVERWRITTEN_WITHOUT_SHUTDOWN
 
@@ -10365,7 +10365,7 @@ replacing the <code>ExecutorService</code>, perhaps you may consider restructuri
 ## 575.
 
 
-*  Correctness - Method creates local variable-based synchronized collection
+### Correctness - Method creates local variable-based synchronized collection
 
 system_tags : null, priority : 0; plugin_rule_key : LSYC_LOCAL_SYNCHRONIZED_COLLECTION
 
@@ -10388,7 +10388,7 @@ questionable that this collection needs to be synchronized.</h5>
 ## 576.
 
 
-*  Style - Method calls static method on instance reference
+### Style - Method calls static method on instance reference
 
 system_tags : null, priority : 0; plugin_rule_key : SMII_STATIC_METHOD_INSTANCE_INVOCATION
 
@@ -10405,7 +10405,7 @@ this code was written, and should be revisited.
 ## 577.
 
 
-*  Performance - Method appends two literal strings back to back to a StringBuilder
+### Performance - Method appends two literal strings back to back to a StringBuilder
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_DOUBLE_APPENDED_LITERALS
 
@@ -10419,7 +10419,7 @@ one append call, and may avoid intermediate reallocations of the StringBuilders 
 ## 578.
 
 
-*  Performance - Method creates array using constants
+### Performance - Method creates array using constants
 
 system_tags : null, priority : 0; plugin_rule_key : SACM_STATIC_ARRAY_CREATED_IN_METHOD
 
@@ -10434,7 +10434,7 @@ static field of the class instead.</h5>
 ## 579.
 
 
-*  Style - Method makes literal string comparisons passing the literal as an argument
+### Style - Method makes literal string comparisons passing the literal as an argument
 
 system_tags : null, priority : 0; plugin_rule_key : LSC_LITERAL_STRING_COMPARISON
 
@@ -10449,7 +10449,7 @@ the string literal, and the variable was passed as an argument, this exception c
 ## 580.
 
 
-*  Style - Class defines two or more one for one associated lists or arrays
+### Style - Class defines two or more one for one associated lists or arrays
 
 system_tags : null, priority : 0; plugin_rule_key : PL_PARALLEL_LISTS
 
@@ -10465,7 +10465,7 @@ a Map to associate one value with the other.</h5>
 ## 581.
 
 
-*  Correctness - Method uses same bean's getter value for setter
+### Correctness - Method uses same bean's getter value for setter
 
 system_tags : null, priority : 0; plugin_rule_key : SGSU_SUSPICIOUS_GETTER_SETTER_USE
 
@@ -10479,7 +10479,7 @@ for the same property of the same bean. This is usually a copy/paste typo.
 ## 582.
 
 
-*  Correctness - Equals method compares this object against other types in a non symmetric way
+### Correctness - Equals method compares this object against other types in a non symmetric way
 
 system_tags : null, priority : 0; plugin_rule_key : NSE_NON_SYMMETRIC_EQUALS
 
@@ -10496,7 +10496,7 @@ to this.</h5>
 ## 583.
 
 
-*  Correctness - Modifying Unmodifiable Collection
+### Correctness - Modifying Unmodifiable Collection
 
 system_tags : null, priority : 0; plugin_rule_key : MUC_MODIFYING_UNMODIFIABLE_COLLECTION
 
@@ -10511,7 +10511,7 @@ an exception, as these collections are not mutable.
 ## 584.
 
 
-*  Correctness - JLabel doesn't specify what it's labeling
+### Correctness - JLabel doesn't specify what it's labeling
 
 system_tags : null, priority : 0; plugin_rule_key : S508C_NO_SETLABELFOR
 
@@ -10527,7 +10527,7 @@ the JLabel.setLabelFor method to accomplish this.
 ## 585.
 
 
-*  Correctness - Method creates iterators on synchronized collections
+### Correctness - Method creates iterators on synchronized collections
 
 system_tags : null, priority : 0; plugin_rule_key : SCI_SYNCHRONIZED_COLLECTION_ITERATORS
 
@@ -10542,7 +10542,7 @@ concept. When using iterators, you should do the synchronization manually.</h5>
 ## 586.
 
 
-*  Correctness - Method puts non-String values into a Properties object
+### Correctness - Method puts non-String values into a Properties object
 
 system_tags : null, priority : 0; plugin_rule_key : IPU_IMPROPER_PROPERTIES_USE
 
@@ -10559,7 +10559,7 @@ like HashMap or TreeMap.
 ## 587.
 
 
-*  Correctness - Method tests a local variable for not null as guard and reassigns it
+### Correctness - Method tests a local variable for not null as guard and reassigns it
 
 system_tags : null, priority : 0; plugin_rule_key : SNG_SUSPICIOUS_NULL_LOCAL_GUARD
 
@@ -10574,7 +10574,7 @@ should have been a check to see if the local variable is null, not that the loca
 ## 588.
 
 
-*  Correctness - Method accesses list or array with constant index
+### Correctness - Method accesses list or array with constant index
 
 system_tags : null, priority : 0; plugin_rule_key : CLI_CONSTANT_LIST_INDEX
 
@@ -10590,7 +10590,7 @@ a first-class object with meaningful accessors would make the code less brittle.
 ## 589.
 
 
-*  Style - Method returns more specific type of object than declared
+### Style - Method returns more specific type of object than declared
 
 system_tags : null, priority : 0; plugin_rule_key : URV_CHANGE_RETURN_TYPE
 
@@ -10606,7 +10606,7 @@ change the return type of this method.</h5>
 ## 590.
 
 
-*  Correctness - Method defines parameters more abstractly than needed to function properly
+### Correctness - Method defines parameters more abstractly than needed to function properly
 
 system_tags : null, priority : 0; plugin_rule_key : PDP_POORLY_DEFINED_PARAMETER
 
@@ -10621,7 +10621,7 @@ just define the parameters with the type that is needed.
 ## 591.
 
 
-*  Correctness - Method creates insecure Random object
+### Correctness - Method creates insecure Random object
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_RANDOM_SEED
 
@@ -10634,7 +10634,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_RANDOM_SEED
 ## 592.
 
 
-*  Style - Method manually creates array from collection
+### Style - Method manually creates array from collection
 
 system_tags : null, priority : 0; plugin_rule_key : UTA_USE_TO_ARRAY
 
@@ -10650,7 +10650,7 @@ mycollection.toArray(new T[mycollection.size()]);
 ## 593.
 
 
-*  Correctness - Class defines methods which confuse Character with int parameters
+### Correctness - Class defines methods which confuse Character with int parameters
 
 system_tags : null, priority : 0; plugin_rule_key : CAO_CONFUSING_AUTOBOXED_OVERLOADING
 
@@ -10665,7 +10665,7 @@ assumed that a parameter of 'a' would map to the Character version, but does not
 ## 594.
 
 
-*  Performance - Method passes primitive wrapper to Wrapper class valueOf method
+### Performance - Method passes primitive wrapper to Wrapper class valueOf method
 
 system_tags : null, priority : 0; plugin_rule_key : NAB_NEEDLESS_AUTOBOXING_VALUEOF
 
@@ -10681,7 +10681,7 @@ than calling valueOf to create a new one. This code works because of an abuse of
 ## 595.
 
 
-*  Style - Unused Parameter
+### Style - Unused Parameter
 
 system_tags : null, priority : 0; plugin_rule_key : UP_UNUSED_PARAMETER
 
@@ -10697,7 +10697,7 @@ want to change that call as well.
 ## 596.
 
 
-*  Style - Method throws exception with static message string
+### Style - Method throws exception with static message string
 
 system_tags : null, priority : 0; plugin_rule_key : WEM_WEAK_EXCEPTION_MESSAGING
 
@@ -10713,7 +10713,7 @@ adding context to the exception message.</h5>
 ## 597.
 
 
-*  Performance - Unjitable method
+### Performance - Unjitable method
 
 system_tags : null, priority : 0; plugin_rule_key : UJM_UNJITABLE_METHOD
 
@@ -10728,7 +10728,7 @@ breaking this method up in smaller chunks. (And probably a good idea for readabi
 ## 598.
 
 
-*  Style - Method excessively uses methods of another class
+### Style - Method excessively uses methods of another class
 
 system_tags : null, priority : 0; plugin_rule_key : CE_CLASS_ENVY
 
@@ -10745,7 +10745,7 @@ method to be contained in that class, and to accept all the parameters needed in
 ## 599.
 
 
-*  Correctness - Method passes an incorrect number of parameters to an SLF4J logging statement
+### Correctness - Method passes an incorrect number of parameters to an SLF4J logging statement
 
 system_tags : null, priority : 0; plugin_rule_key : LO_INCORRECT_NUMBER_OF_ANCHOR_PARAMETERS
 
@@ -10759,7 +10759,7 @@ format string. An additional exception argument is allowed if found.
 ## 600.
 
 
-*  Correctness - Method calls deprecated SecureRandom method
+### Correctness - Method calls deprecated SecureRandom method
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_SECURERANDOM
 
@@ -10772,7 +10772,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_SECURERANDOM
 ## 601.
 
 
-*  Style - Code calls a method passing the same value to two different arguments
+### Style - Code calls a method passing the same value to two different arguments
 
 system_tags : null, priority : 0; plugin_rule_key : SMA_STUTTERED_METHOD_ARGUMENTS
 
@@ -10788,7 +10788,7 @@ in this case.</h5>
 ## 602.
 
 
-*  Correctness - Method serializes an instance of a non-static inner class
+### Correctness - Method serializes an instance of a non-static inner class
 
 system_tags : null, priority : 0; plugin_rule_key : PUS_POSSIBLE_UNSUSPECTED_SERIALIZATION
 
@@ -10805,7 +10805,7 @@ pull it out into a separate "first class" class.
 ## 603.
 
 
-*  Correctness - Method calls InetAddress.getLocalHost()
+### Correctness - Method calls InetAddress.getLocalHost()
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_INETADDRESS_GETLOCALHOST
 
@@ -10818,7 +10818,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_INETADDRESS_GETLOCALHOST
 ## 604.
 
 
-*  Correctness - Method uses floating point indexed loops
+### Correctness - Method uses floating point indexed loops
 
 system_tags : null, priority : 0; plugin_rule_key : FPL_FLOATING_POINT_LOOPS
 
@@ -10834,7 +10834,7 @@ of the floating point number at the top of the loop body.</h5>
 ## 605.
 
 
-*  Correctness - Method uses non standard math constant
+### Correctness - Method uses non standard math constant
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_USE_MATH_CONSTANT
 
@@ -10848,7 +10848,7 @@ one defined in the constants Math.PI or Math.E. Use these constants instead.</h5
 ## 606.
 
 
-*  Style - Class implements interface by relying on unknowing superclass methods
+### Style - Class implements interface by relying on unknowing superclass methods
 
 system_tags : null, priority : 0; plugin_rule_key : SCII_SPOILED_CHILD_INTERFACE_IMPLEMENTOR
 
@@ -10865,7 +10865,7 @@ that superclass abstract.</h5>
 ## 607.
 
 
-*  Correctness - Method creates and initializes a collection but never reads or gains information from it
+### Correctness - Method creates and initializes a collection but never reads or gains information from it
 
 system_tags : null, priority : 0; plugin_rule_key : WOC_WRITE_ONLY_COLLECTION_LOCAL
 
@@ -10880,7 +10880,7 @@ is left over from a past effort, and can be removed.
 ## 608.
 
 
-*  Style - Class 'overloads' a method with both instance and static versions
+### Style - Class 'overloads' a method with both instance and static versions
 
 system_tags : null, priority : 0; plugin_rule_key : MOM_MISLEADING_OVERLOAD_MODEL
 
@@ -10894,7 +10894,7 @@ of these two models is different, it will be confusing to the users of these met
 ## 609.
 
 
-*  Style - Class defines a serialVersionUID as non private
+### Style - Class defines a serialVersionUID as non private
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_SERIALVER_SHOULD_BE_PRIVATE
 
@@ -10910,7 +10910,7 @@ private is confusing. It is suggested you change this variable to be private.
 ## 610.
 
 
-*  Style - Class appears to implement the old style type safe enum pattern
+### Style - Class appears to implement the old style type safe enum pattern
 
 system_tags : null, priority : 0; plugin_rule_key : DTEP_DEPRECATED_TYPESAFE_ENUM_PATTERN
 
@@ -10925,7 +10925,7 @@ easy to understand if it was just switched over to an enum.</h5>
 ## 611.
 
 
-*  Style - Method defines parameter list with array as last argument, rather than vararg
+### Style - Method defines parameter list with array as last argument, rather than vararg
 
 system_tags : null, priority : 0; plugin_rule_key : UVA_USE_VAR_ARGS
 
@@ -10940,7 +10940,7 @@ more convienent for client developers to use. This is not a bug, per se, just an
 ## 612.
 
 
-*  Correctness - Method has abnormal exit from finally block
+### Correctness - Method has abnormal exit from finally block
 
 system_tags : null, priority : 0; plugin_rule_key : AFBR_ABNORMAL_FINALLY_BLOCK_RETURN
 
@@ -10955,7 +10955,7 @@ mask real program logic in the try block, and short-circuit normal method termin
 ## 613.
 
 
-*  MT Correctness - Method ignores Lock's fairness settings by calling tryLock()
+### MT Correctness - Method ignores Lock's fairness settings by calling tryLock()
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_THREAD_FAIRNESS
 
@@ -10968,7 +10968,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_THREAD_FAIRNESS
 ## 614.
 
 
-*  Correctness - Class creates and initializes a collection but never reads or gains information from it
+### Correctness - Class creates and initializes a collection but never reads or gains information from it
 
 system_tags : null, priority : 0; plugin_rule_key : WOC_WRITE_ONLY_COLLECTION_FIELD
 
@@ -10983,7 +10983,7 @@ is left over from a past effort, and can be removed.
 ## 615.
 
 
-*  Correctness - Method passes appended string to title/label of component
+### Correctness - Method passes appended string to title/label of component
 
 system_tags : null, priority : 0; plugin_rule_key : S508C_APPENDED_STRING
 
@@ -10998,7 +10998,7 @@ differently, this will make translations difficult.</h5>
 ## 616.
 
 
-*  Correctness - Method compares class name instead of comparing class
+### Correctness - Method compares class name instead of comparing class
 
 system_tags : null, priority : 0; plugin_rule_key : CCNE_COMPARE_CLASS_EQUALS_NAME
 
@@ -11016,7 +11016,7 @@ Comparing class name ignores the class loader.
 ## 617.
 
 
-*  Correctness - Method modifies http session attribute without calling setAttribute
+### Correctness - Method modifies http session attribute without calling setAttribute
 
 system_tags : null, priority : 0; plugin_rule_key : SCSS_SUSPICIOUS_CLUSTERED_SESSION_SUPPORT
 
@@ -11032,7 +11032,7 @@ by a call to setAttribute are replicated.</h5>
 ## 618.
 
 
-*  Style - Clone method declares it throws CloneNotSupportedException
+### Style - Clone method declares it throws CloneNotSupportedException
 
 system_tags : null, priority : 0; plugin_rule_key : CU_CLONE_USABILITY_THROWS
 
@@ -11050,7 +11050,7 @@ throws clause from your method.
 ## 619.
 
 
-*  Correctness - Method throws alternative exception from catch block without history
+### Correctness - Method throws alternative exception from catch block without history
 
 system_tags : null, priority : 0; plugin_rule_key : LEST_LOST_EXCEPTION_STACK_TRACE
 
@@ -11066,7 +11066,7 @@ original exception so that this detail can be passed along to the user.</h5>
 ## 620.
 
 
-*  Style - Method uses 1 element array to simulate call by reference
+### Style - Method uses 1 element array to simulate call by reference
 
 system_tags : null, priority : 0; plugin_rule_key : AWCBR_ARRAY_WRAPPED_CALL_BY_REFERENCE
 
@@ -11081,7 +11081,7 @@ the relevant information retrieved from the called method.</h5>
 ## 621.
 
 
-*  Style - Clone method declares it returns an Object
+### Style - Clone method declares it returns an Object
 
 system_tags : null, priority : 0; plugin_rule_key : CU_CLONE_USABILITY_OBJECT_RETURN
 
@@ -11097,7 +11097,7 @@ be more painful than necessary. Just declare the return value to be the type of 
 ## 622.
 
 
-*  Correctness - Method appears to pass character to StringBuffer or StringBuilder integer constructor
+### Correctness - Method appears to pass character to StringBuffer or StringBuilder integer constructor
 
 system_tags : null, priority : 0; plugin_rule_key : SPP_NO_CHAR_SB_CTOR
 
@@ -11113,7 +11113,7 @@ StringBuffer/Builder, but instead the integer value of the character is used as 
 ## 623.
 
 
-*  Performance - Method executes sql queries inside of loops
+### Performance - Method executes sql queries inside of loops
 
 system_tags : null, priority : 0; plugin_rule_key : SIL_SQL_IN_LOOP
 
@@ -11130,7 +11130,7 @@ set, and fetch all the data at once.</h5>
 ## 624.
 
 
-*  Correctness - Method triggers finalization
+### Correctness - Method triggers finalization
 
 system_tags : null, priority : 0; plugin_rule_key : MDM_RUNFINALIZATION
 
@@ -11143,7 +11143,7 @@ system_tags : null, priority : 0; plugin_rule_key : MDM_RUNFINALIZATION
 ## 625.
 
 
-*  Useless parentheses around expressions should be removed to prevent any misunderstanding
+### Useless parentheses around expressions should be removed to prevent any misunderstanding
 
 system_tags : null, priority : 2; plugin_rule_key : UselessParenthesesCheck
 
@@ -11170,7 +11170,7 @@ int y = (4+X) * y;    // Compliant
 ## 626.
 
 
-*  Methods should not have too many lines
+### Methods should not have too many lines
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S138
 
@@ -11191,7 +11191,7 @@ Those smaller methods will not only be easier to understand, but also probably e
 ## 627.
 
 
-*  The Array.equals(Object obj) method should never be used
+### The Array.equals(Object obj) method should never be used
 
 system_tags : convention, priority : 3; plugin_rule_key : S1294
 
@@ -11252,7 +11252,7 @@ if(Arrays.equals(array1, array2)) {
 ## 628.
 
 
-*  Loops should not contain more than a single "break" or "continue" statement
+### Loops should not contain more than a single "break" or "continue" statement
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S135
 
@@ -11287,7 +11287,7 @@ for (int i = 1; i <= 10; i++) {     // Noncompliant - 2 continue - one might be 
 ## 629.
 
 
-*  Enumeration should not be implemented
+### Enumeration should not be implemented
 
 system_tags : null, priority : 2; plugin_rule_key : S1150
 
@@ -11322,7 +11322,7 @@ public class MyClass implements Iterator {     // Compliant
 ## 630.
 
 
-*  Switch cases should not have too many lines
+### Switch cases should not have too many lines
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S1151
 
@@ -11353,7 +11353,7 @@ switch (myVariable) {
 ## 631.
 
 
-*  Member variable visibility should be specified
+### Member variable visibility should be specified
 
 system_tags : security, priority : 2; plugin_rule_key : S2039
 
@@ -11388,7 +11388,7 @@ enum A {
 ## 632.
 
 
-*  Avoid use of //NOSONAR marker
+### Avoid use of //NOSONAR marker
 
 system_tags : null, priority : 0; plugin_rule_key : NoSonar
 
@@ -11405,7 +11405,7 @@ system_tags : null, priority : 0; plugin_rule_key : NoSonar
 ## 633.
 
 
-*  Classes and methods that rely on the default system encoding should not be used
+### Classes and methods that rely on the default system encoding should not be used
 
 system_tags : bug, priority : 2; plugin_rule_key : S1943
 
@@ -11465,7 +11465,7 @@ system_tags : bug, priority : 2; plugin_rule_key : S1943
 ## 634.
 
 
-*  "ResultSet.isLast()" should not be used
+### "ResultSet.isLast()" should not be used
 
 system_tags : performance,pitfall, priority : 3; plugin_rule_key : S2232
 
@@ -11495,7 +11495,7 @@ while (! rs.next()) {
 ## 635.
 
 
-*  Primitive wrappers should not be instantiated only to perform a to String conversion
+### Primitive wrappers should not be instantiated only to perform a to String conversion
 
 system_tags : null, priority : 2; plugin_rule_key : S1158
 
@@ -11523,7 +11523,7 @@ Integer.toString(myInteger);      // Compliant
 ## 636.
 
 
-*  Case insensitive string comparisons should be made without intermediate upper or lower casing
+### Case insensitive string comparisons should be made without intermediate upper or lower casing
 
 system_tags : null, priority : 2; plugin_rule_key : S1157
 
@@ -11552,7 +11552,7 @@ boolean result = foo.equalsIgnoreCase(bar);                  // Compliant
 ## 637.
 
 
-*  Non-public methods should not be "@Transactional"
+### Non-public methods should not be "@Transactional"
 
 system_tags : bug,spring, priority : 3; plugin_rule_key : S2230
 
@@ -11575,7 +11575,7 @@ private void doTheThing(ArgClass arg) {
 ## 638.
 
 
-*  Collection.isEmpty() should be used to test for emptiness
+### Collection.isEmpty() should be used to test for emptiness
 
 system_tags : null, priority : 2; plugin_rule_key : S1155
 
@@ -11607,7 +11607,7 @@ if (myCollection.isEmpty()) {    // Compliant
 ## 639.
 
 
-*  Methods "wait(...)", "notify()" or "notifyAll()" should never be called on Thread instances
+### Methods "wait(...)", "notify()" or "notifyAll()" should never be called on Thread instances
 
 system_tags : bug,multi-threading, priority : 3; plugin_rule_key : S2236
 
@@ -11632,7 +11632,7 @@ myThread.wait(2000);
 ## 640.
 
 
-*  Fields in a "Serializable" class should either be transient or serializable
+### Fields in a "Serializable" class should either be transient or serializable
 
 system_tags : bug,cwe, priority : 2; plugin_rule_key : S1948
 
@@ -11688,7 +11688,7 @@ private void readObject(java.io.ObjectInputStream in) throws IOException, ClassN
 ## 641.
 
 
-*  String.valueOf() should not be appended to a String
+### String.valueOf() should not be appended to a String
 
 system_tags : null, priority : 1; plugin_rule_key : S1153
 
@@ -11720,7 +11720,7 @@ public void display(int i){
 ## 642.
 
 
-*  IllegalMonitorStateException should never be caught
+### IllegalMonitorStateException should never be caught
 
 system_tags : bug,multi-threading, priority : 3; plugin_rule_key : S2235
 
@@ -11764,7 +11764,7 @@ public void doSomething(){
 ## 643.
 
 
-*  Identical expressions should not be used on both sides of a binary operator
+### Identical expressions should not be used on both sides of a binary operator
 
 system_tags : cert, priority : 2; plugin_rule_key : S1764
 
@@ -11835,7 +11835,7 @@ int k = 0;
 ## 644.
 
 
-*  Public types, methods and fields (API) should be documented with Javadoc
+### Public types, methods and fields (API) should be documented with Javadoc
 
 system_tags : convention, priority : 2; plugin_rule_key : UndocumentedApi
 
@@ -11912,7 +11912,7 @@ public class MyClass&lt;T&gt; implements Runnable {    // Non-Compliant - missin
 ## 645.
 
 
-*  Comments should not be located at the end of lines of code
+### Comments should not be located at the end of lines of code
 
 system_tags : convention, priority : 1; plugin_rule_key : TrailingCommentCheck
 
@@ -11945,7 +11945,7 @@ String a3 = "id"; // $NON-NLS-1$
 ## 646.
 
 
-*  Avoid too deep inheritance tree
+### Avoid too deep inheritance tree
 
 system_tags : null, priority : 2; plugin_rule_key : MaximumInheritanceDepth
 
@@ -11966,7 +11966,7 @@ system_tags : null, priority : 2; plugin_rule_key : MaximumInheritanceDepth
 ## 647.
 
 
-*  Constructors should only call non-overridable methods
+### Constructors should only call non-overridable methods
 
 system_tags : bug, priority : 2; plugin_rule_key : S1699
 
@@ -12015,7 +12015,7 @@ public class Child extends Parent {
 ## 648.
 
 
-*  Switch cases should end with an unconditional break statement
+### Switch cases should end with an unconditional break statement
 
 system_tags : pitfall, priority : 3; plugin_rule_key : S128
 
@@ -12084,7 +12084,7 @@ switch (myVariable) {
 ## 649.
 
 
-*  "Double.longBitsToDouble" should not be used for "int"
+### "Double.longBitsToDouble" should not be used for "int"
 
 system_tags : bug, priority : 4; plugin_rule_key : S2127
 
@@ -12103,7 +12103,7 @@ double d = Double.longBitsToDouble(i);  // Noncompliant
 ## 650.
 
 
-*  Avoid use of deprecated method
+### Avoid use of deprecated method
 
 system_tags : null, priority : 1; plugin_rule_key : CallToDeprecatedMethod
 
@@ -12117,7 +12117,7 @@ system_tags : null, priority : 1; plugin_rule_key : CallToDeprecatedMethod
 ## 651.
 
 
-*  Relational operators should be used in "for" loop termination conditions
+### Relational operators should be used in "for" loop termination conditions
 
 system_tags : bug,cert,cwe,misra, priority : 3; plugin_rule_key : S888
 
@@ -12160,7 +12160,7 @@ An equality operator may be used if the loop counter is not modified within the 
 ## 652.
 
 
-*  Public methods should throw at most one checked exception
+### Public methods should throw at most one checked exception
 
 system_tags : error-handling, priority : 2; plugin_rule_key : S1160
 
@@ -12198,7 +12198,7 @@ Overriding methods are not checked by this rule and are allowed to throw several
 ## 653.
 
 
-*  "@Override" annotation should be used on any method overriding (since Java 5) or implementing (since Java 6) another one
+### "@Override" annotation should be used on any method overriding (since Java 5) or implementing (since Java 6) another one
 
 system_tags : null, priority : 2; plugin_rule_key : S1161
 
@@ -12235,7 +12235,7 @@ class FirstChildClass extends ParentClass {
 ## 654.
 
 
-*  An abstract class should have both abstract and concrete methods
+### An abstract class should have both abstract and concrete methods
 
 system_tags : convention, priority : 2; plugin_rule_key : S1694
 
@@ -12304,7 +12304,7 @@ public abstract class Lamp {
 ## 655.
 
 
-*  Checked Exception should not be thrown
+### Checked Exception should not be thrown
 
 system_tags : error-handling, priority : 2; plugin_rule_key : S1162
 
@@ -12333,7 +12333,7 @@ public void myMethod1() throws CheckedException {
 ## 656.
 
 
-*  Class names should comply with a naming convention
+### Class names should comply with a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S00101
 
@@ -12357,7 +12357,7 @@ public class mySecondClass { ... }    // Non-Compliant
 ## 657.
 
 
-*  "NullPointerException" should not be explicitly thrown
+### "NullPointerException" should not be explicitly thrown
 
 system_tags : pitfall, priority : 2; plugin_rule_key : S1695
 
@@ -12386,7 +12386,7 @@ public void doSomething (@NotNull String aString)
 ## 658.
 
 
-*  Method names should comply with a naming convention
+### Method names should comply with a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S00100
 
@@ -12430,7 +12430,7 @@ public void Do_Something() {...}
 ## 659.
 
 
-*  "NullPointerException" should not be caught
+### "NullPointerException" should not be caught
 
 system_tags : error-handling, priority : 2; plugin_rule_key : S1696
 
@@ -12472,7 +12472,7 @@ public int lengthPlus(String str) {
 ## 660.
 
 
-*  Short-circuit logic should be used to prevent null pointer dereferences in conditionals
+### Short-circuit logic should be used to prevent null pointer dereferences in conditionals
 
 system_tags : bug, priority : 4; plugin_rule_key : S1697
 
@@ -12507,7 +12507,7 @@ if (str != null && str.length() > 0) {
 ## 661.
 
 
-*  Objects should be compared with "equals()"
+### Objects should be compared with "equals()"
 
 system_tags : cwe, priority : 2; plugin_rule_key : S1698
 
@@ -12577,7 +12577,7 @@ if(c == Integer.class) { //No issue raised
 ## 662.
 
 
-*  Empty arrays and collections should be returned instead of null
+### Empty arrays and collections should be returned instead of null
 
 system_tags : null, priority : 2; plugin_rule_key : S1168
 
@@ -12641,7 +12641,7 @@ public static List&lt;Result&gt; getResults() {
 ## 663.
 
 
-*  Strings should be compared using equals()
+### Strings should be compared using equals()
 
 system_tags : bug, priority : 3; plugin_rule_key : StringEqualityComparisonCheck
 
@@ -12675,7 +12675,7 @@ if (!"foo".equals(variable)) { /* ... */ }   // Compliant
 ## 664.
 
 
-*  Local variables should not shadow class fields
+### Local variables should not shadow class fields
 
 system_tags : pitfall, priority : 2; plugin_rule_key : HiddenFieldCheck
 
@@ -12710,7 +12710,7 @@ class Foo {
 ## 665.
 
 
-*  Exceptions should not be thrown in finally blocks
+### Exceptions should not be thrown in finally blocks
 
 system_tags : null, priority : 2; plugin_rule_key : S1163
 
@@ -12749,7 +12749,7 @@ try {
 ## 666.
 
 
-*  Exception handlers should preserve the original exception
+### Exception handlers should preserve the original exception
 
 system_tags : error-handling, priority : 2; plugin_rule_key : S1166
 
@@ -12824,7 +12824,7 @@ try {
 ## 667.
 
 
-*  "toString" should not return null
+### "toString" should not return null
 
 system_tags : bug, priority : 3; plugin_rule_key : S2225
 
@@ -12855,7 +12855,7 @@ public override string ToString () {
 ## 668.
 
 
-*  Servlets should never have mutable instance fields
+### Servlets should never have mutable instance fields
 
 system_tags : bug,cert,multi-threading,struts, priority : 3; plugin_rule_key : S2226
 
@@ -12892,7 +12892,7 @@ public class MyAction extends Action {
 ## 669.
 
 
-*  Exception classes should be immutable
+### Exception classes should be immutable
 
 system_tags : error-handling, priority : 2; plugin_rule_key : S1165
 
@@ -12957,7 +12957,7 @@ public class MyException extends Exception {
 ## 670.
 
 
-*  Architectural constraint
+### Architectural constraint
 
 system_tags : null, priority : 2; plugin_rule_key : ArchitecturalConstraint
 
@@ -12980,7 +12980,7 @@ system_tags : null, priority : 2; plugin_rule_key : ArchitecturalConstraint
 ## 671.
 
 
-*  Control flow statements "if", "for", "while", "switch" and "try" should not be nested too deeply
+### Control flow statements "if", "for", "while", "switch" and "try" should not be nested too deeply
 
 system_tags : brain-overload, priority : 1; plugin_rule_key : S134
 
@@ -13020,7 +13020,7 @@ public void process() {
 ## 672.
 
 
-*  "Cloneables" should implement "clone"
+### "Cloneables" should implement "clone"
 
 system_tags : bug, priority : 3; plugin_rule_key : S2157
 
@@ -13061,7 +13061,7 @@ class Team implements Cloneable {
 ## 673.
 
 
-*  Unused method parameters should be removed
+### Unused method parameters should be removed
 
 system_tags : misra,unused, priority : 2; plugin_rule_key : S1172
 
@@ -13113,7 +13113,7 @@ public void qix(String s) {
 ## 674.
 
 
-*  Constants should be declared "final static" rather than merely "final"
+### Constants should be declared "final static" rather than merely "final"
 
 system_tags : null, priority : 2; plugin_rule_key : S1170
 
@@ -13148,7 +13148,7 @@ public class Myclass {
 ## 675.
 
 
-*  "switch" statements should not have too many "case" clauses
+### "switch" statements should not have too many "case" clauses
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S1479
 
@@ -13161,7 +13161,7 @@ system_tags : brain-overload, priority : 2; plugin_rule_key : S1479
 ## 676.
 
 
-*  Non-static class initializers should not be used
+### Non-static class initializers should not be used
 
 system_tags : null, priority : 2; plugin_rule_key : S1171
 
@@ -13201,7 +13201,7 @@ class MyClass {
 ## 677.
 
 
-*  Object.finalize() should not be overloaded (by adding method parameters)
+### Object.finalize() should not be overloaded (by adding method parameters)
 
 system_tags : pitfall, priority : 2; plugin_rule_key : S1175
 
@@ -13238,7 +13238,7 @@ public void someBetterName(int someParameter) {  // Compliant
 ## 678.
 
 
-*  Object.finalize() should remain protected (versus public) when overriding
+### Object.finalize() should remain protected (versus public) when overriding
 
 system_tags : null, priority : 2; plugin_rule_key : S1174
 
@@ -13266,7 +13266,7 @@ public class MyClass {
 ## 679.
 
 
-*  "runFinalizersOnExit" should not be called
+### "runFinalizersOnExit" should not be called
 
 system_tags : bug, priority : 4; plugin_rule_key : S2151
 
@@ -13312,7 +13312,7 @@ public static void main(String [] args) {
 ## 680.
 
 
-*  Labels should not be used
+### Labels should not be used
 
 system_tags : null, priority : 2; plugin_rule_key : LabelsShouldNotBeUsedCheck
 
@@ -13361,7 +13361,7 @@ for (int row = 1; row < matrix.length; row++) {          // Compliant
 ## 681.
 
 
-*  Do not use File#deleteOnExit()
+### Do not use File#deleteOnExit()
 
 system_tags : null, priority : 2; plugin_rule_key : CallToFileDeleteOnExitMethod
 
@@ -13378,7 +13378,7 @@ system_tags : null, priority : 2; plugin_rule_key : CallToFileDeleteOnExitMethod
 ## 682.
 
 
-*  Variables should not be declared and then immediately returned or thrown
+### Variables should not be declared and then immediately returned or thrown
 
 system_tags : null, priority : 1; plugin_rule_key : S1488
 
@@ -13417,7 +13417,7 @@ public void doSomething() {
 ## 683.
 
 
-*  Switch statements should end with a default case
+### Switch statements should end with a default case
 
 system_tags : cert,cwe,misra, priority : 2; plugin_rule_key : SwitchLastCaseIsDefaultCheck
 
@@ -13463,7 +13463,7 @@ switch (state) {
 ## 684.
 
 
-*  Right curly brace and next "else", "catch" and "finally" keywords should be located on two different lines
+### Right curly brace and next "else", "catch" and "finally" keywords should be located on two different lines
 
 system_tags : convention, priority : 2; plugin_rule_key : RightCurlyBraceDifferentLineAsNextBlockCheck
 
@@ -13505,7 +13505,7 @@ public void myMethod() {
 ## 685.
 
 
-*  Throwable and Error classes should not be caught
+### Throwable and Error classes should not be caught
 
 system_tags : error-handling, priority : 4; plugin_rule_key : S1181
 
@@ -13542,7 +13542,7 @@ try { /* ... */ } catch (MyException e) { /* ... */ }
 ## 686.
 
 
-*  Modifiers should be declared in the correct order
+### Modifiers should be declared in the correct order
 
 system_tags : convention, priority : 1; plugin_rule_key : ModifiersOrderCheck
 
@@ -13594,7 +13594,7 @@ public static void main(String[] args) {   // Compliant
 ## 687.
 
 
-*  super.clone() should be called when overriding Object.clone()
+### super.clone() should be called when overriding Object.clone()
 
 system_tags : null, priority : 2; plugin_rule_key : S1182
 
@@ -13671,7 +13671,7 @@ class Application {
 ## 688.
 
 
-*  Redundant casts should not be used
+### Redundant casts should not be used
 
 system_tags : null, priority : 1; plugin_rule_key : S1905
 
@@ -13727,7 +13727,7 @@ class C {
 ## 689.
 
 
-*  Methods should not be empty
+### Methods should not be empty
 
 system_tags : null, priority : 2; plugin_rule_key : S1186
 
@@ -13776,7 +13776,7 @@ public void doSomethingElse() {
 ## 690.
 
 
-*  Return values should not be ignored when function calls don't have any side effects
+### Return values should not be ignored when function calls don't have any side effects
 
 system_tags : bug, priority : 3; plugin_rule_key : S2201
 
@@ -13807,7 +13807,7 @@ public void handle(String command){
 ## 691.
 
 
-*  Overriding methods should do more than simply call the same method in the super class
+### Overriding methods should do more than simply call the same method in the super class
 
 system_tags : brain-overload, priority : 1; plugin_rule_key : S1185
 
@@ -13844,7 +13844,7 @@ public int getId() {                            // Compliant - there is annotati
 ## 692.
 
 
-*  Two cases in the same "switch" should not have exactly the same implementation
+### Two cases in the same "switch" should not have exactly the same implementation
 
 system_tags : bug, priority : 2; plugin_rule_key : S1871
 
@@ -13899,7 +13899,7 @@ switch (i) {
 ## 693.
 
 
-*  Lambdas and anonymous classes should not have too many lines
+### Lambdas and anonymous classes should not have too many lines
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S1188
 
@@ -13914,7 +13914,7 @@ Anonymous classes and lambdas (with Java 8) are a very convenient and compact wa
 ## 694.
 
 
-*  ".equals()" should not be used to test the values of "Atomic" classes
+### ".equals()" should not be used to test the values of "Atomic" classes
 
 system_tags : bug, priority : 4; plugin_rule_key : S2204
 
@@ -13945,7 +13945,7 @@ if (aInt1.get() == aInt2.get()) { ... }
 ## 695.
 
 
-*  "static final" arrays should be "private"
+### "static final" arrays should be "private"
 
 system_tags : cwe,security, priority : 3; plugin_rule_key : S1873
 
@@ -13998,7 +13998,7 @@ public class Estate {
 ## 696.
 
 
-*  Useless imports should be removed
+### Useless imports should be removed
 
 system_tags : unused, priority : 1; plugin_rule_key : UselessImportCheck
 
@@ -14035,7 +14035,7 @@ class ExampleClass {
 ## 697.
 
 
-*  "compareTo" results should not be checked for specific values
+### "compareTo" results should not be checked for specific values
 
 system_tags : bug, priority : 2; plugin_rule_key : S2200
 
@@ -14062,7 +14062,7 @@ if (myClass.compareTo(arg) &lt; 0) {
 ## 698.
 
 
-*  Deprecated elements should have both the annotation and the Javadoc tag
+### Deprecated elements should have both the annotation and the Javadoc tag
 
 system_tags : null, priority : 2; plugin_rule_key : MissingDeprecatedCheck
 
@@ -14140,7 +14140,7 @@ void bar();
 ## 699.
 
 
-*  Unused local variables should be removed
+### Unused local variables should be removed
 
 system_tags : unused, priority : 2; plugin_rule_key : S1481
 
@@ -14171,7 +14171,7 @@ public int compute(int a){
 ## 700.
 
 
-*  The ternary operator should not be used
+### The ternary operator should not be used
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S1774
 
@@ -14198,7 +14198,7 @@ if (i > 10) {
 ## 701.
 
 
-*  "Iterator.next()" methods should throw "NoSuchElementException"
+### "Iterator.next()" methods should throw "NoSuchElementException"
 
 system_tags : bug, priority : 2; plugin_rule_key : S2272
 
@@ -14237,7 +14237,7 @@ public class MyIterator implements Iterator&lt;String&gt;{
 ## 702.
 
 
-*  "wait(...)", "notify()" and "notifyAll()" methods should only be called when a lock is obviously held on an object
+### "wait(...)", "notify()" and "notifyAll()" methods should only be called when a lock is obviously held on an object
 
 system_tags : bug,multi-threading, priority : 3; plugin_rule_key : S2273
 
@@ -14294,7 +14294,7 @@ private synchronized void removeElement() {
 ## 703.
 
 
-*  Long suffix "L" should be upper case
+### Long suffix "L" should be upper case
 
 system_tags : convention, priority : 2; plugin_rule_key : LowerCaseLongSuffixCheck
 
@@ -14325,7 +14325,7 @@ long n = 10L;  // Compliant
 ## 704.
 
 
-*  Utility classes should not have a public constructor
+### Utility classes should not have a public constructor
 
 system_tags : null, priority : 2; plugin_rule_key : S1118
 
@@ -14374,7 +14374,7 @@ class StringUtils { // Compliant
 ## 705.
 
 
-*  Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)
+### Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)
 
 system_tags : cwe,owasp-top10,security, priority : 3; plugin_rule_key : S2277
 
@@ -14403,7 +14403,7 @@ Cipher rsa = javax.crypto.Cipher.getInstance("RSA/ECB/OAEPWithSHA-1AndMGF1Paddin
 ## 706.
 
 
-*  Unused protected method
+### Unused protected method
 
 system_tags : unused, priority : 2; plugin_rule_key : UnusedProtectedMethod
 
@@ -14426,7 +14426,7 @@ system_tags : unused, priority : 2; plugin_rule_key : UnusedProtectedMethod
 ## 707.
 
 
-*  "wait(...)" should be used instead of "Thread.sleep(...)" when a lock is held
+### "wait(...)" should be used instead of "Thread.sleep(...)" when a lock is held
 
 system_tags : bug,multi-threading, priority : 3; plugin_rule_key : S2276
 
@@ -14466,7 +14466,7 @@ public void doSomething(){
 ## 708.
 
 
-*  Printf-style format strings should not lead to any runtime unexpected behavior
+### Printf-style format strings should not lead to any runtime unexpected behavior
 
 system_tags : bug,pitfall, priority : 3; plugin_rule_key : S2275
 
@@ -14505,7 +14505,7 @@ String.format("Is myObject null ? %b", myObject == null);
 ## 709.
 
 
-*  "Object.wait(...)" and "Condition.await(...)" should always be called inside a "while" loop
+### "Object.wait(...)" and "Condition.await(...)" should always be called inside a "while" loop
 
 system_tags : bug,cert,multi-threading, priority : 3; plugin_rule_key : S2274
 
@@ -14559,7 +14559,7 @@ synchronized (obj) {
 ## 710.
 
 
-*  Avoid commented-out lines of code
+### Avoid commented-out lines of code
 
 system_tags : unused, priority : 2; plugin_rule_key : CommentedOutCodeLine
 
@@ -14579,7 +14579,7 @@ system_tags : unused, priority : 2; plugin_rule_key : CommentedOutCodeLine
 ## 711.
 
 
-*  DES (Data Encryption Standard) and DESede (3DES) should not be used
+### DES (Data Encryption Standard) and DESede (3DES) should not be used
 
 system_tags : cwe,owasp-top10,security, priority : 3; plugin_rule_key : S2278
 
@@ -14612,7 +14612,7 @@ Cipher c = Cipher.getInstance("AES/GCM/NoPadding");
 ## 712.
 
 
-*  Variables should not be self-assigned
+### Variables should not be self-assigned
 
 system_tags : bug, priority : 2; plugin_rule_key : S1656
 
@@ -14639,7 +14639,7 @@ public void setName(String name) {
 ## 713.
 
 
-*  Literal boolean values should not be used in condition expressions
+### Literal boolean values should not be used in condition expressions
 
 system_tags : null, priority : 1; plugin_rule_key : S1125
 
@@ -14672,7 +14672,7 @@ doSomething(true);
 ## 714.
 
 
-*  Return of boolean expressions should not be wrapped into an if-then-else statement
+### Return of boolean expressions should not be wrapped into an if-then-else statement
 
 system_tags : null, priority : 2; plugin_rule_key : S1126
 
@@ -14702,7 +14702,7 @@ return expression;
 ## 715.
 
 
-*  Class variable fields should not have public accessibility
+### Class variable fields should not have public accessibility
 
 system_tags : null, priority : 2; plugin_rule_key : ClassVariableVisibilityCheck
 
@@ -14754,7 +14754,7 @@ public class MyClass {
 ## 716.
 
 
-*  "ConcurrentLinkedQueue.size()" should not be used
+### "ConcurrentLinkedQueue.size()" should not be used
 
 system_tags : performance, priority : 3; plugin_rule_key : S2250
 
@@ -14776,7 +14776,7 @@ log.info("Queue contains " + queue.size() + " elements");
 ## 717.
 
 
-*  Strings should not be concatenated using '+' in a loop
+### Strings should not be concatenated using '+' in a loop
 
 system_tags : performance, priority : 2; plugin_rule_key : S1643
 
@@ -14806,7 +14806,7 @@ String str = bld.toString();
 ## 718.
 
 
-*  A "for" loop update clause should move the counter in the right direction
+### A "for" loop update clause should move the counter in the right direction
 
 system_tags : bug, priority : 4; plugin_rule_key : S2251
 
@@ -14837,7 +14837,7 @@ public void doSomething(String [] strings) {
 ## 719.
 
 
-*  Generic exceptions Error, RuntimeException, Throwable and Exception should never be thrown
+### Generic exceptions Error, RuntimeException, Throwable and Exception should never be thrown
 
 system_tags : error-handling, priority : 2; plugin_rule_key : S00112
 
@@ -14885,7 +14885,7 @@ public void myMethod() throws Exception {...}
 ## 720.
 
 
-*  "BigDecimal(double)" should not be used
+### "BigDecimal(double)" should not be used
 
 system_tags : bug, priority : 3; plugin_rule_key : S2111
 
@@ -14921,7 +14921,7 @@ BigDecimal bd2 = BigDecimal.valueOf(1.1);
 ## 721.
 
 
-*  "hashCode" and "toString" should not be called on array instances
+### "hashCode" and "toString" should not be called on array instances
 
 system_tags : bug, priority : 3; plugin_rule_key : S2116
 
@@ -14952,7 +14952,7 @@ public static void main( String[] args )
 ## 722.
 
 
-*  Collections should not be passed as arguments to their own methods
+### Collections should not be passed as arguments to their own methods
 
 system_tags : bug, priority : 3; plugin_rule_key : S2114
 
@@ -14979,7 +14979,7 @@ List &lt;Object&gt; objs = new ArrayList&lt;Object&gt;();
 ## 723.
 
 
-*  Strings literals should be placed on the left side when checking for equality
+### Strings literals should be placed on the left side when checking for equality
 
 system_tags : null, priority : 2; plugin_rule_key : S1132
 
@@ -15010,7 +15010,7 @@ System.out.println("Equal?" + "foo".equals(myString));                         /
 ## 724.
 
 
-*  Methods should not have too many parameters
+### Methods should not have too many parameters
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S00107
 
@@ -15025,7 +15025,7 @@ A long parameter list can indicate that a new structure should be created to wra
 ## 725.
 
 
-*  "javax.crypto.NullCipher" should not be used for anything other than testing
+### "javax.crypto.NullCipher" should not be used for anything other than testing
 
 system_tags : cwe,owasp-top10,security, priority : 4; plugin_rule_key : S2258
 
@@ -15049,7 +15049,7 @@ NullCipher nc = new NullCipher();
 ## 726.
 
 
-*  Deprecated code should be removed eventually
+### Deprecated code should be removed eventually
 
 system_tags : null, priority : 0; plugin_rule_key : S1133
 
@@ -15086,7 +15086,7 @@ class Foo {
 ## 727.
 
 
-*  Nested blocks of code should not be left empty
+### Nested blocks of code should not be left empty
 
 system_tags : bug, priority : 2; plugin_rule_key : S00108
 
@@ -15131,7 +15131,7 @@ void doSomething() {
 ## 728.
 
 
-*  Lines of code should not be too long
+### Lines of code should not be too long
 
 system_tags : convention, priority : 1; plugin_rule_key : S00103
 
@@ -15146,7 +15146,7 @@ Having to scroll horizontally makes it harder to get a quick overview and unders
 ## 729.
 
 
-*  "HttpServletRequest.getRequestedSessionId()" should only be used by servlet containers
+### "HttpServletRequest.getRequestedSessionId()" should only be used by servlet containers
 
 system_tags : owasp-top10,security, priority : 3; plugin_rule_key : S2254
 
@@ -15187,7 +15187,7 @@ if(isActiveSession(request.getRequestedSessionId()) ){
 ## 730.
 
 
-*  Disallowed methods should not be used
+### Disallowed methods should not be used
 
 system_tags : null, priority : 2; plugin_rule_key : S2253
 
@@ -15212,7 +15212,7 @@ name.replace("A","a");  // Noncompliant
 ## 731.
 
 
-*  FIXME tags should be handled
+### FIXME tags should be handled
 
 system_tags : null, priority : 2; plugin_rule_key : S1134
 
@@ -15237,7 +15237,7 @@ int divide(int numerator, int denominator) {
 ## 732.
 
 
-*  Tabulation characters should not be used
+### Tabulation characters should not be used
 
 system_tags : convention, priority : 1; plugin_rule_key : S00105
 
@@ -15253,7 +15253,7 @@ So the use of tabulation character must be banned.
 ## 733.
 
 
-*  Loop conditions should be true at least once
+### Loop conditions should be true at least once
 
 system_tags : bug, priority : 3; plugin_rule_key : S2252
 
@@ -15272,7 +15272,7 @@ for (int i = 10; i &lt; 10; i++) {  // Noncompliant
 ## 734.
 
 
-*  TODO tags should be handled
+### TODO tags should be handled
 
 system_tags : null, priority : 0; plugin_rule_key : S1135
 
@@ -15297,7 +15297,7 @@ void doSomething() {
 ## 735.
 
 
-*  Files should not have too many lines
+### Files should not have too many lines
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S00104
 
@@ -15314,7 +15314,7 @@ Those smaller files will not only be easier to understand but also probably easi
 ## 736.
 
 
-*  Statements should be on separate lines
+### Statements should be on separate lines
 
 system_tags : convention, priority : 2; plugin_rule_key : S00122
 
@@ -15337,7 +15337,7 @@ c = "anotherThing"; // Compliant
 ## 737.
 
 
-*  Package names should comply with a naming convention
+### Package names should comply with a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S00120
 
@@ -15361,7 +15361,7 @@ package org.example; // Compliant
 ## 738.
 
 
-*  Reflection should not be used to check non-runtime annotations
+### Reflection should not be used to check non-runtime annotations
 
 system_tags : bug, priority : 4; plugin_rule_key : S2109
 
@@ -15390,7 +15390,7 @@ if (m.isAnnotationPresent(Override.class)) {  // Noncompliant; test will always 
 ## 739.
 
 
-*  if/else/for/while/do statements should always use curly braces
+### if/else/for/while/do statements should always use curly braces
 
 system_tags : convention, priority : 2; plugin_rule_key : S00121
 
@@ -15415,7 +15415,7 @@ checkSomething();
 ## 740.
 
 
-*  Avoid cycle between java packages
+### Avoid cycle between java packages
 
 system_tags : null, priority : 2; plugin_rule_key : CycleBetweenPackages
 
@@ -15434,7 +15434,7 @@ This rule logs an issue on each source file having an outgoing dependency to be 
 ## 741.
 
 
-*  Synchronized classes Vector, Hashtable, Stack and StringBuffer should not be used
+### Synchronized classes Vector, Hashtable, Stack and StringBuffer should not be used
 
 system_tags : null, priority : 2; plugin_rule_key : S1149
 
@@ -15480,7 +15480,7 @@ public Vector getCats() {...}
 ## 742.
 
 
-*  Floating point numbers should not be tested for equality
+### Floating point numbers should not be tested for equality
 
 system_tags : bug,misra, priority : 3; plugin_rule_key : S1244
 
@@ -15549,7 +15549,7 @@ if(f != f) { // Compliant; test for NaN value
 ## 743.
 
 
-*  Left curly braces should be located at the end of lines of code
+### Left curly braces should be located at the end of lines of code
 
 system_tags : convention, priority : 2; plugin_rule_key : LeftCurlyBraceEndLineCheck
 
@@ -15585,7 +15585,7 @@ public void myMethod() {              // Compliant
 ## 744.
 
 
-*  Try-catch blocks should not be nested
+### Try-catch blocks should not be nested
 
 system_tags : null, priority : 2; plugin_rule_key : S1141
 
@@ -15637,7 +15637,7 @@ private void dedicatedMethod() {
 ## 745.
 
 
-*  Methods should not contain too many return statements
+### Methods should not contain too many return statements
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S1142
 
@@ -15672,7 +15672,7 @@ public boolean myMethod() { // Non-Compliant as there are 4 return statements
 ## 746.
 
 
-*  Type parameter names should comply with a naming convention
+### Type parameter names should comply with a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S00119
 
@@ -15702,7 +15702,7 @@ public class MyClass&lt;T&gt; {
 ## 747.
 
 
-*  Pseudorandom number generators (PRNGs) should not be used in secure context
+### Pseudorandom number generators (PRNGs) should not be used in secure context
 
 system_tags : cert,cwe,sans-top25-2011,security, priority : 3; plugin_rule_key : S2245
 
@@ -15739,7 +15739,7 @@ random.nextBytes(bytes);
 ## 748.
 
 
-*  Return statements should not occur in finally blocks
+### Return statements should not occur in finally blocks
 
 system_tags : bug, priority : 4; plugin_rule_key : S1143
 
@@ -15779,7 +15779,7 @@ public static void doSomethingWhichThrowsException() {
 ## 749.
 
 
-*  Abstract class names should comply with a naming convention
+### Abstract class names should comply with a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S00118
 
@@ -15809,7 +15809,7 @@ abstract class AbstractClass { // Compliant
 ## 750.
 
 
-*  Local variable and method parameter names should comply with a naming convention
+### Local variable and method parameter names should comply with a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S00117
 
@@ -15843,7 +15843,7 @@ public class MyClass {
 ## 751.
 
 
-*  If statement conditions should not always evaluate to "true" or to "false"
+### If statement conditions should not always evaluate to "true" or to "false"
 
 system_tags : null, priority : 2; plugin_rule_key : S1145
 
@@ -15893,7 +15893,7 @@ public void myMethod() {        // Compliant
 ## 752.
 
 
-*  Field names should comply with a naming convention
+### Field names should comply with a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S00116
 
@@ -15918,7 +15918,7 @@ public class MyClass {
 ## 753.
 
 
-*  Constant names should comply with a naming convention
+### Constant names should comply with a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S00115
 
@@ -15948,7 +15948,7 @@ public enum MyEnum {
 ## 754.
 
 
-*  Left curly braces should be located at the beginning of lines of code
+### Left curly braces should be located at the beginning of lines of code
 
 system_tags : convention, priority : 2; plugin_rule_key : LeftCurlyBraceStartLineCheck
 
@@ -15980,7 +15980,7 @@ public void myMethod
 ## 755.
 
 
-*  System.exit(...) and Runtime.getRuntime().exit(...) should not be called
+### System.exit(...) and Runtime.getRuntime().exit(...) should not be called
 
 system_tags : null, priority : 3; plugin_rule_key : S1147
 
@@ -16005,7 +16005,7 @@ Runtime.getRuntime().exit(0);
 ## 756.
 
 
-*  Interface names should comply with a naming convention
+### Interface names should comply with a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S00114
 
@@ -16028,7 +16028,7 @@ public interface mySecondInterface {...} // Non-Compliant
 ## 757.
 
 
-*  Throwable.printStackTrace(...) should never be called
+### Throwable.printStackTrace(...) should never be called
 
 system_tags : error-handling, priority : 3; plugin_rule_key : S1148
 
@@ -16069,7 +16069,7 @@ try {
 ## 758.
 
 
-*  Files should contain an empty new line at the end
+### Files should contain an empty new line at the end
 
 system_tags : convention, priority : 1; plugin_rule_key : S00113
 
@@ -16095,7 +16095,7 @@ This rule simply generates an issue if it is missing.
 ## 759.
 
 
-*  Execution of the Garbage Collector should be triggered only by the JVM
+### Execution of the Garbage Collector should be triggered only by the JVM
 
 system_tags : bug, priority : 3; plugin_rule_key : S1215
 
@@ -16122,7 +16122,7 @@ there is no way to know exactly what will be done under the hood by the JVM beca
 ## 760.
 
 
-*  Thread.run() and Runnable.run() should not be called directly
+### Thread.run() and Runnable.run() should not be called directly
 
 system_tags : multi-threading, priority : 3; plugin_rule_key : S1217
 
@@ -16152,7 +16152,7 @@ myThread.start(); // Compliant
 ## 761.
 
 
-*  "switch" statements should not contain non-case labels
+### "switch" statements should not contain non-case labels
 
 system_tags : null, priority : 3; plugin_rule_key : S1219
 
@@ -16219,7 +16219,7 @@ switch (day) {
 ## 762.
 
 
-*  "equals(Object obj)" should be overridden along with the "compareTo(T obj)" method
+### "equals(Object obj)" should be overridden along with the "compareTo(T obj)" method
 
 system_tags : bug, priority : 3; plugin_rule_key : S1210
 
@@ -16266,7 +16266,7 @@ public class Foo implements Comparable&lt;Foo&gt; {
 ## 763.
 
 
-*  Constants should not be defined in interfaces
+### Constants should not be defined in interfaces
 
 system_tags : null, priority : 1; plugin_rule_key : S1214
 
@@ -16324,7 +16324,7 @@ public final class Status {             // Compliant
 ## 764.
 
 
-*  @FunctionalInterface annotation should be used to flag Single Abstract Method interfaces
+### @FunctionalInterface annotation should be used to flag Single Abstract Method interfaces
 
 system_tags : java8, priority : 2; plugin_rule_key : S1609
 
@@ -16354,7 +16354,7 @@ system_tags : java8, priority : 2; plugin_rule_key : S1609
 ## 765.
 
 
-*  The members of an interface declaration or class should appear in a pre-defined order
+### The members of an interface declaration or class should appear in a pre-defined order
 
 system_tags : convention, priority : 1; plugin_rule_key : S1213
 
@@ -16394,7 +16394,7 @@ public class Foo{  // Compliant
 ## 766.
 
 
-*  The Object.finalize() method should never be called
+### The Object.finalize() method should never be called
 
 system_tags : pitfall, priority : 3; plugin_rule_key : ObjectFinalizeCheck
 
@@ -16420,7 +16420,7 @@ public void dispose() throws Throwable {
 ## 767.
 
 
-*  HTTP referers should not be relied on
+### HTTP referers should not be relied on
 
 system_tags : cwe,owasp-top10,security, priority : 3; plugin_rule_key : S2089
 
@@ -16453,7 +16453,7 @@ public class MyServlet extends HttpServlet {
 ## 768.
 
 
-*  Parentheses should be removed from a single lambda input parameter when its type is inferred
+### Parentheses should be removed from a single lambda input parameter when its type is inferred
 
 system_tags : java8, priority : 1; plugin_rule_key : S1611
 
@@ -16476,7 +16476,7 @@ x -> x * 2
 ## 769.
 
 
-*  Replace lambdas with method references when possible
+### Replace lambdas with method references when possible
 
 system_tags : java8, priority : 1; plugin_rule_key : S1612
 
@@ -16509,7 +16509,7 @@ system_tags : java8, priority : 1; plugin_rule_key : S1612
 ## 770.
 
 
-*  Abstract classes without fields should be converted to interfaces
+### Abstract classes without fields should be converted to interfaces
 
 system_tags : java8, priority : 2; plugin_rule_key : S1610
 
@@ -16544,7 +16544,7 @@ public interface Car {
 ## 771.
 
 
-*  Math operands should be cast before assignment
+### Math operands should be cast before assignment
 
 system_tags : bug, priority : 2; plugin_rule_key : S2184
 
@@ -16599,7 +16599,7 @@ public long compute(long factor){
 ## 772.
 
 
-*  Empty file
+### Empty file
 
 system_tags : null, priority : 2; plugin_rule_key : EmptyFile
 
@@ -16618,7 +16618,7 @@ system_tags : null, priority : 2; plugin_rule_key : EmptyFile
 ## 773.
 
 
-*  Packages should have a javadoc file 'package-info.java'
+### Packages should have a javadoc file 'package-info.java'
 
 system_tags : convention, priority : 2; plugin_rule_key : S1228
 
@@ -16640,7 +16640,7 @@ package org.foo.bar;
 ## 774.
 
 
-*  Unused private method
+### Unused private method
 
 system_tags : unused, priority : 2; plugin_rule_key : UnusedPrivateMethod
 
@@ -16665,7 +16665,7 @@ system_tags : unused, priority : 2; plugin_rule_key : UnusedPrivateMethod
 ## 775.
 
 
-*  Method parameters, caught exceptions and foreach variables should not be reassigned
+### Method parameters, caught exceptions and foreach variables should not be reassigned
 
 system_tags : misra,pitfall, priority : 2; plugin_rule_key : S1226
 
@@ -16732,7 +16732,7 @@ class MyClass {
 ## 776.
 
 
-*  Modulus results should not be checked for direct equality
+### Modulus results should not be checked for direct equality
 
 system_tags : null, priority : 3; plugin_rule_key : S2197
 
@@ -16767,7 +16767,7 @@ public boolean isOdd(int x) {
 ## 777.
 
 
-*  Assignments should not be made from within sub-expressions
+### Assignments should not be made from within sub-expressions
 
 system_tags : bug,cwe,misra, priority : 2; plugin_rule_key : AssignmentInSubExpressionCheck
 
@@ -16814,7 +16814,7 @@ while ((line = br.readLine()) != null) {
 ## 778.
 
 
-*  Methods should not be named "hashcode"
+### Methods should not be named "hashcode"
 
 system_tags : pitfall, priority : 3; plugin_rule_key : S1221
 
@@ -16847,7 +16847,7 @@ public int hashCode() { /* ... */ }    // Compliant
 ## 779.
 
 
-*  The default unnamed package should not be used
+### The default unnamed package should not be used
 
 system_tags : null, priority : 2; plugin_rule_key : S1220
 
@@ -16880,7 +16880,7 @@ public class MyClass{ /* ... */ }
 ## 780.
 
 
-*  Cookies should be "secure"
+### Cookies should be "secure"
 
 system_tags : cwe,owasp-top10,security, priority : 3; plugin_rule_key : S2092
 
@@ -16909,7 +16909,7 @@ response.addCookie(c);
 ## 781.
 
 
-*  Classes should not be empty
+### Classes should not be empty
 
 system_tags : null, priority : 2; plugin_rule_key : S2094
 
@@ -16934,7 +16934,7 @@ public interface Nothing {
 ## 782.
 
 
-*  Non-constructor methods should not have the same name as the enclosing class
+### Non-constructor methods should not have the same name as the enclosing class
 
 system_tags : pitfall, priority : 2; plugin_rule_key : S1223
 
@@ -16963,7 +16963,7 @@ class Foo {
 ## 783.
 
 
-*  "main" should not "throw" anything
+### "main" should not "throw" anything
 
 system_tags : null, priority : 2; plugin_rule_key : S2096
 
@@ -16988,7 +16988,7 @@ public static void main(String args[]) {
 ## 784.
 
 
-*  "for" loop incrementers should modify the variable being tested in the loop's stop condition
+### "for" loop incrementers should modify the variable being tested in the loop's stop condition
 
 system_tags : bug, priority : 3; plugin_rule_key : S1994
 
@@ -17015,7 +17015,7 @@ for (i = 0; i < 10; i++) {
 ## 785.
 
 
-*  Throws declarations should not be redundant
+### Throws declarations should not be redundant
 
 system_tags : error-handling, priority : 2; plugin_rule_key : RedundantThrowsDeclarationCheck
 
@@ -17056,7 +17056,7 @@ void baz() {}                                  // Compliant
 ## 786.
 
 
-*  Loop counters should not be assigned to from within the loop body
+### Loop counters should not be assigned to from within the loop body
 
 system_tags : bug, priority : 2; plugin_rule_key : ForLoopCounterChangedCheck
 
@@ -17101,7 +17101,7 @@ for (String name: names) {
 ## 787.
 
 
-*  Short-circuit logic should be used in boolean contexts
+### Short-circuit logic should be used in boolean contexts
 
 system_tags : bug, priority : 3; plugin_rule_key : S2178
 
@@ -17124,7 +17124,7 @@ if(getTrue() || getFalse()) { ... }  // true short-circuit logic
 ## 788.
 
 
-*  A field should not duplicate the name of its containing class
+### A field should not duplicate the name of its containing class
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S1700
 
@@ -17182,7 +17182,7 @@ public class Foo {
 ## 789.
 
 
-*  "equals(Object obj)" and "hashCode()" should be overridden in pairs
+### "equals(Object obj)" and "hashCode()" should be overridden in pairs
 
 system_tags : bug, priority : 4; plugin_rule_key : S1206
 
@@ -17234,7 +17234,7 @@ class MyClass {    // Compliant
 ## 790.
 
 
-*  Fields should not duplicate method names
+### Fields should not duplicate method names
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S1701
 
@@ -17283,7 +17283,7 @@ public class Foo {
 ## 791.
 
 
-*  Methods named "equals" should override Object.equals(Object)
+### Methods named "equals" should override Object.equals(Object)
 
 system_tags : pitfall, priority : 3; plugin_rule_key : S1201
 
@@ -17341,7 +17341,7 @@ class MyClass {
 ## 792.
 
 
-*  Classes should not be coupled to too many other classes (Single Responsibility Principle)
+### Classes should not be coupled to too many other classes (Single Responsibility Principle)
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S1200
 
@@ -17388,7 +17388,7 @@ class Foo {                        // Noncompliant - Foo depends on too many cla
 ## 793.
 
 
-*  Avoid too complex class
+### Avoid too complex class
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : ClassCyclomaticComplexity
 
@@ -17414,7 +17414,7 @@ system_tags : brain-overload, priority : 2; plugin_rule_key : ClassCyclomaticCom
 ## 794.
 
 
-*  Lamdbas containing only one statement should not nest this statement in a block
+### Lamdbas containing only one statement should not nest this statement in a block
 
 system_tags : java8, priority : 2; plugin_rule_key : S1602
 
@@ -17440,7 +17440,7 @@ system_tags : java8, priority : 2; plugin_rule_key : S1602
 ## 795.
 
 
-*  Anonymous inner classes containing only one method should become lambdas
+### Anonymous inner classes containing only one method should become lambdas
 
 system_tags : java8, priority : 2; plugin_rule_key : S1604
 
@@ -17469,7 +17469,7 @@ myCollection.map(element -> new StringBuilder(element).reverse().toString());
 ## 796.
 
 
-*  "switch" statements should have at least 3 cases
+### "switch" statements should have at least 3 cases
 
 system_tags : misra, priority : 1; plugin_rule_key : S1301
 
@@ -17506,7 +17506,7 @@ if (variable == 0) {
 ## 797.
 
 
-*  The Object.finalize() method should never be overriden
+### The Object.finalize() method should never be overriden
 
 system_tags : null, priority : 3; plugin_rule_key : ObjectFinalizeOverridenCheck
 
@@ -17538,7 +17538,7 @@ public class MyClass {
 ## 798.
 
 
-*  Annotation repetitions should not be wrapped
+### Annotation repetitions should not be wrapped
 
 system_tags : java8, priority : 3; plugin_rule_key : S1710
 
@@ -17573,7 +17573,7 @@ public class SomeClass {
 ## 799.
 
 
-*  "instanceof" operators that always return "true" should be removed
+### "instanceof" operators that always return "true" should be removed
 
 system_tags : bug,cwe, priority : 2; plugin_rule_key : S1850
 
@@ -17611,7 +17611,7 @@ public boolean isSuitable(Integer param) {
 ## 800.
 
 
-*  NOPMD suppression comment filters should not be used
+### NOPMD suppression comment filters should not be used
 
 system_tags : null, priority : 1; plugin_rule_key : S1310
 
@@ -17629,7 +17629,7 @@ system_tags : null, priority : 1; plugin_rule_key : S1310
 ## 801.
 
 
-*  IP addresses should not be hardcoded
+### IP addresses should not be hardcoded
 
 system_tags : security, priority : 2; plugin_rule_key : S1313
 
@@ -17660,7 +17660,7 @@ Socket socket = new Socket(ip, 6667);
 ## 802.
 
 
-*  Loggers should be "private static final" and should share a naming convention
+### Loggers should be "private static final" and should share a naming convention
 
 system_tags : convention, priority : 2; plugin_rule_key : S1312
 
@@ -17719,7 +17719,7 @@ public class Bar {
 ## 803.
 
 
-*  Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"
+### Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"
 
 system_tags : null, priority : 2; plugin_rule_key : S1319
 
@@ -17757,7 +17757,7 @@ public class Employees {
 ## 804.
 
 
-*  "object == null" should be used instead of "object.equals(null)"
+### "object == null" should be used instead of "object.equals(null)"
 
 system_tags : null, priority : 3; plugin_rule_key : S1318
 
@@ -17780,7 +17780,7 @@ if (variable == null) { /* ... */ }        // Compliant
 ## 805.
 
 
-*  Generic wildcard types should not be used in return parameters
+### Generic wildcard types should not be used in return parameters
 
 system_tags : null, priority : 2; plugin_rule_key : S1452
 
@@ -17813,7 +17813,7 @@ List&lt;E&gt; getAnimals(){...} //Where E extends Animal in the signature of the
 ## 806.
 
 
-*  Source code should be correctly indented
+### Source code should be correctly indented
 
 system_tags : convention, priority : 2; plugin_rule_key : IndentationCheck
 
@@ -17838,7 +17838,7 @@ public int b;   // Non-Compliant
 ## 807.
 
 
-*  Copyright and license headers should be defined in all source files
+### Copyright and license headers should be defined in all source files
 
 system_tags : convention, priority : 4; plugin_rule_key : S1451
 
@@ -17877,7 +17877,7 @@ This rule must be fed with the header text which is expected at the beginning of
 ## 808.
 
 
-*  CHECKSTYLE:OFF suppression comment filters should not be used
+### CHECKSTYLE:OFF suppression comment filters should not be used
 
 system_tags : null, priority : 1; plugin_rule_key : S1315
 
@@ -17895,7 +17895,7 @@ system_tags : null, priority : 1; plugin_rule_key : S1315
 ## 809.
 
 
-*  Octal values should not be used
+### Octal values should not be used
 
 system_tags : misra,pitfall, priority : 2; plugin_rule_key : S1314
 
@@ -17922,7 +17922,7 @@ int myNumber = 8;
 ## 810.
 
 
-*  StringBuilder and StringBuffer should not be instantiated with a character
+### StringBuilder and StringBuffer should not be instantiated with a character
 
 system_tags : null, priority : 2; plugin_rule_key : S1317
 
@@ -17952,7 +17952,7 @@ StringBuffer foo = new StringBuffer("x");
 ## 811.
 
 
-*  Synchronisation should not be based on Strings or boxed primitives
+### Synchronisation should not be based on Strings or boxed primitives
 
 system_tags : bug,cert, priority : 4; plugin_rule_key : S1860
 
@@ -18006,7 +18006,7 @@ public void doSomething() {
 ## 812.
 
 
-*  Conditions in related "if/else if" statements should not be duplicated
+### Conditions in related "if/else if" statements should not be duplicated
 
 system_tags : bug,unused, priority : 3; plugin_rule_key : S1862
 
@@ -18044,7 +18044,7 @@ else if (param == 3)
 ## 813.
 
 
-*  Deprecated classes and interfaces should not be extended/implemented
+### Deprecated classes and interfaces should not be extended/implemented
 
 system_tags : cwe,obsolete, priority : 2; plugin_rule_key : S1724
 
@@ -18084,7 +18084,7 @@ class Bar extends Foo { ... } // compliant Bar is deprecated.
 ## 814.
 
 
-*  Increment (++) and decrement (--) operators should not be mixed with other operators in an expression
+### Increment (++) and decrement (--) operators should not be mixed with other operators in an expression
 
 system_tags : cert,misra, priority : 2; plugin_rule_key : S881
 
@@ -18120,7 +18120,7 @@ bar++;
 ## 815.
 
 
-*  Java parser failure
+### Java parser failure
 
 system_tags : null, priority : 2; plugin_rule_key : ParsingError
 
@@ -18136,7 +18136,7 @@ This way, not only it is possible to track the number of files that do not parse
 ## 816.
 
 
-*  Package declaration should match source file directory
+### Package declaration should match source file directory
 
 system_tags : null, priority : 2; plugin_rule_key : S1598
 
@@ -18151,7 +18151,7 @@ system_tags : null, priority : 2; plugin_rule_key : S1598
 ## 817.
 
 
-*  Collections.emptyList(),emptyMap() and emptySet() should be used instead of Collections.EMPTY_LIST, EMPTY_MAP and EMPTY_SET
+### Collections.emptyList(),emptyMap() and emptySet() should be used instead of Collections.EMPTY_LIST, EMPTY_MAP and EMPTY_SET
 
 system_tags : null, priority : 2; plugin_rule_key : S1596
 
@@ -18180,7 +18180,7 @@ Set&lt;String&gt; collection3 = Collections.emptySet();
 ## 818.
 
 
-*  Right curly brace and next "else", "catch" and "finally" keywords should be located on the same line
+### Right curly brace and next "else", "catch" and "finally" keywords should be located on the same line
 
 system_tags : convention, priority : 2; plugin_rule_key : RightCurlyBraceSameLineAsNextBlockCheck
 
@@ -18222,7 +18222,7 @@ public void myMethod() {
 ## 819.
 
 
-*  Collapsible "if" statements should be merged
+### Collapsible "if" statements should be merged
 
 system_tags : null, priority : 2; plugin_rule_key : S1066
 
@@ -18256,7 +18256,7 @@ private static boolean isFileOrDirectory(File file) {
 ## 820.
 
 
-*  Expressions should not be too complex
+### Expressions should not be too complex
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : S1067
 
@@ -18294,7 +18294,7 @@ private boolean relevantMethodName2() {
 ## 821.
 
 
-*  Methods should not be too complex
+### Methods should not be too complex
 
 system_tags : brain-overload, priority : 2; plugin_rule_key : MethodCyclomaticComplexity
 
@@ -18320,7 +18320,7 @@ system_tags : brain-overload, priority : 2; plugin_rule_key : MethodCyclomaticCo
 ## 822.
 
 
-*  Empty statements should be removed
+### Empty statements should be removed
 
 system_tags : null, priority : 2; plugin_rule_key : EmptyStatementUsageCheck
 
@@ -18364,7 +18364,7 @@ for (int i = 0; i < 3; i ++) {                            // Compliant
 ## 823.
 
 
-*  Unused labels should be removed
+### Unused labels should be removed
 
 system_tags : misra,unused, priority : 2; plugin_rule_key : S1065
 
@@ -18396,7 +18396,7 @@ void foo() {
 ## 824.
 
 
-*  Unused private fields should be removed
+### Unused private fields should be removed
 
 system_tags : unused, priority : 2; plugin_rule_key : S1068
 
@@ -18445,7 +18445,7 @@ public class MyClass implements java.io.Serializable {
 ## 825.
 
 
-*  Credentials should not be hard-coded
+### Credentials should not be hard-coded
 
 system_tags : cwe,owasp-top10,sans-top25-2011,security, priority : 3; plugin_rule_key : S2068
 
@@ -18487,7 +18487,7 @@ try {
 ## 826.
 
 
-*  Array designators "[]" should be on the type, not the variable
+### Array designators "[]" should be on the type, not the variable
 
 system_tags : convention, priority : 1; plugin_rule_key : S1197
 
@@ -18511,7 +18511,7 @@ int[][] matrix;   // Compliant
 ## 827.
 
 
-*  "Object.wait(...)" should never be called on objects that implement "java.util.concurrent.locks.Condition"
+### "Object.wait(...)" should never be called on objects that implement "java.util.concurrent.locks.Condition"
 
 system_tags : bug,pitfall, priority : 4; plugin_rule_key : S1844
 
@@ -18546,7 +18546,7 @@ notFull.await();
 ## 828.
 
 
-*  Nested code blocks should not be used
+### Nested code blocks should not be used
 
 system_tags : null, priority : 2; plugin_rule_key : S1199
 
@@ -18601,7 +18601,7 @@ private void evaluateAdd() {
 ## 829.
 
 
-*  Objects should not be created to be dropped immediately without being used
+### Objects should not be created to be dropped immediately without being used
 
 system_tags : bug, priority : 3; plugin_rule_key : S1848
 
@@ -18626,7 +18626,7 @@ if (x &lt; 0)
 ## 830.
 
 
-*  SHA-1 and MD5 hash algorithms should not be used
+### SHA-1 and MD5 hash algorithms should not be used
 
 system_tags : cwe,owasp-top10,sans-top25,security, priority : 3; plugin_rule_key : S2070
 
@@ -18663,7 +18663,7 @@ Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5PADDING");
 ## 831.
 
 
-*  "Iterator.hasNext()" should not call "Iterator.next()"
+### "Iterator.hasNext()" should not call "Iterator.next()"
 
 system_tags : bug, priority : 4; plugin_rule_key : S1849
 
@@ -18691,7 +18691,7 @@ public boolean hasNext() {
 ## 832.
 
 
-*  Right curly braces should be located at the beginning of lines of code
+### Right curly braces should be located at the beginning of lines of code
 
 system_tags : convention, priority : 2; plugin_rule_key : RightCurlyBraceStartLineCheck
 
@@ -18732,7 +18732,7 @@ public void myMethod() {
 ## 833.
 
 
-*  "public static" fields should always be constant
+### "public static" fields should always be constant
 
 system_tags : null, priority : 2; plugin_rule_key : S1444
 
@@ -18761,7 +18761,7 @@ public static const FOO:Foo = new Foo(...);
 ## 834.
 
 
-*  Classes from "com.sun.*" and "sun.*" packages should not be used
+### Classes from "com.sun.*" and "sun.*" packages should not be used
 
 system_tags : null, priority : 2; plugin_rule_key : S1191
 
@@ -18785,7 +18785,7 @@ import sun.misc.BASE64Encoder; // Non-Compliant
 ## 835.
 
 
-*  "enum" should no longer be used as a name
+### "enum" should no longer be used as a name
 
 system_tags : null, priority : 2; plugin_rule_key : S1190
 
@@ -18809,7 +18809,7 @@ public void doSomething() {
 ## 836.
 
 
-*  Values passed to OS commands should be sanitized
+### Values passed to OS commands should be sanitized
 
 system_tags : cwe,owasp-top10,sans-top25,security, priority : 3; plugin_rule_key : S2076
 
@@ -18845,7 +18845,7 @@ public void execute(String command, String argument) {
 ## 837.
 
 
-*  Exception types should not be tested using "instanceof" in catch blocks
+### Exception types should not be tested using "instanceof" in catch blocks
 
 system_tags : error-handling, priority : 2; plugin_rule_key : S1193
 
@@ -18880,7 +18880,7 @@ try {
 ## 838.
 
 
-*  String literals should not be duplicated
+### String literals should not be duplicated
 
 system_tags : null, priority : 1; plugin_rule_key : S1192
 
@@ -18931,7 +18931,7 @@ public void run() {
 ## 839.
 
 
-*  Magic numbers should not be used
+### Magic numbers should not be used
 
 system_tags : null, priority : 1; plugin_rule_key : S109
 
@@ -18971,7 +18971,7 @@ public static void doSomething() {
 ## 840.
 
 
-*  Values passed to SQL commands should be sanitized
+### Values passed to SQL commands should be sanitized
 
 system_tags : cwe,owasp-top10,security,sql, priority : 3; plugin_rule_key : S2077
 
@@ -19044,7 +19044,7 @@ public User getUserHibernate(org.hibernate.Session session, String userInput) {
 ## 841.
 
 
-*  Values passed to LDAP queries should be sanitized
+### Values passed to LDAP queries should be sanitized
 
 system_tags : cwe,owasp-top10,security, priority : 3; plugin_rule_key : S2078
 
@@ -19104,7 +19104,7 @@ sc);
 ## 842.
 
 
-*  Array designators "[]" should be located after the type in method signatures
+### Array designators "[]" should be located after the type in method signatures
 
 system_tags : convention, priority : 1; plugin_rule_key : S1195
 
@@ -19137,7 +19137,7 @@ public int[][] getMatrix() { /* ... */ }  // Compliant
 ## 843.
 
 
-*  System.out and System.err should not be used as loggers
+### System.out and System.err should not be used as loggers
 
 system_tags : null, priority : 2; plugin_rule_key : S106
 
@@ -19170,7 +19170,7 @@ logger.log("My Message");          // Compliant
 ## 844.
 
 
-*  "java.lang.Error" should not be extended
+### "java.lang.Error" should not be extended
 
 system_tags : error-handling, priority : 2; plugin_rule_key : S1194
 
@@ -19197,7 +19197,7 @@ public class MyException extends Exception { /* ... */ }   // Compliant
 ## 845.
 
 
-*  super.finalize() should be called at the end of Object.finalize() implementations
+### super.finalize() should be called at the end of Object.finalize() implementations
 
 system_tags : bug, priority : 4; plugin_rule_key : ObjectFinalizeOverridenCallsSuperFinalizeCheck
 
@@ -19227,6 +19227,9 @@ protected void finalize() {
 </pre>
 
 --------
+
+
+
 
 
 
